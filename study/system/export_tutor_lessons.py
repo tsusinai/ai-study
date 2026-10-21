@@ -1,1 +1,200 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uIC11CiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIuS7juefpeivhuS9k+ezu+eUn+aIkCBweXRob24tdHV0b3Ig55qE6K++56iL6KGo77yIbGVzc29ucy5qc29u77yJ44CCCgropoHop6PlhrPnmoTpl67popgKICAgIOWvvOW4iOWOn+adpeeahCBsZXNzb25zLmpzb24g5pivIDkg6K++55qE6ICB6Lev57q/77yM5LiOIHdlc3QyIDIwMjYg5L2T57O75a+55LiN5LiKIOKAlOKAlAogICAg5a6e5rWL5Ye6546w6L+H44CM5a+85biI6K+06L+b5YWl56ysIDQg6K++77yI54is6Jmr77yJ77yM6ICM5a6D6Ieq5bex55qE6K++56iL6KGo6YeM56ysIDQg6K++5piv5pWw5o2u5YiG5p6Q44CN44CCCiAgICDor77nqIvooajnmoQqKuWUr+S4gOecn+a6kOW6lOivpeaYr+S9k+ezuyoq77yM5a+85biI5Y+q5piv5L2T57O755qE5LiA5Liq5pWZ5a2m5YmN56uv44CCCgrmmKDlsIQKICAgIOS9k+ezu+ivvueoiyAg4oaSICDlr7zluIjnmoTkuIDor74KICAgIHRpdGxlICAgICDihpIgIHRpdGxlCiAgICDlrabkuaDnm67nmoQgIOKGkiAgZ29hbO+8iHdlc3QyIOWOn+aWh++8iQogICAga25vd2xlZGdlIOKGkiAga25vd2xlZGdl77yI5a2X56ym5Liy5YiX6KGo77yJCiAgICB0YXNrcyAgICAg4oaSICBleGVyY2lzZe+8iOaKiuS7u+WKoeagh+mimOS4juimgeaxguaLvOaIkOS4gOauteS9nOS4muivtOaYju+8iQogICAgc2VsZl9jaGVja+KGkiAgc2VsZl9jaGVja++8iOWPquWPlumXrumimO+8jOWIpOWumueCueeVmee7mSBzdHVkeSDliKTliIbnlKjvvIkKCueUqOazlQogICAgcHl0aG9uIHN0dWR5L3N5c3RlbVxcZXhwb3J0X3R1dG9yX2xlc3NvbnMucHkgICAgICAgICAgICAgICAgICMg6aKE6KeICiAgICBweXRob24gc3R1ZHkvc3lzdGVtXFxleHBvcnRfdHV0b3JfbGVzc29ucy5weSAtLXdyaXRlICAgICAgICAgIyDlhpnlhaUgRTpcXEFnZW50c1xccHl0aG9uLXR1dG9yXFxsZXNzb25zLmpzb24KICAgIHB5dGhvbiBzdHVkeS9zeXN0ZW1cXGV4cG9ydF90dXRvcl9sZXNzb25zLnB5IC0td3JpdGUgLS1vdXQgWCAgIyDlhpnliLDliKvlpIQKIiIiCmltcG9ydCBpbwppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHNodXRpbAppbXBvcnQgc3lzCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgp0cnk6CiAgICBzeXMuc3Rkb3V0LnJlY29uZmlndXJlKGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpCmV4Y2VwdCBFeGNlcHRpb246ICAjIG5vcWE6IEJMRTAwMQogICAgcGFzcwoKQkFTRSA9IG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKF9fZmlsZV9fKSkpCnN5cy5wYXRoLmluc2VydCgwLCBCQVNFKQoKZnJvbSBzeXN0ZW0gaW1wb3J0IGxvYWRfcGxhY2VtZW50LCBwbGFjZW1lbnRfcmVwb3J0LCB0b3BvX2NvdXJzZXMgICMgbm9xYTogRTQwMgoKU1lTVEVNX1BBVEggPSBOb25lICAgICAgIyDov5DooYzml7bnlLEgYWN0aXZlX3BhdGhzIOWGs+Wumu+8iOingSBzeXN0ZW0vYWN0aXZlLnB577yJClBMQUNFTUVOVF9QQVRIID0gTm9uZSAgICAgICMg6L+Q6KGM5pe255SxIGFjdGl2ZV9wYXRocyDlhrPlrpoKREVGQVVMVF9PVVQgPSByIkU6XEFnZW50c1xweXRob24tdHV0b3JcbGVzc29ucy5qc29uIgoKIyDlr7zluIjlhYjmlZnov5nkuIDmrrXvvJpGb3VuZGF0aW9uIOS6lOivvuOAguWIhua1geWQjueahOivvueoi+etieWIsOmCo+S4gOatpeWGjeWIh+OAggpERUZBVUxUX1NDT1BFID0gWyJ3ZXN0Mi1mMCIsICJ3ZXN0Mi1mMSIsICJ3ZXN0Mi1mMiIsICJ3ZXN0Mi1mMyIsICJ3ZXN0Mi1mNCJdCgoKZGVmIF9hcmcoYXJndiwgbmFtZSwgZGVmYXVsdD1Ob25lKToKICAgIHJldHVybiBhcmd2W2FyZ3YuaW5kZXgobmFtZSkgKyAxXSBpZiBuYW1lIGluIGFyZ3YgZWxzZSBkZWZhdWx0CgoKZGVmIGJ1aWxkX2xlc3NvbnMoc3lzdGVtLCBzY29wZT1Ob25lKToKICAgICMgc2NvcGUg6buY6K6k5Y+WKirkvZPns7vnmoTmi5PmiZHluo8qKu+8jOiAjOS4jeaYr+ehrOe8lueggeWQjeWNle+8muWQjeWNleaYr+ilv+S6jCBGMOKAk0Y0IOS6lOivvuaXtueVmeS4i+eahO+8jAogICAgIyDmjaLmiJDogIEgOSDor77kuYvlkI7lroPkuIDmnaHpg73lr7nkuI3kuIrigJTigJTooajnjrDmmK/jgIznlJ/miJAgMCDor77jgI3vvIzpnZnpu5jlnLDku4DkuYjpg73msqHlr7zlh7rjgIIKICAgIHNjb3BlID0gc2NvcGUgb3IgdG9wb19jb3Vyc2VzKHN5c3RlbSkgb3IgREVGQVVMVF9TQ09QRQogICAgY291cnNlcyA9IHtjWyJjb3Vyc2VfaWQiXTogYyBmb3IgYyBpbiBzeXN0ZW1bImNvdXJzZXMiXX0KICAgIGtub3cgPSB7a1siaWQiXTogayBmb3IgayBpbiBzeXN0ZW1bImtub3dsZWRnZSJdfQogICAgb3V0ID0gW10KICAgIGZvciBpLCBjaWQgaW4gZW51bWVyYXRlKHNjb3BlLCBzdGFydD0xKToKICAgICAgICBjID0gY291cnNlcy5nZXQoY2lkKQogICAgICAgIGlmIG5vdCBjOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGtub3dsZWRnZSA9IFtrbm93W2ddWyJuYW1lIl0gZm9yIGcgaW4gY1sia25vd2xlZGdlIl0gaWYgZyBpbiBrbm93XQoKICAgICAgICAjIOS9nOS4muivtOaYju+8muaKiuS7u+WKoeaLvOaIkOS4gOauteWPr+ivu+aWh+acrO+8jOWvvOW4iOS8mueFp+Wug+W4g+e9ruS9nOS4mgogICAgICAgIGxpbmVzID0gW10KICAgICAgICBmb3IgdCBpbiBjLmdldCgidGFza3MiKSBvciBbXToKICAgICAgICAgICAgZGVsaXZlcmFibGUgPSB0LmdldCgiZGVsaXZlcmFibGUiKSBvciAiIgogICAgICAgICAgICBoZWFkID0gZiJ7dFsndGl0bGUnXX0iCiAgICAgICAgICAgIGlmIGRlbGl2ZXJhYmxlOgogICAgICAgICAgICAgICAgaGVhZCArPSBmIu+8iOS6p+WHuu+8mntkZWxpdmVyYWJsZX3vvIkiCiAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIntoZWFkfe+8mnt0LmdldCgnYnJpZWYnLCAnJyl9IikKICAgICAgICBleGVyY2lzZSA9ICJcbiIuam9pbihsaW5lcykKCiAgICAgICAgc2VsZl9jaGVjayA9IFtxWyJxdWVzdGlvbiJdIGZvciBxIGluIChjLmdldCgic2VsZl9jaGVjayIpIG9yIFtdKV0KCiAgICAgICAgb3V0LmFwcGVuZCh7CiAgICAgICAgICAgICJpZCI6IGksCiAgICAgICAgICAgICJjb3Vyc2VfaWQiOiBjaWQsCiAgICAgICAgICAgICJ0aXRsZSI6IGNbInRpdGxlIl0sCiAgICAgICAgICAgICJnb2FsIjogYy5nZXQoIuWtpuS5oOebrueahCIpIG9yIGMuZ2V0KCJnb2FsIikgb3IgIiIsCiAgICAgICAgICAgICJrbm93bGVkZ2UiOiBrbm93bGVkZ2UsCiAgICAgICAgICAgICJleGVyY2lzZSI6IGV4ZXJjaXNlLAogICAgICAgICAgICAic2VsZl9jaGVjayI6IHNlbGZfY2hlY2ssCiAgICAgICAgICAgICJzdGFnZSI6IGMuZ2V0KCJzdGFnZSIsICIiKSwKICAgICAgICAgICAgInRhc2tzIjogW3siaWQiOiB0WyJpZCJdLCAidHlwZSI6IHQuZ2V0KCJ0eXBlIiwgImNvZGUiKSwKICAgICAgICAgICAgICAgICAgICAgICAidGl0bGUiOiB0WyJ0aXRsZSJdLCAiYnJpZWYiOiB0LmdldCgiYnJpZWYiLCAiIiksCiAgICAgICAgICAgICAgICAgICAgICAgImRlbGl2ZXJhYmxlIjogdC5nZXQoImRlbGl2ZXJhYmxlIiwgIiIpfQogICAgICAgICAgICAgICAgICAgICAgZm9yIHQgaW4gKGMuZ2V0KCJ0YXNrcyIpIG9yIFtdKV0sCiAgICAgICAgfSkKICAgIHJldHVybiBvdXQKCgpkZWYgYnVpbGRfcHJvZ3Jlc3MobGVzc29ucywgcGxhY2VtZW50LCBzeXN0ZW0pOgogICAgIiIi5LuO5a2m5Lmg5L2N572u5o6o5a+85a+85biI55qEIHByb2dyZXNzLmpzb27jgIIKCiAgICDkuLrku4DkuYjlv4XpobvnlLHkvY3nva7mjqjlr7zvvJrlr7zluIjnmoTov5vluqbmlofku7bkuI7lrabkuaDkvY3nva7mmK/kuKTlpZforqHmlbDvvIzlrp7mtYvlh7rnjrDov4cKICAgIOOAjOWvvOW4iOivtOi/m+WFpeesrCA0IOivvu+8jOiAjOi/m+W6puaWh+S7tui/mOWBnOWcqOesrCAzIOivvuOAjeOAguiuqeS9jee9ruW9k+WUr+S4gOecn+a6kO+8jAogICAg5a+85biI5Y+q6LSf6LSj5pi+56S644CCCiAgICAiIiIKICAgIHJlcCA9IHBsYWNlbWVudF9yZXBvcnQoc3lzdGVtLCBwbGFjZW1lbnQpCiAgICBieV9jb3Vyc2UgPSB7clsiY291cnNlX2lkIl06IHIgZm9yIHIgaW4gcmVwWyJyb3dzIl19CiAgICBsZXNzb25zX2RvbmUsIGN1cnJlbnQgPSB7fSwgMQogICAgZm9yIEwgaW4gbGVzc29uczoKICAgICAgICBjaWQgPSBMWyJjb3Vyc2VfaWQiXQogICAgICAgIHIgPSBieV9jb3Vyc2UuZ2V0KGNpZCkgb3Ige30KICAgICAgICBpZiByLmdldCgiZG9uZSIpIG9yIHIuZ2V0KCJmYXN0X3Bhc3MiKToKICAgICAgICAgICAgbWFyayA9ICLlt7LlhbflpIciIGlmIHIuZ2V0KCJkb25lIikgZWxzZSBmIuW/q+mAn+i/h++8iOaMgui0piB7bGVuKHIuZ2V0KCdjYXJyaWVkX292ZXInKSBvciBbXSl977yJIgogICAgICAgICAgICBsZXNzb25zX2RvbmVbc3RyKExbImlkIl0pXSA9IHsidGl0bGUiOiBMWyJ0aXRsZSJdLCAiZGF0ZSI6IE5vbmUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJzdGF0dXMiOiBtYXJrLCAiY291cnNlX2lkIjogY2lkfQogICAgICAgIGVsaWYgY3VycmVudCA9PSAxIGFuZCBMWyJpZCJdID4gMToKICAgICAgICAgICAgY3VycmVudCA9IExbImlkIl0KICAgIGlmIG5vdCBsZXNzb25zX2RvbmU6CiAgICAgICAgY3VycmVudCA9IDEKICAgIHJldHVybiB7CiAgICAgICAgImN1cnJlbnRfbGVzc29uIjogY3VycmVudCwKICAgICAgICAibGVzc29uc19kb25lIjogbGVzc29uc19kb25lLAogICAgICAgICJsb2ciOiBbXSwKICAgICAgICAibm90ZSI6ICgi5pys5paH5Lu255SxIHN0dWR5L3N5c3RlbS9leHBvcnRfdHV0b3JfbGVzc29ucy5weSDku47lrabkuaDkvY3nva7mjqjlr7zvvIzor7fli7/miYvmlLnjgIIiCiAgICAgICAgICAgICAgICAgIuS9jee9ruecn+a6kO+8mnN0dWR5L3N5c3RlbS9wbGFjZW1lbnQtKi5qc29uIiksCiAgICB9CgoKZGVmIG1haW4oKToKICAgIGFyZ3YgPSBzeXMuYXJndlsxOl0KICAgIHdyaXRlID0gIi0td3JpdGUiIGluIGFyZ3YKICAgIHN5bmNfcHJvZ3Jlc3MgPSAiLS1zeW5jLXByb2dyZXNzIiBpbiBhcmd2CiAgICBvdXRfcGF0aCA9IF9hcmcoYXJndiwgIi0tb3V0IiwgREVGQVVMVF9PVVQpCiAgICBzY29wZSA9IChfYXJnKGFyZ3YsICItLXNjb3BlIikgb3IgIiIpLnNwbGl0KCIsIikgaWYgX2FyZyhhcmd2LCAiLS1zY29wZSIpIGVsc2UgTm9uZQoKICAgIHN5c3RlbSA9IF9hY3RpdmVfc3lzdGVtKCkKCiAgICBsZXNzb25zID0gYnVpbGRfbGVzc29ucyhzeXN0ZW0sIHNjb3BlKQogICAgcHJpbnQoZiLkvZPns7vvvJp7c3lzdGVtWyd0aXRsZSddfSIpCiAgICBwcmludChmIueUn+aIkCB7bGVuKGxlc3NvbnMpfSDor77vvIjmtLvot4PkvZPns7vvvJpzdHVkeS9yb3V0ZS5qc29uICsgY3VycmljdWx1bS8qLmpzb27vvJsiCiAgICAgICAgICBmIuWKoCAtLXdlc3QyIOWPr+WvvOWHuuilv+S6jOWOn+ivvuihqO+8iVxuIikKICAgIGZvciBMIGluIGxlc3NvbnM6CiAgICAgICAgcHJpbnQoZiIgIFt7TFsnaWQnXX1dIHtMWyd0aXRsZSddfSIpCiAgICAgICAgcHJpbnQoZiIgICAgICBjb3Vyc2VfaWQgOiB7TFsnY291cnNlX2lkJ119IikKICAgICAgICBwcmludChmIiAgICAgIOefpeivhueCuSAgICA6IHtsZW4oTFsna25vd2xlZGdlJ10pfSDkuKoiKQogICAgICAgIHByaW50KGYiICAgICAg5L2c5LiaICAgICAgOiB7bGVuKExbJ3Rhc2tzJ10pfSDpobkiKQogICAgICAgIHByaW50KGYiICAgICAg6Ieq5qOA6aKYICAgIDoge2xlbihMWydzZWxmX2NoZWNrJ10pfSDpopgiKQoKICAgIHBheWxvYWQgPSB7CiAgICAgICAgInRpdGxlIjogZiJ7c3lzdGVtWyd0aXRsZSddfSDCtyDlr7zluIjor77nqIvooagiLAogICAgICAgICJub3RlIjogKGYi5pys5paH5Lu255SxIHN0dWR5L3N5c3RlbS9leHBvcnRfdHV0b3JfbGVzc29ucy5weSDku47kvZPns7vnlJ/miJDvvIzor7fli7/miYvmlLnjgIIiCiAgICAgICAgICAgICAgICAgZiLkvZPns7vvvJp7c3lzdGVtLmdldCgnc291cmNlJywge30pLmdldCgncmVwbycpfSIKICAgICAgICAgICAgICAgICBmIu+9nOeUn+aIkOS6jiB7ZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoJyVZLSVtLSVkICVIOiVNJyl9IiksCiAgICAgICAgInN5c3RlbV9pZCI6IHN5c3RlbS5nZXQoInN5c3RlbV9pZCIpLAogICAgICAgICJsZXNzb25zIjogbGVzc29ucywKICAgIH0KCiAgICBpZiB3cml0ZToKICAgICAgICBvcy5tYWtlZGlycyhvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKG91dF9wYXRoKSksIGV4aXN0X29rPVRydWUpCiAgICAgICAgaWYgb3MucGF0aC5pc2ZpbGUob3V0X3BhdGgpOgogICAgICAgICAgICBzdGFtcCA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlWSVtJWQtJUglTSVTIikKICAgICAgICAgICAgc2h1dGlsLmNvcHkyKG91dF9wYXRoLCBmIntvdXRfcGF0aH0uYmFrLXtzdGFtcH0iKQogICAgICAgICAgICBwcmludChmIlxu5bey5aSH5Lu95Y6f6K++56iL6KGoIOKGkiB7b3MucGF0aC5iYXNlbmFtZShvdXRfcGF0aCl9LmJhay17c3RhbXB9IikKICAgICAgICB3aXRoIG9wZW4ob3V0X3BhdGgsICJ3IiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAganNvbi5kdW1wKHBheWxvYWQsIGYsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpCiAgICAgICAgcHJpbnQoZiLlt7LlhpnlhaUge291dF9wYXRofSIpCgogICAgICAgIGlmIHN5bmNfcHJvZ3Jlc3M6CiAgICAgICAgICAgIHBsYWNlbWVudCA9IF9hY3RpdmVfcGxhY2VtZW50KCkKICAgICAgICAgICAgaWYgbm90IHBsYWNlbWVudDoKICAgICAgICAgICAgICAgIHByaW50KCLimqDvuI8g5rKh5pyJ5L2N572u5paH5Lu277yM6Lez6L+H6L+b5bqm5ZCM5q2lIikKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByb2cgPSBidWlsZF9wcm9ncmVzcyhsZXNzb25zLCBwbGFjZW1lbnQsIHN5c3RlbSkKICAgICAgICAgICAgICAgIHByb2dfcGF0aCA9IG9zLnBhdGguam9pbihvcy5wYXRoLmRpcm5hbWUob3V0X3BhdGgpLCAicHJvZ3Jlc3MuanNvbiIpCiAgICAgICAgICAgICAgICBpZiBvcy5wYXRoLmlzZmlsZShwcm9nX3BhdGgpOgogICAgICAgICAgICAgICAgICAgIHN0YW1wID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZJW0lZC0lSCVNJVMiKQogICAgICAgICAgICAgICAgICAgIHNodXRpbC5jb3B5Mihwcm9nX3BhdGgsIGYie3Byb2dfcGF0aH0uYmFrLXtzdGFtcH0iKQogICAgICAgICAgICAgICAgd2l0aCBvcGVuKHByb2dfcGF0aCwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICAgICAgICAgIGpzb24uZHVtcChwcm9nLCBmLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQogICAgICAgICAgICAgICAgcHJpbnQoZiLlt7LlkIzmraXov5vluqYg4oaSIHtwcm9nX3BhdGh9IikKICAgICAgICAgICAgICAgIHByaW50KGYiICBjdXJyZW50X2xlc3NvbiA9IHtwcm9nWydjdXJyZW50X2xlc3Nvbiddfe+8iCIKICAgICAgICAgICAgICAgICAgICAgIGYie2xlc3NvbnNbcHJvZ1snY3VycmVudF9sZXNzb24nXSAtIDFdWyd0aXRsZSddIGlmIHByb2dbJ2N1cnJlbnRfbGVzc29uJ10gPD0gbGVuKGxlc3NvbnMpIGVsc2UgJz8nfe+8iSIpCiAgICAgICAgICAgICAgICBmb3IgaywgdiBpbiBwcm9nWyJsZXNzb25zX2RvbmUiXS5pdGVtcygpOgogICAgICAgICAgICAgICAgICAgIHByaW50KGYiICBbe2t9XSB7dlsndGl0bGUnXX0g4oCU4oCUIHt2WydzdGF0dXMnXX0iKQogICAgZWxzZToKICAgICAgICBwcmludCgiXG7vvIjpooTop4jmqKHlvI/vvIzliqAgLS13cml0ZSDnlJ/mlYjvvIkiKQogICAgcmV0dXJuIDAKCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOaVsOaNruWFpeWPowojIOS9k+ezu+aNoui/h+S4gOasoemqqOaetu+8iOilv+S6jCAxMSDpl6jor74g4oaSIOiAgSA5IOivvu+8ieOAguehrOe8lueggeaWh+S7tui3r+W+hOeahOe7k+aenOaYrwojIOOAjOW3peWFt+i/mOWcqOeFp+aXp+ivvuihqOaJvuivvueoi+OAje+8jOaJgOS7pee7n+S4gOS7jui/memHjOWPluOAgmAtLXdlc3QyYCDlj6/liIflm57ljp/or77ooajlgZrlr7nnhafjgIIKCmRlZiBfYWN0aXZlX3N5c3RlbSgpOgogICAgZnJvbSBzeXN0ZW0gaW1wb3J0IGFjdGl2ZV9wYXRocwogICAgcmV0dXJuIGFjdGl2ZV9wYXRocyhCQVNFLCB3ZXN0Mj0iLS13ZXN0MiIgaW4gc3lzLmFyZ3YpWzBdCgoKZGVmIF9hY3RpdmVfcGxhY2VtZW50KCk6CiAgICBmcm9tIHN5c3RlbSBpbXBvcnQgYWN0aXZlX3BhdGhzCiAgICByZXR1cm4gYWN0aXZlX3BhdGhzKEJBU0UsIHdlc3QyPSItLXdlc3QyIiBpbiBzeXMuYXJndilbMV0KCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkpCg==
+#!/usr/bin/env python -u
+# -*- coding: utf-8 -*-
+"""从知识体系生成 python-tutor 的课程表（lessons.json）。
+
+要解决的问题
+    导师原来的 lessons.json 是 9 课的老路线，与 west2 2026 体系对不上 ——
+    实测出现过「导师说进入第 4 课（爬虫），而它自己的课程表里第 4 课是数据分析」。
+    课程表的**唯一真源应该是体系**，导师只是体系的一个教学前端。
+
+映射
+    体系课程  →  导师的一课
+    title     →  title
+    学习目的  →  goal（west2 原文）
+    knowledge →  knowledge（字符串列表）
+    tasks     →  exercise（把任务标题与要求拼成一段作业说明）
+    self_check→  self_check（只取问题，判定点留给 study 判分用）
+
+用法
+    python study/system\\export_tutor_lessons.py                 # 预览
+    python study/system\\export_tutor_lessons.py --write         # 写入 E:\\Agents\\python-tutor\\lessons.json
+    python study/system\\export_tutor_lessons.py --write --out X  # 写到别处
+"""
+import io
+import json
+import os
+import shutil
+import sys
+from datetime import datetime
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:  # noqa: BLE001
+    pass
+
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, BASE)
+
+from system import load_placement, placement_report, topo_courses  # noqa: E402
+
+SYSTEM_PATH = None      # 运行时由 active_paths 决定（见 system/active.py）
+PLACEMENT_PATH = None      # 运行时由 active_paths 决定
+DEFAULT_OUT = r"E:\Agents\python-tutor\lessons.json"
+
+# 导师先教这一段：Foundation 五课。分流后的课程等到那一步再切。
+DEFAULT_SCOPE = ["west2-f0", "west2-f1", "west2-f2", "west2-f3", "west2-f4"]
+
+
+def _arg(argv, name, default=None):
+    return argv[argv.index(name) + 1] if name in argv else default
+
+
+def build_lessons(system, scope=None):
+    # scope 默认取**体系的拓扑序**，而不是硬编码名单：名单是西二 F0–F4 五课时留下的，
+    # 换成老 9 课之后它一条都对不上——表现是「生成 0 课」，静默地什么都没导出。
+    scope = scope or topo_courses(system) or DEFAULT_SCOPE
+    courses = {c["course_id"]: c for c in system["courses"]}
+    know = {k["id"]: k for k in system["knowledge"]}
+    out = []
+    for i, cid in enumerate(scope, start=1):
+        c = courses.get(cid)
+        if not c:
+            continue
+        knowledge = [know[g]["name"] for g in c["knowledge"] if g in know]
+
+        # 作业说明：把任务拼成一段可读文本，导师会照它布置作业
+        lines = []
+        for t in c.get("tasks") or []:
+            deliverable = t.get("deliverable") or ""
+            head = f"{t['title']}"
+            if deliverable:
+                head += f"（产出：{deliverable}）"
+            lines.append(f"{head}：{t.get('brief', '')}")
+        exercise = "\n".join(lines)
+
+        self_check = [q["question"] for q in (c.get("self_check") or [])]
+
+        out.append({
+            "id": i,
+            "course_id": cid,
+            "title": c["title"],
+            "goal": c.get("学习目的") or c.get("goal") or "",
+            "knowledge": knowledge,
+            "exercise": exercise,
+            "self_check": self_check,
+            "stage": c.get("stage", ""),
+            "tasks": [{"id": t["id"], "type": t.get("type", "code"),
+                       "title": t["title"], "brief": t.get("brief", ""),
+                       "deliverable": t.get("deliverable", "")}
+                      for t in (c.get("tasks") or [])],
+        })
+    return out
+
+
+def build_progress(lessons, placement, system):
+    """从学习位置推导导师的 progress.json。
+
+    为什么必须由位置推导：导师的进度文件与学习位置是两套计数，实测出现过
+    「导师说进入第 4 课，而进度文件还停在第 3 课」。让位置当唯一真源，
+    导师只负责显示。
+    """
+    rep = placement_report(system, placement)
+    by_course = {r["course_id"]: r for r in rep["rows"]}
+    lessons_done, current = {}, 1
+    for L in lessons:
+        cid = L["course_id"]
+        r = by_course.get(cid) or {}
+        if r.get("done") or r.get("fast_pass"):
+            mark = "已具备" if r.get("done") else f"快速过（挂账 {len(r.get('carried_over') or [])}）"
+            lessons_done[str(L["id"])] = {"title": L["title"], "date": None,
+                                          "status": mark, "course_id": cid}
+        elif current == 1 and L["id"] > 1:
+            current = L["id"]
+    if not lessons_done:
+        current = 1
+    return {
+        "current_lesson": current,
+        "lessons_done": lessons_done,
+        "log": [],
+        "note": ("本文件由 study/system/export_tutor_lessons.py 从学习位置推导，请勿手改。"
+                 "位置真源：study/system/placement-*.json"),
+    }
+
+
+def main():
+    argv = sys.argv[1:]
+    write = "--write" in argv
+    sync_progress = "--sync-progress" in argv
+    out_path = _arg(argv, "--out", DEFAULT_OUT)
+    scope = (_arg(argv, "--scope") or "").split(",") if _arg(argv, "--scope") else None
+
+    system = _active_system()
+
+    lessons = build_lessons(system, scope)
+    print(f"体系：{system['title']}")
+    print(f"生成 {len(lessons)} 课（活跃体系：study/route.json + curriculum/*.json；"
+          f"加 --west2 可导出西二原课表）\n")
+    for L in lessons:
+        print(f"  [{L['id']}] {L['title']}")
+        print(f"      course_id : {L['course_id']}")
+        print(f"      知识点    : {len(L['knowledge'])} 个")
+        print(f"      作业      : {len(L['tasks'])} 项")
+        print(f"      自检题    : {len(L['self_check'])} 题")
+
+    payload = {
+        "title": f"{system['title']} · 导师课程表",
+        "note": (f"本文件由 study/system/export_tutor_lessons.py 从体系生成，请勿手改。"
+                 f"体系：{system.get('source', {}).get('repo')}"
+                 f"｜生成于 {datetime.now().strftime('%Y-%m-%d %H:%M')}"),
+        "system_id": system.get("system_id"),
+        "lessons": lessons,
+    }
+
+    if write:
+        os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+        if os.path.isfile(out_path):
+            stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+            shutil.copy2(out_path, f"{out_path}.bak-{stamp}")
+            print(f"\n已备份原课程表 → {os.path.basename(out_path)}.bak-{stamp}")
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        print(f"已写入 {out_path}")
+
+        if sync_progress:
+            placement = _active_placement()
+            if not placement:
+                print("⚠️ 没有位置文件，跳过进度同步")
+            else:
+                prog = build_progress(lessons, placement, system)
+                prog_path = os.path.join(os.path.dirname(out_path), "progress.json")
+                if os.path.isfile(prog_path):
+                    stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+                    shutil.copy2(prog_path, f"{prog_path}.bak-{stamp}")
+                with open(prog_path, "w", encoding="utf-8") as f:
+                    json.dump(prog, f, ensure_ascii=False, indent=2)
+                print(f"已同步进度 → {prog_path}")
+                print(f"  current_lesson = {prog['current_lesson']}（"
+                      f"{lessons[prog['current_lesson'] - 1]['title'] if prog['current_lesson'] <= len(lessons) else '?'}）")
+                for k, v in prog["lessons_done"].items():
+                    print(f"  [{k}] {v['title']} —— {v['status']}")
+    else:
+        print("\n（预览模式，加 --write 生效）")
+    return 0
+
+
+
+# ---------------------------------------------------------------- 数据入口
+# 体系换过一次骨架（西二 11 门课 → 老 9 课）。硬编码文件路径的结果是
+# 「工具还在照旧课表找课程」，所以统一从这里取。`--west2` 可切回原课表做对照。
+
+def _active_system():
+    from system import active_paths
+    return active_paths(BASE, west2="--west2" in sys.argv)[0]
+
+
+def _active_placement():
+    from system import active_paths
+    return active_paths(BASE, west2="--west2" in sys.argv)[1]
+
+if __name__ == "__main__":
+    sys.exit(main())

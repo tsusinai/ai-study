@@ -1,1 +1,5 @@
-IyBBSSDovoXliqnlrabkuaDns7vnu58gwrcg5L6d6LWW5aOw5piOCiMg5a6J6KOF77yacGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dAojIOivtOaYju+8muaguOW/g+WKn+iDveS7heS+nei1liBQeXRob24g5qCH5YeG5bqT77ybcmVxdWVzdHMg55So5LqO6IGU572R6aqM6K+BL+eIrOiZqyBkZW1vCgpyZXF1ZXN0cz49Mi4zMQo=
+# AI 辅助学习系统 · 依赖声明
+# 安装：pip install -r requirements.txt
+# 说明：核心功能仅依赖 Python 标准库；requests 用于联网验证/爬虫 demo
+
+requests>=2.31

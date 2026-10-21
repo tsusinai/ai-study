@@ -1,1 +1,384 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uCiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIlAwIOWNleivvuaOjOaPoemXreeOryDCtyDnq6/liLDnq6/ov5DooYzlmajvvIjnnJ/lrp7pl63njq/niYjvvInjgIIKCui3kemAmiBTNCDlhajmtYHnqIvvvIhkb2NzL0FJ6L6F5Yqp5a2m5LmgLUFwcC3ns7vnu5/orr7orqHvvIjono3lkIjniYjvvIkubWQgwqcz77yJ77yaCiAgICDlo7DmmI7nn6Xor4bngrkg4oaSIOW4g+e9ruS7u+WKoSDihpIg6LeR5Luj56CBIOKGkiDku6PnoIHngrnor4TmlLnmraMg4oaSIOeslOiusOWKoOW3peS4juaMh+mUmQogICAg4oaSIOWbm+e7tOaOjOaPoeW6pumXqOemgSDihpIg5pyq6L+H5YiZIEwxL0wyL0wzIOaIlumAg+eUn+mYgCDihpIg6YCa6L+H5YiZ5LiL5LiA6K++CgrnlKjms5XvvJoKICAgIHB5dGhvbiBzdHVkeS9wMF9kZW1vLnB5IFstLW5vLXJ1bl0KIiIiCmltcG9ydCBpbwppbXBvcnQgb3MKaW1wb3J0IHN5cwppbXBvcnQgdGVtcGZpbGUKaW1wb3J0IHRpbWUKCnN5cy5zdGRvdXQgPSBpby5UZXh0SU9XcmFwcGVyKHN5cy5zdGRvdXQuYnVmZmVyLCBlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9InJlcGxhY2UiKQpzeXMucGF0aC5pbnNlcnQoMCwgb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpKQoKZnJvbSBjb3JlLmNvbmZpZyBpbXBvcnQgbG9hZF9jb25maWcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIG5vcWE6IEU0MDIKZnJvbSBjb3JlLmxsbSBpbXBvcnQgTExNICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIG5vcWE6IEU0MDIKZnJvbSBjb3JlLnN0b3JlIGltcG9ydCByZWFkX2pzb24sIHJlYWRfdGV4dCwgd3JpdGVfanNvbiAgICAgICAgICAjIG5vcWE6IEU0MDIKZnJvbSBnYXRlIGltcG9ydCAoY2Fycnlfb3ZlciwgZXZhbHVhdGUsIG5leHRfYWN0aW9uLCByZWZsb3csICAgICAjIG5vcWE6IEU0MDIKICAgICAgICAgICAgICAgICAgc2NvcmVfdHJhbnNmZXIpCmZyb20gZ2F0ZS5jb2RlY2hlY2sgaW1wb3J0IGFuYWx5emUsIGNvbWJpbmVfY29kZV9kaW1lbnNpb24sIGNvdW50X2VmZmVjdGl2ZV9saW5lcyAgIyBub3FhOiBFNDAyCmZyb20gZ2F0ZS5ydWJyaWMgaW1wb3J0IGp1ZGdlX3NlbGZfY2hlY2sgICAgICAgICAgICAgICAgICAgICAgICAgIyBub3FhOiBFNDAyCmZyb20gZmxvdyBpbXBvcnQgZW50cnlfY2hlY2sgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBub3FhOiBFNDAyCmZyb20gZ3JhcGggaW1wb3J0IChidWlsZCwgY2FzY2FkZV9yZWNoZWNrLCBrcF9pZCwgbG9hZF9jdXJyaWN1bHVtcywgICMgbm9xYTogRTQwMgogICAgICAgICAgICAgICAgICAgbG9hZF9yb3V0ZSkKZnJvbSBsaWJyYXJ5IGltcG9ydCBhc19tYXRlcmlhbHMsIGxvYWRfYXRvbXMgICAgICAgICAgICAgICAgICAgICAgIyBub3FhOiBFNDAyCmZyb20gbm90ZWRvY3RvciBpbXBvcnQgZGlhZ25vc2UsIHJlbmRlcl9yZXBvcnQgICAgICAgICAgICAgICAgICAgIyBub3FhOiBFNDAyCmZyb20gcGxhbiBpbXBvcnQgYXBwZW5kX2V2ZW50LCBzdGFydF9yZXZpZXdfY2xvY2sgICAgICAgICAgICAgICAgIyBub3FhOiBFNDAyCmZyb20gdHV0b3IgaW1wb3J0IChjaGVja19pbXBvcnRzLCBjaGVja19zeW50YXgsIHJlY29yZCwgICAgICAgICAgIyBub3FhOiBFNDAyCiAgICAgICAgICAgICAgICAgICByZW5kZXJfcmV2aWV3LCByZXZpZXdfY29kZSwgcnVuX2ZpbGUpCgpCQVNFID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpCkRFTU8gPSBvcy5wYXRoLmpvaW4oQkFTRSwgImRlbW8iKQojIOi/meS4ieS4qum7mOiupOaMh+WQkSoq5rKZ566xKirvvIznlLEgbWFpbigpIOWcqOi/kOihjOaXtuiuvuWumu+8iOingemCo+mHjOeahOivtOaYju+8ieOAggojIOS4jeimgeaKiuWug+S7rOWGmeatu+aIkCBCQVNFL3N0YXRl4oCU4oCU5ryU56S65Lya5YigIGV2ZW50cy5qc29ubCDlubblhpnlkIjmiJDnu5PmnpzjgIIKU1RBVEVfRElSID0gb3MucGF0aC5qb2luKEJBU0UsICJzdGF0ZSIpClJVTl9ESVIgPSBTVEFURV9ESVIKRklORElOR1NfRElSID0gU1RBVEVfRElSClNUQVRFID0gU1RBVEVfRElSCkxJQlJBUllfUEFUSCA9IG9zLnBhdGguam9pbihCQVNFLCAibGlicmFyeSIsICJhdG9tcy5qc29ubCIpCkFMTE9XRUQgPSBbREVNTywgUlVOX0RJUl0KCk5PX1JVTiA9ICItLW5vLXJ1biIgaW4gc3lzLmFyZ3YKCgpkZWYgcnVsZShjaD0iLSIsIG49NzgpOgogICAgcHJpbnQoY2ggKiBuKQoKCmRlZiB0YXNrX29mKGN1cnJpY3VsdW0sIHRhc2tfdHlwZSwgZXhjbHVkZT1Ob25lKToKICAgIGZvciB0IGluIGN1cnJpY3VsdW1bInRhc2tzIl06CiAgICAgICAgaWYgdFsidHlwZSJdID09IHRhc2tfdHlwZSBhbmQgdFsidGFza19pZCJdICE9IGV4Y2x1ZGU6CiAgICAgICAgICAgIHJldHVybiB0CiAgICByZXR1cm4gTm9uZQoKCiMgLS0tLS0tLS0tLS0tLS0tLSDikaAg5aOw5piO55+l6K+G54K5IC0tLS0tLS0tLS0tLS0tLS0KCmRlZiByZW5kZXJfZGVjbGFyZXMoYyk6CiAgICBkID0gY1siZGVjbGFyZXMiXQogICAgcnVsZSgiPSIpCiAgICBwcmludChmIvCfk5oge2NbJ3RpdGxlJ119IikKICAgIHByaW50KGYi8J+OryB7Y1snZ29hbCddfSIpCiAgICBydWxlKCkKICAgIG11c3QgPSBbayBmb3IgayBpbiBkWyJrbm93bGVkZ2UiXSBpZiBrWyJsZXZlbCJdID09ICJtdXN0Il0KICAgIHNob3VsZCA9IFtrIGZvciBrIGluIGRbImtub3dsZWRnZSJdIGlmIGtbImxldmVsIl0gIT0gIm11c3QiXQogICAgcHJpbnQoZiLmnKzor77nn6Xor4bngrnvvIh7bGVuKG11c3QpfSDkuKrlv4XkvJogLyB7bGVuKHNob3VsZCl9IOS4quS6huino++8iSIpCiAgICBmb3IgayBpbiBtdXN0OgogICAgICAgIHByaW50KGYiICAg4pSc4pSAIFvlv4XkvJpdIHtrWydpZCddfSB7a1snbmFtZSddfSIpCiAgICBmb3IgayBpbiBzaG91bGQ6CiAgICAgICAgcHJpbnQoZiIgICDilJTilIAgW+S6huino10ge2tbJ2lkJ119IHtrWyduYW1lJ119IikKICAgIHByaW50KCkKICAgIGZvciBwIGluIGRbInByZXJlcXVpc2l0ZXMiXToKICAgICAgICBwcmludChmIiAgIOKGkCDliY3nva7vvJp7cFsnY291cnNlX2lkJ119IHtwWyduYW1lJ119IikKICAgIHByaW50KGYiICAg8J+UlyDkvZPns7vkvY3nva7vvJp7ZFsnc3lzdGVtX3Bvc2l0aW9uJ119IikKICAgIGZvciB1IGluIGRbInVubG9ja3MiXToKICAgICAgICBwcmludChmIiAgIOKshyDop6PplIHvvJp7dVsnY291cnNlX2lkJ119IHt1WyduYW1lJ119IikKICAgIHByaW50KCJcbuS7u+WKoe+8miIpCiAgICBmb3IgdCBpbiBjWyJ0YXNrcyJdOgogICAgICAgIHByaW50KGYiICAgW3t0Wyd0eXBlJ106OHN9XSB7dFsndGFza19pZCddfSAge3RbJ3RpdGxlJ119ICAofnt0Wydlc3RfbWludXRlcyddfW1pbikiKQogICAgcnVsZSgiPSIpCgoKIyAtLS0tLS0tLS0tLS0tLS0tIOS7o+egge+8mueOr+WigyAvIOivreazlSAvIOi/kOihjCAvIOacuuajgCAvIOeCueivhCAtLS0tLS0tLS0tLS0tLS0tCgpkZWYgcHJlcGFyZV9jb2RlKGNmZywgY3VycmljdWx1bSwgbWFpbl9maWxlLCBjYWNoZT1Ob25lKToKICAgICIiIuWvueS4u+e7g+S5oOaWh+S7tuWBmueOr+Wigyvor63ms5Xmo4Dmn6XvvIzlj6/pgInnnJ/lrp7ov5DooYzjgILov5Tlm54gKGVudiwgc3luLCBydW5fcmVzLCBjcml0ZXJpYSnjgIIiIiIKICAgIHBhdGggPSBvcy5wYXRoLmpvaW4oREVNTywgbWFpbl9maWxlKQogICAgZW52ID0gY2hlY2tfaW1wb3J0cyhwYXRoLCBBTExPV0VEKQogICAgc3luID0gY2hlY2tfc3ludGF4KHBhdGgsIEFMTE9XRUQpCgogICAgcnVuX3JlcyA9IHsicmFuIjogRmFsc2UsICJzdGRvdXQiOiAiIiwgInN0ZGVyciI6ICLvvIjmnKrov5DooYzvvIkiLCAiZXhpdF9jb2RlIjogTm9uZSwKICAgICAgICAgICAgICAgInRpbWVvdXQiOiBGYWxzZX0KICAgIGlmIG5vdCBOT19SVU4gYW5kIHN5blsib2siXToKICAgICAgICBpZiBjYWNoZSBpcyBub3QgTm9uZSBhbmQgInJ1biIgaW4gY2FjaGU6CiAgICAgICAgICAgIHJ1bl9yZXMgPSBjYWNoZVsicnVuIl0KICAgICAgICAgICAgcHJpbnQoZiIgICDov5DooYzvvIjlpI3nlKjkuIrmrKHnu5PmnpzvvInvvJp7cnVuX3Jlc1snc3Rkb3V0J10uc3RyaXAoKS5zcGxpdGxpbmVzKClbLTE6XX0iKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG9zLm1ha2VkaXJzKFJVTl9ESVIsIGV4aXN0X29rPVRydWUpCiAgICAgICAgICAgIHByaW50KCIgICDmraPlnKjnnJ/lrp7ov5DooYznu4PkuaDku6PnoIEgLi4uIikKICAgICAgICAgICAgdDAgPSB0aW1lLnRpbWUoKQogICAgICAgICAgICBydW5fcmVzID0gcnVuX2ZpbGUocGF0aCwgQUxMT1dFRCwgdGltZW91dD00MCwgY3dkPVJVTl9ESVIpCiAgICAgICAgICAgIHByaW50KGYiICAgcmFuPXtydW5fcmVzWydyYW4nXX0gZXhpdD17cnVuX3Jlc1snZXhpdF9jb2RlJ119ICIKICAgICAgICAgICAgICAgICAgZiLogJfml7Yge3RpbWUudGltZSgpLXQwOi4xZn1zIikKICAgICAgICAgICAgaWYgY2FjaGUgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICBjYWNoZVsicnVuIl0gPSBydW5fcmVzCgogICAgcHJpbnQoZiIgICDnjq/looPkvp3otZbvvJp7J+e8uiAnICsgJ+OAgScuam9pbihlbnZbJ21pc3NpbmcnXSkgaWYgZW52WydtaXNzaW5nJ10gZWxzZSAn6b2Q5YWoJ30iCiAgICAgICAgICBmIiB8IOivreazle+8mnsnT0snIGlmIHN5blsnb2snXSBlbHNlIHN5blsnZXJyb3InXX0iKQogICAgcmV0dXJuIGVudiwgc3luLCBydW5fcmVzCgoKZGVmIGNvZGVfc3RlcChsbG0sIGN1cnJpY3VsdW0sIGN1cnJpY3VsdW1fdGFzaywgc291cmNlX2ZpbGVzLCBlbnYsIHJ1bl9yZXMsIGNhY2hlPU5vbmUpOgogICAgc291cmNlID0gIlxuXG4jICIgKyAiLSIgKiA2MCArICJcbiIuam9pbigKICAgICAgICBmIiMgPT09PSB7Zn0gPT09PVxuIiArIHJlYWRfdGV4dChvcy5wYXRoLmpvaW4oREVNTywgZikpIGZvciBmIGluIHNvdXJjZV9maWxlcykKICAgIGxpbmVzID0gY291bnRfZWZmZWN0aXZlX2xpbmVzKHNvdXJjZSkKICAgIGNyaXRlcmlhID0gYW5hbHl6ZShzb3VyY2UpCiAgICBjcml0ZXJpYVsibGluZXMiXSA9IGxpbmVzCgogICAgcmV2aWV3ID0gcmV2aWV3X2NvZGUobGxtLCBjdXJyaWN1bHVtLCBjdXJyaWN1bHVtX3Rhc2ssCiAgICAgICAgICAgICAgICAgICAgICAgICByZWFkX3RleHQob3MucGF0aC5qb2luKERFTU8sIHNvdXJjZV9maWxlc1swXSkpLAogICAgICAgICAgICAgICAgICAgICAgICAgcnVuX3Jlc3VsdD1ydW5fcmVzLCBjcml0ZXJpYV9yZXN1bHQ9Y3JpdGVyaWEsIGVudj1lbnYpCiAgICByZWMgPSByZWNvcmQocmV2aWV3LCBjdXJyaWN1bHVtX3Rhc2tbInRhc2tfaWQiXSwgcnVuX3JlcywgY3JpdGVyaWEpCiAgICB3cml0ZV9qc29uKG9zLnBhdGguam9pbihGSU5ESU5HU19ESVIsIGYie2N1cnJpY3VsdW1fdGFza1sndGFza19pZCddfS5qc29uIiksIHJlYykKICAgIGRpbSA9IGNvbWJpbmVfY29kZV9kaW1lbnNpb24oY3JpdGVyaWFbInNjb3JlIl0sIHJlY1siY291bnRzIl0pCiAgICByZXR1cm4gY3JpdGVyaWEsIHJlYywgZGltLCBsaW5lcwoKCiMgLS0tLS0tLS0tLS0tLS0tLSDljZXova7or4TkvLAgLS0tLS0tLS0tLS0tLS0tLQoKZGVmIHJ1bl9zY2VuYXJpbyhsbG0sIGN1cnJpY3VsdW0sIGxhYmVsLCBub3RlX2ZpbGUsIHNvdXJjZV9maWxlcywgYW5zd2VycywKICAgICAgICAgICAgICAgICB0cmFuc2Zlcj1Ob25lLCBlbnY9Tm9uZSwgcnVuX3Jlcz1Ob25lLCBjYWNoZT1Ob25lKToKICAgIHByaW50KGYiXG57JyMnICogNzh9XG4jIOWcuuaZr++8mntsYWJlbH1cbnsnIycgKiA3OH0iKQoKICAgIHRhc2tfY29kZSA9IHRhc2tfb2YoY3VycmljdWx1bSwgImNvZGUiKQogICAgcHJpbnQoZiJcblvku6PnoIFdIHt0YXNrX2NvZGVbJ3Rhc2tfaWQnXX0ge3Rhc2tfY29kZVsndGl0bGUnXX0iKQogICAgY3JpdGVyaWEsIHJlYywgY29kZV9kaW0sIGxpbmVzID0gY29kZV9zdGVwKAogICAgICAgIGxsbSwgY3VycmljdWx1bSwgdGFza19jb2RlLCBzb3VyY2VfZmlsZXMsIGVudiwgcnVuX3JlcywgY2FjaGUpCiAgICBwcmludChmIiAgIOacuuajgCB7bGVuKGNyaXRlcmlhWydoaXRzJ10pfS97bGVuKGNyaXRlcmlhWydoaXRzJ10pK2xlbihjcml0ZXJpYVsnbWlzc2VzJ10pfSIKICAgICAgICAgIGYiIHwg5pyJ5pWI6KGMIHtsaW5lc30gfCBmaW5kaW5ncyB7cmVjWydjb3VudHMnXX0iKQogICAgcHJpbnQoKQogICAgcHJpbnQocmVuZGVyX3JldmlldyhyZWMpKQoKICAgIHByaW50KCJcblvoh6rmo4DliKTliIZdIC4uLiIpCiAgICBxdWl6X3JlcyA9IGp1ZGdlX3NlbGZfY2hlY2sobGxtLCBjdXJyaWN1bHVtLCBhbnN3ZXJzKQogICAgZm9yIHFpZCwgciBpbiBxdWl6X3Jlc1sicGVyX3F1ZXN0aW9uIl0uaXRlbXMoKToKICAgICAgICBwcmludChmIiAgIHtxaWR9OiB7clsnc2NvcmUnXTouNGZ9IHtyLmdldCgndmVyZGljdHMnLCAnJyl9ICB7ci5nZXQoJ2NvbW1lbnQnLCAnJyl9IikKCiAgICBwcmludCgiXG5b56yU6K6w5L2T5qOAXSAuLi4iKQogICAgIyDlj6rnlKjjgJDmnYPlqIHjgJHljp/lrZDkvZzliKTplJnkvp3mja7vvJrku47lrabnlJ/oh6rlt7HnrJTorrDmir3lh7rnmoQgZGVyaXZlZCDljp/lrZAKICAgICMg5LiN6IO95Y+N6L+H5p2l5Yik5a6a5LuW55qE56yU6K6w5pyJ6ZSZ77yI5b6q546v6K666K+B77yJ44CCCiAgICBsaWJfYXRvbXMgPSBhc19tYXRlcmlhbHMobG9hZF9hdG9tcyhMSUJSQVJZX1BBVEgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvdXJzZV9pZD1jdXJyaWN1bHVtWyJjb3Vyc2VfaWQiXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdXRob3JpdGF0aXZlX29ubHk9VHJ1ZSkKICAgIHByaW50KGYiICAg6K+B5o2u5p2l5rqQ77ya5a2m5Lmg5bqTIHtsZW4obGliX2F0b21zKX0g5Liq5p2D5aiB5bey56Gu6K6k5Y6f5a2QIgogICAgICAgICAgZiLvvIh7b3MucGF0aC5yZWxwYXRoKExJQlJBUllfUEFUSCwgQkFTRSl977yJIikKICAgIG5vdGVfcmVzID0gZGlhZ25vc2UobGxtLCBjdXJyaWN1bHVtLCByZWFkX3RleHQob3MucGF0aC5qb2luKERFTU8sIG5vdGVfZmlsZSkpLAogICAgICAgICAgICAgICAgICAgICAgICBhdG9tcz1saWJfYXRvbXMpCiAgICBwcmludChyZW5kZXJfcmVwb3J0KG5vdGVfcmVzLCBjdXJyaWN1bHVtKSkKCiAgICAjIHRyYW5zZmVyCiAgICB0cmFuc2Zlcl9yZXMsIHRyYW5zZmVyX3Njb3JlID0gTm9uZSwgMC4wCiAgICBpZiB0cmFuc2ZlcjoKICAgICAgICBwcmludCgiXG5b6L+B56e76aKY6K+E5YiGXSAuLi4iKQogICAgICAgIHRhc2tfdGYgPSB0YXNrX29mKGN1cnJpY3VsdW0sICJ0cmFuc2ZlciIpCiAgICAgICAgdHJhbnNmZXJfcmVzID0gc2NvcmVfdHJhbnNmZXIoCiAgICAgICAgICAgIGxsbSwgdGFza190ZiwgcmVhZF90ZXh0KG9zLnBhdGguam9pbihERU1PLCB0cmFuc2ZlclsiYXJ0aWZhY3QiXSkpLAogICAgICAgICAgICByZWFkX3RleHQob3MucGF0aC5qb2luKERFTU8sIHRyYW5zZmVyWyJleHBsYW5hdGlvbiJdKSkpCiAgICAgICAgdHJhbnNmZXJfc2NvcmUgPSB0cmFuc2Zlcl9yZXNbInNjb3JlIl0KICAgICAgICBwcmludChmIiAgIHt0cmFuc2Zlcl9yZXNbJ3ZlcmRpY3RzJ119ICDihpIge3RyYW5zZmVyX3Njb3JlOi40Zn0iKQogICAgICAgIHByaW50KGYiICAge3RyYW5zZmVyX3Jlc1snY29tbWVudCddfSIpCiAgICBlbHNlOgogICAgICAgIHByaW50KCJcblvov4Hnp7vpophdIOacquaPkOS6pCIpCgogICAgZGltcyA9IHsiY29kZSI6IGNvZGVfZGltWyJzY29yZSJdLCAicXVpeiI6IHF1aXpfcmVzWyJzY29yZSJdLAogICAgICAgICAgICAibm90ZSI6IG5vdGVfcmVzWyJub3RlX3Njb3JlIl0sICJ0cmFuc2ZlciI6IHRyYW5zZmVyX3Njb3JlfQogICAgZmF0YWwgPSBib29sKHF1aXpfcmVzWyJmYXRhbCJdIG9yIG5vdGVfcmVzWyJmYXRhbHMiXSBvciByZWNbImZhdGFsX21pc2NvbmNlcHRpb24iXSkKICAgIGZhdGFsX3JlYXNvbnMgPSBxdWl6X3Jlc1siZmF0YWxfcmVhc29ucyJdICsgbm90ZV9yZXNbImZhdGFscyJdCiAgICBpZiByZWNbImZhdGFsX21pc2NvbmNlcHRpb24iXToKICAgICAgICBmYXRhbF9yZWFzb25zLmFwcGVuZChmIuS7o+eggeeCueivhDoge3JlY1snZmF0YWxfcmVhc29uJ119IikKCiAgICByZXN1bHQgPSBldmFsdWF0ZShkaW1zLCBjdXJyaWN1bHVtWyJnYXRlIl0sIGZhdGFsPWZhdGFsLAogICAgICAgICAgICAgICAgICAgICAgbXVzdF9jb3Zlcl9yYXRpbz1ub3RlX3Jlc1siY292ZXJhZ2UiXVsibXVzdF9jb3Zlcl9yYXRpbyJdLAogICAgICAgICAgICAgICAgICAgICAgcHJhY3RpY2VfbGluZXM9bGluZXMpCgogICAgcHJpbnQoKQogICAgcnVsZSgiPSIpCiAgICBwcmludCgi44CQ5Zub57u05b6X5YiG44CRIikKICAgIGZvciBrLCB2IGluIGRpbXMuaXRlbXMoKToKICAgICAgICBvayA9ICLinIUiIGlmIHYgPj0gY3VycmljdWx1bVsiZ2F0ZSJdWyJtaW5fZWFjaCJdIGVsc2UgZiLinYwgPHtjdXJyaWN1bHVtWydnYXRlJ11bJ21pbl9lYWNoJ119IgogICAgICAgIHByaW50KGYiICAge2s6OXN9IHt2Oi40Zn0gICB7b2t9IikKICAgIHByaW50KGYiICAgeydtYXN0ZXJ5Jzo5c30ge3Jlc3VsdFsnbWFzdGVyeSddOi40Zn0gICDpl6jmp5sge2N1cnJpY3VsdW1bJ2dhdGUnXVsnbWluX21hc3RlcnknXX0iKQogICAgcHJpbnQoZiJcbuOAkOmXqOemgeWIpOWumuOAkXsn4pyFIOmAmui/hycgaWYgcmVzdWx0WydwYXNzZWQnXSBlbHNlICfinYwg5pyq6YCa6L+HJ30iKQogICAgZm9yIGYgaW4gcmVzdWx0WyJmYWlsdXJlcyJdOgogICAgICAgIHByaW50KGYiICAgLSB7Zn0iKQogICAgZm9yIGZyIGluIGZhdGFsX3JlYXNvbnM6CiAgICAgICAgcHJpbnQoZiIgICDim5Qge2ZyfSIpCgogICAgb3V0ID0geyJzY2VuYXJpbyI6IGxhYmVsLCAiZGltcyI6IGRpbXMsICJtYXN0ZXJ5IjogcmVzdWx0WyJtYXN0ZXJ5Il0sCiAgICAgICAgICAgInBhc3NlZCI6IHJlc3VsdFsicGFzc2VkIl0sICJmYWlsdXJlcyI6IHJlc3VsdFsiZmFpbHVyZXMiXSwKICAgICAgICAgICAiY29kZV9kZXRhaWwiOiBjb2RlX2RpbSwgImtub3dsZWRnZV9nYXBzIjogcmVjWyJrbm93bGVkZ2VfZ2FwcyJdLAogICAgICAgICAgICJsaW5lcyI6IGxpbmVzLCAibm90ZV9wYXJ0cyI6IG5vdGVfcmVzWyJwYXJ0cyJdLAogICAgICAgICAgICJub3RlX3Njb3JlIjogbm90ZV9yZXNbIm5vdGVfc2NvcmUiXX0KCiAgICBpZiBub3QgcmVzdWx0WyJwYXNzZWQiXToKICAgICAgICBhY3QgPSBuZXh0X2FjdGlvbihyZXN1bHQsIGF0dGVtcHQ9MSkKICAgICAgICBwcmludChmIlxu44CQ5LiL5LiA5q2l44CRe2FjdFsnbGV2ZWwnXX3vvJp7YWN0WydkZXRhaWwnXX0iKQogICAgICAgIHByaW50KGYiICAg5Y+v5bim55aR54K55YmN6L+b77yaeyfmmK8nIGlmIHJlc3VsdFsnY2FycnlfYWxsb3dlZCddIGVsc2UgJ+WQpu+8iOWtmOWcqOiHtOWRveivr+ino++8iSd9IikKICAgICAgICBvdXRbIm5leHRfYWN0aW9uIl0gPSBhY3QKICAgICAgICBvdXRbImNhcnJ5X2FsbG93ZWQiXSA9IHJlc3VsdFsiY2FycnlfYWxsb3dlZCJdCgogICAgcnVsZSgiPSIpCiAgICByZXR1cm4gb3V0LCByZWMKCgpkZWYgc2VlZF9wcmVyZXF1aXNpdGVzKHN0YXRlKToKICAgICIiIuaMieeUqOaIt+ecn+Wunui/m+W6puihpem9kOWJjee9ruivvueoi+OAggoKICAgIOS+neaNru+8mkU6XFxBZ2VudHNcXHB5dGhvbi10dXRvclxccHJvZ3Jlc3MuanNvbiDihpIgY3VycmVudF9sZXNzb249M+OAgWxlc3NvbnNfZG9uZT17MSwyfeOAggogICAg5LiN6KGl55qE6K+d5YeG5YWl6Zeo56aB5Lya77yI5q2j56Gu5Zyw77yJ5ouS57ud5byA56ysIDMg6K++4oCU4oCU5Y2V6K++5ryU56S656Gu5a6e6Lez6L+H5LqG5YmN572u44CCCiAgICAiIiIKICAgIGZvciBjaWQsIG1hc3QgaW4gKCgicHktYWdlbnQtMDEiLCAwLjkxKSwgKCJweS1hZ2VudC0wMiIsIDAuODkpKToKICAgICAgICBzdGF0ZS5zZXRkZWZhdWx0KCJsZXNzb25zIiwge30pW2NpZF0gPSB7CiAgICAgICAgICAgICJtYXN0ZXJ5IjogbWFzdCwgInBhc3NlZCI6IFRydWUsCiAgICAgICAgICAgICJzb3VyY2UiOiAiRTpcXEFnZW50c1xccHl0aG9uLXR1dG9yXFxwcm9ncmVzcy5qc29uIn0KICAgICAgICBmb3Iga3AgaW4gKCJLMSIsICJLMiIsICJLMyIsICJLNCIsICJLNSIpOgogICAgICAgICAgICBzdGF0ZS5zZXRkZWZhdWx0KCJhdG9tcyIsIHt9KVtmIntjaWR9OntrcH0iXSA9IHsKICAgICAgICAgICAgICAgICJtYXN0ZXJ5IjogMC44OCwgInBhc3NlZCI6IFRydWV9CiAgICByZXR1cm4gc3RhdGUKCgpkZWYgbWFpbigpOgogICAgIyDnirbmgIHnm67lvZXlv4XpobvlhYjlrprkuIvmnaXvvIzlho3norDku7vkvZXot5/nirbmgIHmnInlhbPnmoTot6/lvoTjgIIKICAgICMgZ2xvYmFsIOimgeaUvuWcqOacrOWHveaVsCoq56ys5LiA5qyh6K+75YiwKiogU1RBVEVfRElSIOS5i+WJje+8jOWQpuWImSBQeXRob24g55u05o6l6K+t5rOV6ZSZ44CCCiAgICBnbG9iYWwgU1RBVEVfRElSLCBSVU5fRElSLCBGSU5ESU5HU19ESVIsIFNUQVRFCiAgICBpZiAiLS1rZWVwLXN0YXRlIiBpbiBzeXMuYXJndjoKICAgICAgICBwcmludCgiW+eKtuaAgV0g4pqg77iPIC0ta2VlcC1zdGF0Ze+8muacrOasoea8lOekuuS8mioq5YaZ55yf5a6e55qEIHN0YXRlLyoq77yMIgogICAgICAgICAgICAgICLljIXmi6zph43nva4gbWFzdGVyeS5qc29uIOS4juWIoOmZpCBldmVudHMuanNvbmwiKQogICAgZWxzZToKICAgICAgICAjIOm7mOiupOaymeeuse+8muecn+WuniBzdGF0ZS8g5LiA5Liq5a2X6IqC6YO95LiN5Yqo44CCCiAgICAgICAgIyDljp/ooYzkuLrmmK/nm7TmjqXph43nva4gbWFzdGVyeS5qc29uIOW5tioq5Yig5o6JIGV2ZW50cy5qc29ubCoqIOWGjeWGmea8lOekuue7k+aenOKAlOKAlAogICAgICAgICMgZXZlbnRzLmpzb25sIOaYr+iHquecgeS4juWRqOaKpeeahOaVsOaNruW6leW6p++8jOWIoOWug+etieS6juaKueaOieS9v+eUqOiAheeahOecn+WunuWtpuS5oOWOhuWPsuOAggogICAgICAgIHNhbmRib3ggPSB0ZW1wZmlsZS5ta2R0ZW1wKHByZWZpeD0icDBkZW1vLXN0YXRlLSIpCiAgICAgICAgU1RBVEVfRElSID0gc2FuZGJveAogICAgICAgIFJVTl9ESVIgPSBvcy5wYXRoLmpvaW4oc2FuZGJveCwgInJ1biIpCiAgICAgICAgRklORElOR1NfRElSID0gb3MucGF0aC5qb2luKHNhbmRib3gsICJmaW5kaW5ncyIpCiAgICAgICAgU1RBVEUgPSBvcy5wYXRoLmpvaW4oc2FuZGJveCwgIm1hc3RlcnkuanNvbiIpCiAgICAgICAgb3MubWFrZWRpcnMoUlVOX0RJUiwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICBvcy5tYWtlZGlycyhGSU5ESU5HU19ESVIsIGV4aXN0X29rPVRydWUpCiAgICAgICAgcHJpbnQoZiJb54q25oCBXSDmspnnrrHmqKHlvI/vvJrnirbmgIHlhpnlnKgge3NhbmRib3h977yM55yf5a6eIHN0YXRlLyDkuI3lj5flvbHlk40iCiAgICAgICAgICAgICAgZiLvvIjliqAgLS1rZWVwLXN0YXRlIOaJjeS8muWGmeecn+WunueKtuaAge+8iSIpCgogICAgY2ZnID0gbG9hZF9jb25maWcoKQogICAgY3VycmljdWx1bSA9IHJlYWRfanNvbihvcy5wYXRoLmpvaW4oQkFTRSwgImN1cnJpY3VsdW0iLCAicHlfYWdlbnRfMDMuanNvbiIpKQogICAgbGxtID0gTExNKGNmZykKICAgIG9zLm1ha2VkaXJzKEZJTkRJTkdTX0RJUiwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICBncmFwaCA9IGJ1aWxkKGxvYWRfcm91dGUob3MucGF0aC5qb2luKEJBU0UsICJyb3V0ZS5qc29uIikpLAogICAgICAgICAgICAgICAgICBsb2FkX2N1cnJpY3VsdW1zKG9zLnBhdGguam9pbihCQVNFLCAiY3VycmljdWx1bSIpKSkKICAgIGV2ZW50c19wYXRoID0gb3MucGF0aC5qb2luKFNUQVRFX0RJUiwgImV2ZW50cy5qc29ubCIpCgogICAgIyDmvJTnpLrpu5jorqTku47lubLlh4DnirbmgIHlvIDlp4vvvIjov5nmmK/lj6/ph43lpI3nmoTpqozor4HmtYHnqIvvvInjgIIKICAgICMg5rOo5oSP77ya5LiN6YeN572u55qE6K+d77yM56ys5LqM5qyh6L+Q6KGM5Lya6KKr5YeG5YWl6Zeo56aB5q2j56Gu5oum5LiL4oCU4oCUCiAgICAjIOWboOS4uiBweS1hZ2VudC0wMyDlt7LpgJrov4fvvIzogIwi5bey6YCa6L+H55qE6K++5LiN5YWB6K6455u05o6l6YeN6L+bIuaYr+WIu+aEj+iuvuiuoeOAggogICAgaWYgIi0ta2VlcC1zdGF0ZSIgaW4gc3lzLmFyZ3Y6CiAgICAgICAgc3RhdGUgPSByZWFkX2pzb24oU1RBVEUsIGRlZmF1bHQ9eyJhdG9tcyI6IHt9LCAibGVzc29ucyI6IHt9fSkKICAgIGVsc2U6CiAgICAgICAgc3RhdGUgPSB7ImF0b21zIjoge30sICJsZXNzb25zIjoge319CiAgICBzdGF0ZSA9IHNlZWRfcHJlcmVxdWlzaXRlcyhzdGF0ZSkKCiAgICBwcmludChmIuaooeWeiyB7Y2ZnWydtb2RlbCddfSB8IOaAneiAgyB7J+W8gCcgaWYgY2ZnWyd0aGlua2luZyddIGVsc2UgJ+WFsyd9IHwgIgogICAgICAgICAgZiJ0ZW1wZXJhdHVyZSAwIHwgSlNPTiBPdXRwdXQgfCDnnJ/lrp7ov5DooYw9e25vdCBOT19SVU59IikKICAgIHJlbmRlcl9kZWNsYXJlcyhjdXJyaWN1bHVtKQoKICAgICMgLS0tLS0tLS0tLS0tLS0tLSDlh4blhaXpl6jnpoHvvIjlvIDor77kuYvliY3vvIktLS0tLS0tLS0tLS0tLS0tCiAgICBjaGVjayA9IGVudHJ5X2NoZWNrKGdyYXBoLCBzdGF0ZSwgInB5LWFnZW50LTAzIikKICAgIHByaW50KGYiXG5b5YeG5YWl6Zeo56aBXSB7Y2hlY2tbJ3N0YXR1cyddfe+9nHtjaGVja1sncmVhc29uJ119IikKICAgIGlmIGNoZWNrWyJibG9ja2VkX3BvaW50cyJdOgogICAgICAgIHByaW50KGYiICAgICAgICAgICDooqvmjKHkvY/nmoTnn6Xor4bngrnvvJp7Y2hlY2tbJ2Jsb2NrZWRfcG9pbnRzJ119IikKICAgIGlmIG5vdCBjaGVja1siYWxsb3dlZCJdOgogICAgICAgIGFwcGVuZF9ldmVudChldmVudHNfcGF0aCwgImJsb2NrZWRfZW50cnkiLCBjb3Vyc2VfaWQ9InB5LWFnZW50LTAzIiwKICAgICAgICAgICAgICAgICAgICAgbWlzc2luZz1jaGVja1sibWlzc2luZ19wcmVyZXF1aXNpdGVzIl0pCiAgICAgICAgcHJpbnQoIuS4jeS6iOW8gOivvu+8jOW3suiusOW9lSBibG9ja2VkX2VudHJ5IOS6i+S7tuOAgiIpCiAgICAgICAgcmV0dXJuIDEKICAgIGFwcGVuZF9ldmVudChldmVudHNfcGF0aCwgImNvdXJzZV9zdGFydGVkIiwgY291cnNlX2lkPSJweS1hZ2VudC0wMyIpCgogICAgYW5zd2VycyA9IHJlYWRfanNvbihvcy5wYXRoLmpvaW4oREVNTywgImxlc3NvbjNfYW5zd2Vycy5qc29uIikpCiAgICBjYWNoZSA9IHt9CgogICAgcHJpbnQoIlxuW+WHhuWkh10g5Li757uD5Lmg5paH5Lu2546v5aKDL+ivreazlS/ov5DooYzmo4Dmn6UiKQogICAgZW52LCBzeW4sIHJ1bl9yZXMgPSBwcmVwYXJlX2NvZGUoY2ZnLCBjdXJyaWN1bHVtLCAid2VzdDJfc3BpZGVyLnB5IiwgY2FjaGUpCgogICAgYSwgcmVjX2EgPSBydW5fc2NlbmFyaW8oCiAgICAgICAgbGxtLCBjdXJyaWN1bHVtLCAiQSDCtyDpppbmrKHmj5DkuqTvvIjpooTmnJ/mnKrpgJrov4fvvIkiLAogICAgICAgIG5vdGVfZmlsZT0ibGVzc29uM19ub3RlLm1kIiwKICAgICAgICBzb3VyY2VfZmlsZXM9WyJ3ZXN0Ml9zcGlkZXIucHkiXSwKICAgICAgICBhbnN3ZXJzPWFuc3dlcnMsIHRyYW5zZmVyPU5vbmUsIGVudj1lbnYsIHJ1bl9yZXM9cnVuX3JlcywgY2FjaGU9Y2FjaGUpCiAgICBmb3Igc2MgaW4gKGEsKToKICAgICAgICBhcHBlbmRfZXZlbnQoZXZlbnRzX3BhdGgsICJzdWJtaXNzaW9uIiwgY291cnNlX2lkPSJweS1hZ2VudC0wMyIsCiAgICAgICAgICAgICAgICAgICAgIG1hc3Rlcnk9c2NbIm1hc3RlcnkiXSwgcGFzc2VkPXNjWyJwYXNzZWQiXSwgbGluZXM9c2NbImxpbmVzIl0sCiAgICAgICAgICAgICAgICAgICAgIGRpbXM9c2NbImRpbXMiXSkKICAgICAgICBhcHBlbmRfZXZlbnQoZXZlbnRzX3BhdGgsICJub3RlX3JldmlldyIsIGNvdXJzZV9pZD0icHktYWdlbnQtMDMiLAogICAgICAgICAgICAgICAgICAgICBub3RlX3Njb3JlPXNjWyJub3RlX3Njb3JlIl0sIHBhcnRzPXNjWyJub3RlX3BhcnRzIl0pCgogICAgYiwgcmVjX2IgPSBydW5fc2NlbmFyaW8oCiAgICAgICAgbGxtLCBjdXJyaWN1bHVtLCAiQiDCtyBMMSDooaXnu4PlkI7ph43mlrDmj5DkuqTvvIjpooTmnJ/pgJrov4fvvIkiLAogICAgICAgIG5vdGVfZmlsZT0ibGVzc29uM19ub3RlX2ZpeGVkLm1kIiwKICAgICAgICBzb3VyY2VfZmlsZXM9WyJ3ZXN0Ml9zcGlkZXIucHkiLCAidF9weTAzXzNfc3BpZGVyLnB5Il0sCiAgICAgICAgYW5zd2Vycz1hbnN3ZXJzLAogICAgICAgIHRyYW5zZmVyPXsiYXJ0aWZhY3QiOiAidF9weTAzXzNfc3BpZGVyLnB5IiwKICAgICAgICAgICAgICAgICAgImV4cGxhbmF0aW9uIjogImxlc3NvbjNfdHJhbnNmZXJfbm90ZS5tZCJ9LAogICAgICAgIGVudj1lbnYsIHJ1bl9yZXM9cnVuX3JlcywgY2FjaGU9Y2FjaGUpCiAgICBmb3Igc2MgaW4gKGIsKToKICAgICAgICBhcHBlbmRfZXZlbnQoZXZlbnRzX3BhdGgsICJzdWJtaXNzaW9uIiwgY291cnNlX2lkPSJweS1hZ2VudC0wMyIsCiAgICAgICAgICAgICAgICAgICAgIG1hc3Rlcnk9c2NbIm1hc3RlcnkiXSwgcGFzc2VkPXNjWyJwYXNzZWQiXSwgbGluZXM9c2NbImxpbmVzIl0sCiAgICAgICAgICAgICAgICAgICAgIGRpbXM9c2NbImRpbXMiXSkKICAgICAgICBhcHBlbmRfZXZlbnQoZXZlbnRzX3BhdGgsICJub3RlX3JldmlldyIsIGNvdXJzZV9pZD0icHktYWdlbnQtMDMiLAogICAgICAgICAgICAgICAgICAgICBub3RlX3Njb3JlPXNjWyJub3RlX3Njb3JlIl0sIHBhcnRzPXNjWyJub3RlX3BhcnRzIl0pCiAgICBpZiBiWyJwYXNzZWQiXToKICAgICAgICBhcHBlbmRfZXZlbnQoZXZlbnRzX3BhdGgsICJwYXNzZWQiLCBjb3Vyc2VfaWQ9InB5LWFnZW50LTAzIiwKICAgICAgICAgICAgICAgICAgICAgbWFzdGVyeT1iWyJtYXN0ZXJ5Il0sIGF0dGVtcHRzPTIpCgogICAgIyAtLS0tLS0tLS0tLS0tLS0tIOeKtuaAgeaMgeS5heWMliArIOWbnueCiSAtLS0tLS0tLS0tLS0tLS0tCiAgICBzdGF0ZVsibGVzc29ucyJdWyJweS1hZ2VudC0wMyJdID0gewogICAgICAgICJtYXN0ZXJ5IjogYlsibWFzdGVyeSJdLCAicGFzc2VkIjogYlsicGFzc2VkIl0sICJkaW1zIjogYlsiZGltcyJdLAogICAgICAgICJhdHRlbXB0cyI6IDIsICJwcmFjdGljZV9saW5lcyI6IGJbImxpbmVzIl0sCiAgICAgICAgImZpcnN0X3N1Ym1pdCI6IHsibWFzdGVyeSI6IGFbIm1hc3RlcnkiXSwgImZhaWx1cmVzIjogYVsiZmFpbHVyZXMiXX0sCiAgICB9CiAgICAjIOmAmui/h+WQjuaKiuacrOivvuW/heS8muefpeivhueCueiQvei/m+aOjOaPoeW6puW5tuWQr+WKqOWkjeS5oOaXtumSn++8iFBsYW5uZXIg55qE5pWw5o2u5p2l5rqQ77yJCiAgICBpZiBiWyJwYXNzZWQiXToKICAgICAgICBmb3Iga3AgaW4gY3VycmljdWx1bVsiZGVjbGFyZXMiXVsia25vd2xlZGdlIl06CiAgICAgICAgICAgIGlmIGtwWyJsZXZlbCJdICE9ICJtdXN0IjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHJlY19rcCA9IHN0YXRlWyJhdG9tcyJdLnNldGRlZmF1bHQoa3BfaWQoInB5LWFnZW50LTAzIiwga3BbImlkIl0pLCB7fSkKICAgICAgICAgICAgcmVjX2twLnVwZGF0ZSh7Im1hc3RlcnkiOiBiWyJtYXN0ZXJ5Il0sICJwYXNzZWQiOiBUcnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAiY291cnNlIjogInB5LWFnZW50LTAzIiwgInNvdXJjZSI6ICJjb3Vyc2VfcGFzcyJ9KQogICAgICAgICAgICBzdGFydF9yZXZpZXdfY2xvY2socmVjX2twKQogICAgZ2FwcyA9IHNvcnRlZChzZXQoYlsia25vd2xlZGdlX2dhcHMiXSkpCgogICAgIyDlm57ngonmvJTnpLrvvJrnrKwgMyDor77nmoTngrnor4Tlkb3kuK3kuoYgNDI5IOWIhuaUr+WkhOeQhuS4jeW9k++8iOingSBmaW5kaW5ncyDnrKwgNzgg6KGM6YKj5p2hIHdhcm7vvInvvIwKICAgICMg5Yik5a6a5Li656ysIDIg6K++55qE44CMSFRUUCDnirbmgIHnoIHor63kuYnjgI3msqHlkIPpgI8g4oaSIOaJk+aKmOW3sumAmui/h+eahOWJjee9ruefpeivhueCueW5tumHjeWbnuWkjeS5oOmYn+WIl+OAggogICAgIyDms6jmhI8gcmVmbG93IOWPquWvueOAkOW3sumAmui/h+OAkeeahOWOn+WtkOeUn+aViO+8jOaJgOS7peacrOivvuWwmuacqumAmui/h+eahCBLMyDkuI3lj5flvbHlk43jgIIKICAgIHJlZmxvd190YXJnZXRzID0gWyJweS1hZ2VudC0wMjpLMSJdCiAgICBjaGFuZ2VzID0gcmVmbG93KHN0YXRlLCByZWZsb3dfdGFyZ2V0cykKICAgICMg5Zue54KJ55qE57qn6IGU5b2x5ZON77yaSzIvSzQg5L6d6LWWIEsx77yM5a6D5Lus5LiN6K+l6KKr6L+e5bim5omT5Zue77yI55So5oi356Gu5a6e6YCa6L+H6L+H77yJ77yMCiAgICAjIOS9huimgeagh+aIkCLlvoXlpI3mn6Ui4oCU4oCU5ZCm5YiZ54q25oCB5LiO5L2T57O75Zu+5Lya6Ieq55u455+b55u+44CCCiAgICByZWNoZWNrZWQgPSBjYXNjYWRlX3JlY2hlY2soZ3JhcGgsIHN0YXRlLCByZWZsb3dfdGFyZ2V0cykKICAgIGZvciBjaCBpbiBjaGFuZ2VzOgogICAgICAgIGFwcGVuZF9ldmVudChldmVudHNfcGF0aCwgInJlZmxvdyIsIGF0b209Y2hbImF0b21faWQiXSwKICAgICAgICAgICAgICAgICAgICAgYmVmb3JlPWNoWyJiZWZvcmUiXSwgYWZ0ZXI9Y2hbImFmdGVyIl0pCiAgICBmb3IgcmMgaW4gcmVjaGVja2VkOgogICAgICAgIGFwcGVuZF9ldmVudChldmVudHNfcGF0aCwgInJlY2hlY2siLCBhdG9tPXJjWyJpZCJdLAogICAgICAgICAgICAgICAgICAgICBkZXB0aD1yY1siZGVwdGgiXSwgdmlhPXJjWyJ2aWEiXSkKICAgIHdyaXRlX2pzb24oU1RBVEUsIHN0YXRlKQoKICAgIHByaW50KGYiXG57JyMnICogNzh9XG4jIOeKtuaAgSDCtyDoloTlvLHngrkgwrcg5Zue54KJXG57JyMnICogNzh9IikKICAgIHByaW50KGYi5bey5YaZ5YWlIHtTVEFURX0iKQogICAgcHJpbnQoZiLor77nqIsgcHktYWdlbnQtMDPvvJptYXN0ZXJ5IHtiWydtYXN0ZXJ5J106LjRmfSBwYXNzZWQ9e2JbJ3Bhc3NlZCddfSIKICAgICAgICAgIGYi77yI6aaW5qyh5o+Q5LqkIHthWydtYXN0ZXJ5J106LjRmfe+8iSIpCiAgICBwcmludChmIuS7o+eggeeCueivhOaatOmcsueahOiWhOW8seeCue+8mntnYXBzIG9yICfvvIjml6DvvIknfSIpCiAgICBmb3IgY2ggaW4gY2hhbmdlczoKICAgICAgICBwcmludChmIuWbnueCie+8mntjaFsnYXRvbV9pZCddfSDmjozmj6HluqYge2NoWydiZWZvcmUnXX0g4oaSIHtjaFsnYWZ0ZXInXX3vvIzlt7LmjILlpI3kuaDpmJ/liJciKQogICAgZm9yIHJjIGluIHJlY2hlY2tlZDoKICAgICAgICBwcmludChmIiAgIOKGsyDnuqfogZTlvoXlpI3mn6XvvIhkZXB0aCB7cmNbJ2RlcHRoJ11977yJ77yae3JjWydpZCddfSIKICAgICAgICAgICAgICBmIu+8iOWboCB7cmNbJ3ZpYSddfSDooqvlm57ngonvvInigJTigJQg5LiN57+76L2s5bey6YCa6L+H54q25oCBIikKCiAgICBwcmludCgpCiAgICBydWxlKCI9IikKICAgIHByaW50KGxsbS5yZXBvcnQoKSkKICAgIHJ1bGUoIj0iKQogICAgb2sgPSAobm90IGFbInBhc3NlZCJdKSBhbmQgYlsicGFzc2VkIl0KICAgIHByaW50KGYi5ryU56S657uT6K6677yaQSB7J+mAmui/hycgaWYgYVsncGFzc2VkJ10gZWxzZSAn5pyq6YCa6L+HJ30g4oaSICIKICAgICAgICAgIGYiQiB7J+mAmui/hycgaWYgYlsncGFzc2VkJ10gZWxzZSAn5pyq6YCa6L+HJ33jgIDvvIjpooTmnJ/vvJpBIOacqumAmui/h+OAgUIg6YCa6L+H77yJIikKICAgIHByaW50KGYi5pyA57uI5Yik5a6a77yaeydQQVNTJyBpZiBvayBlbHNlICdDSEVDSyd9IikKICAgIHJldHVybiAwIGlmIG9rIGVsc2UgMQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkpCg==
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""P0 单课掌握闭环 · 端到端运行器（真实闭环版）。
+
+跑通 S4 全流程（docs/AI辅助学习-App-系统设计（融合版）.md §3）：
+    声明知识点 → 布置任务 → 跑代码 → 代码点评改正 → 笔记加工与指错
+    → 四维掌握度门禁 → 未过则 L1/L2/L3 或逃生阀 → 通过则下一课
+
+用法：
+    python study/p0_demo.py [--no-run]
+"""
+import io
+import os
+import sys
+import tempfile
+import time
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from core.config import load_config                              # noqa: E402
+from core.llm import LLM                                         # noqa: E402
+from core.store import read_json, read_text, write_json          # noqa: E402
+from gate import (carry_over, evaluate, next_action, reflow,     # noqa: E402
+                  score_transfer)
+from gate.codecheck import analyze, combine_code_dimension, count_effective_lines  # noqa: E402
+from gate.rubric import judge_self_check                         # noqa: E402
+from flow import entry_check                                     # noqa: E402
+from graph import (build, cascade_recheck, kp_id, load_curriculums,  # noqa: E402
+                   load_route)
+from library import as_materials, load_atoms                      # noqa: E402
+from notedoctor import diagnose, render_report                   # noqa: E402
+from plan import append_event, start_review_clock                # noqa: E402
+from tutor import (check_imports, check_syntax, record,          # noqa: E402
+                   render_review, review_code, run_file)
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+DEMO = os.path.join(BASE, "demo")
+# 这三个默认指向**沙箱**，由 main() 在运行时设定（见那里的说明）。
+# 不要把它们写死成 BASE/state——演示会删 events.jsonl 并写合成结果。
+STATE_DIR = os.path.join(BASE, "state")
+RUN_DIR = STATE_DIR
+FINDINGS_DIR = STATE_DIR
+STATE = STATE_DIR
+LIBRARY_PATH = os.path.join(BASE, "library", "atoms.jsonl")
+ALLOWED = [DEMO, RUN_DIR]
+
+NO_RUN = "--no-run" in sys.argv
+
+
+def rule(ch="-", n=78):
+    print(ch * n)
+
+
+def task_of(curriculum, task_type, exclude=None):
+    for t in curriculum["tasks"]:
+        if t["type"] == task_type and t["task_id"] != exclude:
+            return t
+    return None
+
+
+# ---------------- ① 声明知识点 ----------------
+
+def render_declares(c):
+    d = c["declares"]
+    rule("=")
+    print(f"📚 {c['title']}")
+    print(f"🎯 {c['goal']}")
+    rule()
+    must = [k for k in d["knowledge"] if k["level"] == "must"]
+    should = [k for k in d["knowledge"] if k["level"] != "must"]
+    print(f"本课知识点（{len(must)} 个必会 / {len(should)} 个了解）")
+    for k in must:
+        print(f"   ├─ [必会] {k['id']} {k['name']}")
+    for k in should:
+        print(f"   └─ [了解] {k['id']} {k['name']}")
+    print()
+    for p in d["prerequisites"]:
+        print(f"   ← 前置：{p['course_id']} {p['name']}")
+    print(f"   🔗 体系位置：{d['system_position']}")
+    for u in d["unlocks"]:
+        print(f"   ⬇ 解锁：{u['course_id']} {u['name']}")
+    print("\n任务：")
+    for t in c["tasks"]:
+        print(f"   [{t['type']:8s}] {t['task_id']}  {t['title']}  (~{t['est_minutes']}min)")
+    rule("=")
+
+
+# ---------------- 代码：环境 / 语法 / 运行 / 机检 / 点评 ----------------
+
+def prepare_code(cfg, curriculum, main_file, cache=None):
+    """对主练习文件做环境+语法检查，可选真实运行。返回 (env, syn, run_res, criteria)。"""
+    path = os.path.join(DEMO, main_file)
+    env = check_imports(path, ALLOWED)
+    syn = check_syntax(path, ALLOWED)
+
+    run_res = {"ran": False, "stdout": "", "stderr": "（未运行）", "exit_code": None,
+               "timeout": False}
+    if not NO_RUN and syn["ok"]:
+        if cache is not None and "run" in cache:
+            run_res = cache["run"]
+            print(f"   运行（复用上次结果）：{run_res['stdout'].strip().splitlines()[-1:]}")
+        else:
+            os.makedirs(RUN_DIR, exist_ok=True)
+            print("   正在真实运行练习代码 ...")
+            t0 = time.time()
+            run_res = run_file(path, ALLOWED, timeout=40, cwd=RUN_DIR)
+            print(f"   ran={run_res['ran']} exit={run_res['exit_code']} "
+                  f"耗时 {time.time()-t0:.1f}s")
+            if cache is not None:
+                cache["run"] = run_res
+
+    print(f"   环境依赖：{'缺 ' + '、'.join(env['missing']) if env['missing'] else '齐全'}"
+          f" | 语法：{'OK' if syn['ok'] else syn['error']}")
+    return env, syn, run_res
+
+
+def code_step(llm, curriculum, curriculum_task, source_files, env, run_res, cache=None):
+    source = "\n\n# " + "-" * 60 + "\n".join(
+        f"# ==== {f} ====\n" + read_text(os.path.join(DEMO, f)) for f in source_files)
+    lines = count_effective_lines(source)
+    criteria = analyze(source)
+    criteria["lines"] = lines
+
+    review = review_code(llm, curriculum, curriculum_task,
+                         read_text(os.path.join(DEMO, source_files[0])),
+                         run_result=run_res, criteria_result=criteria, env=env)
+    rec = record(review, curriculum_task["task_id"], run_res, criteria)
+    write_json(os.path.join(FINDINGS_DIR, f"{curriculum_task['task_id']}.json"), rec)
+    dim = combine_code_dimension(criteria["score"], rec["counts"])
+    return criteria, rec, dim, lines
+
+
+# ---------------- 单轮评估 ----------------
+
+def run_scenario(llm, curriculum, label, note_file, source_files, answers,
+                 transfer=None, env=None, run_res=None, cache=None):
+    print(f"\n{'#' * 78}\n# 场景：{label}\n{'#' * 78}")
+
+    task_code = task_of(curriculum, "code")
+    print(f"\n[代码] {task_code['task_id']} {task_code['title']}")
+    criteria, rec, code_dim, lines = code_step(
+        llm, curriculum, task_code, source_files, env, run_res, cache)
+    print(f"   机检 {len(criteria['hits'])}/{len(criteria['hits'])+len(criteria['misses'])}"
+          f" | 有效行 {lines} | findings {rec['counts']}")
+    print()
+    print(render_review(rec))
+
+    print("\n[自检判分] ...")
+    quiz_res = judge_self_check(llm, curriculum, answers)
+    for qid, r in quiz_res["per_question"].items():
+        print(f"   {qid}: {r['score']:.4f} {r.get('verdicts', '')}  {r.get('comment', '')}")
+
+    print("\n[笔记体检] ...")
+    # 只用【权威】原子作判错依据：从学生自己笔记抽出的 derived 原子
+    # 不能反过来判定他的笔记有错（循环论证）。
+    lib_atoms = as_materials(load_atoms(LIBRARY_PATH),
+                             course_id=curriculum["course_id"],
+                             authoritative_only=True)
+    print(f"   证据来源：学习库 {len(lib_atoms)} 个权威已确认原子"
+          f"（{os.path.relpath(LIBRARY_PATH, BASE)}）")
+    note_res = diagnose(llm, curriculum, read_text(os.path.join(DEMO, note_file)),
+                        atoms=lib_atoms)
+    print(render_report(note_res, curriculum))
+
+    # transfer
+    transfer_res, transfer_score = None, 0.0
+    if transfer:
+        print("\n[迁移题评分] ...")
+        task_tf = task_of(curriculum, "transfer")
+        transfer_res = score_transfer(
+            llm, task_tf, read_text(os.path.join(DEMO, transfer["artifact"])),
+            read_text(os.path.join(DEMO, transfer["explanation"])))
+        transfer_score = transfer_res["score"]
+        print(f"   {transfer_res['verdicts']}  → {transfer_score:.4f}")
+        print(f"   {transfer_res['comment']}")
+    else:
+        print("\n[迁移题] 未提交")
+
+    dims = {"code": code_dim["score"], "quiz": quiz_res["score"],
+            "note": note_res["note_score"], "transfer": transfer_score}
+    fatal = bool(quiz_res["fatal"] or note_res["fatals"] or rec["fatal_misconception"])
+    fatal_reasons = quiz_res["fatal_reasons"] + note_res["fatals"]
+    if rec["fatal_misconception"]:
+        fatal_reasons.append(f"代码点评: {rec['fatal_reason']}")
+
+    result = evaluate(dims, curriculum["gate"], fatal=fatal,
+                      must_cover_ratio=note_res["coverage"]["must_cover_ratio"],
+                      practice_lines=lines)
+
+    print()
+    rule("=")
+    print("【四维得分】")
+    for k, v in dims.items():
+        ok = "✅" if v >= curriculum["gate"]["min_each"] else f"❌ <{curriculum['gate']['min_each']}"
+        print(f"   {k:9s} {v:.4f}   {ok}")
+    print(f"   {'mastery':9s} {result['mastery']:.4f}   门槛 {curriculum['gate']['min_mastery']}")
+    print(f"\n【门禁判定】{'✅ 通过' if result['passed'] else '❌ 未通过'}")
+    for f in result["failures"]:
+        print(f"   - {f}")
+    for fr in fatal_reasons:
+        print(f"   ⛔ {fr}")
+
+    out = {"scenario": label, "dims": dims, "mastery": result["mastery"],
+           "passed": result["passed"], "failures": result["failures"],
+           "code_detail": code_dim, "knowledge_gaps": rec["knowledge_gaps"],
+           "lines": lines, "note_parts": note_res["parts"],
+           "note_score": note_res["note_score"]}
+
+    if not result["passed"]:
+        act = next_action(result, attempt=1)
+        print(f"\n【下一步】{act['level']}：{act['detail']}")
+        print(f"   可带疑点前进：{'是' if result['carry_allowed'] else '否（存在致命误解）'}")
+        out["next_action"] = act
+        out["carry_allowed"] = result["carry_allowed"]
+
+    rule("=")
+    return out, rec
+
+
+def seed_prerequisites(state):
+    """按用户真实进度补齐前置课程。
+
+    依据：E:\\Agents\\python-tutor\\progress.json → current_lesson=3、lessons_done={1,2}。
+    不补的话准入门禁会（正确地）拒绝开第 3 课——单课演示确实跳过了前置。
+    """
+    for cid, mast in (("py-agent-01", 0.91), ("py-agent-02", 0.89)):
+        state.setdefault("lessons", {})[cid] = {
+            "mastery": mast, "passed": True,
+            "source": "E:\\Agents\\python-tutor\\progress.json"}
+        for kp in ("K1", "K2", "K3", "K4", "K5"):
+            state.setdefault("atoms", {})[f"{cid}:{kp}"] = {
+                "mastery": 0.88, "passed": True}
+    return state
+
+
+def main():
+    # 状态目录必须先定下来，再碰任何跟状态有关的路径。
+    # global 要放在本函数**第一次读到** STATE_DIR 之前，否则 Python 直接语法错。
+    global STATE_DIR, RUN_DIR, FINDINGS_DIR, STATE
+    if "--keep-state" in sys.argv:
+        print("[状态] ⚠️ --keep-state：本次演示会**写真实的 state/**，"
+              "包括重置 mastery.json 与删除 events.jsonl")
+    else:
+        # 默认沙箱：真实 state/ 一个字节都不动。
+        # 原行为是直接重置 mastery.json 并**删掉 events.jsonl** 再写演示结果——
+        # events.jsonl 是自省与周报的数据底座，删它等于抹掉使用者的真实学习历史。
+        sandbox = tempfile.mkdtemp(prefix="p0demo-state-")
+        STATE_DIR = sandbox
+        RUN_DIR = os.path.join(sandbox, "run")
+        FINDINGS_DIR = os.path.join(sandbox, "findings")
+        STATE = os.path.join(sandbox, "mastery.json")
+        os.makedirs(RUN_DIR, exist_ok=True)
+        os.makedirs(FINDINGS_DIR, exist_ok=True)
+        print(f"[状态] 沙箱模式：状态写在 {sandbox}，真实 state/ 不受影响"
+              f"（加 --keep-state 才会写真实状态）")
+
+    cfg = load_config()
+    curriculum = read_json(os.path.join(BASE, "curriculum", "py_agent_03.json"))
+    llm = LLM(cfg)
+    os.makedirs(FINDINGS_DIR, exist_ok=True)
+
+    graph = build(load_route(os.path.join(BASE, "route.json")),
+                  load_curriculums(os.path.join(BASE, "curriculum")))
+    events_path = os.path.join(STATE_DIR, "events.jsonl")
+
+    # 演示默认从干净状态开始（这是可重复的验证流程）。
+    # 注意：不重置的话，第二次运行会被准入门禁正确拦下——
+    # 因为 py-agent-03 已通过，而"已通过的课不允许直接重进"是刻意设计。
+    if "--keep-state" in sys.argv:
+        state = read_json(STATE, default={"atoms": {}, "lessons": {}})
+    else:
+        state = {"atoms": {}, "lessons": {}}
+    state = seed_prerequisites(state)
+
+    print(f"模型 {cfg['model']} | 思考 {'开' if cfg['thinking'] else '关'} | "
+          f"temperature 0 | JSON Output | 真实运行={not NO_RUN}")
+    render_declares(curriculum)
+
+    # ---------------- 准入门禁（开课之前）----------------
+    check = entry_check(graph, state, "py-agent-03")
+    print(f"\n[准入门禁] {check['status']}｜{check['reason']}")
+    if check["blocked_points"]:
+        print(f"           被挡住的知识点：{check['blocked_points']}")
+    if not check["allowed"]:
+        append_event(events_path, "blocked_entry", course_id="py-agent-03",
+                     missing=check["missing_prerequisites"])
+        print("不予开课，已记录 blocked_entry 事件。")
+        return 1
+    append_event(events_path, "course_started", course_id="py-agent-03")
+
+    answers = read_json(os.path.join(DEMO, "lesson3_answers.json"))
+    cache = {}
+
+    print("\n[准备] 主练习文件环境/语法/运行检查")
+    env, syn, run_res = prepare_code(cfg, curriculum, "west2_spider.py", cache)
+
+    a, rec_a = run_scenario(
+        llm, curriculum, "A · 首次提交（预期未通过）",
+        note_file="lesson3_note.md",
+        source_files=["west2_spider.py"],
+        answers=answers, transfer=None, env=env, run_res=run_res, cache=cache)
+    for sc in (a,):
+        append_event(events_path, "submission", course_id="py-agent-03",
+                     mastery=sc["mastery"], passed=sc["passed"], lines=sc["lines"],
+                     dims=sc["dims"])
+        append_event(events_path, "note_review", course_id="py-agent-03",
+                     note_score=sc["note_score"], parts=sc["note_parts"])
+
+    b, rec_b = run_scenario(
+        llm, curriculum, "B · L1 补练后重新提交（预期通过）",
+        note_file="lesson3_note_fixed.md",
+        source_files=["west2_spider.py", "t_py03_3_spider.py"],
+        answers=answers,
+        transfer={"artifact": "t_py03_3_spider.py",
+                  "explanation": "lesson3_transfer_note.md"},
+        env=env, run_res=run_res, cache=cache)
+    for sc in (b,):
+        append_event(events_path, "submission", course_id="py-agent-03",
+                     mastery=sc["mastery"], passed=sc["passed"], lines=sc["lines"],
+                     dims=sc["dims"])
+        append_event(events_path, "note_review", course_id="py-agent-03",
+                     note_score=sc["note_score"], parts=sc["note_parts"])
+    if b["passed"]:
+        append_event(events_path, "passed", course_id="py-agent-03",
+                     mastery=b["mastery"], attempts=2)
+
+    # ---------------- 状态持久化 + 回炉 ----------------
+    state["lessons"]["py-agent-03"] = {
+        "mastery": b["mastery"], "passed": b["passed"], "dims": b["dims"],
+        "attempts": 2, "practice_lines": b["lines"],
+        "first_submit": {"mastery": a["mastery"], "failures": a["failures"]},
+    }
+    # 通过后把本课必会知识点落进掌握度并启动复习时钟（Planner 的数据来源）
+    if b["passed"]:
+        for kp in curriculum["declares"]["knowledge"]:
+            if kp["level"] != "must":
+                continue
+            rec_kp = state["atoms"].setdefault(kp_id("py-agent-03", kp["id"]), {})
+            rec_kp.update({"mastery": b["mastery"], "passed": True,
+                           "course": "py-agent-03", "source": "course_pass"})
+            start_review_clock(rec_kp)
+    gaps = sorted(set(b["knowledge_gaps"]))
+
+    # 回炉演示：第 3 课的点评命中了 429 分支处理不当（见 findings 第 78 行那条 warn），
+    # 判定为第 2 课的「HTTP 状态码语义」没吃透 → 打折已通过的前置知识点并重回复习队列。
+    # 注意 reflow 只对【已通过】的原子生效，所以本课尚未通过的 K3 不受影响。
+    reflow_targets = ["py-agent-02:K1"]
+    changes = reflow(state, reflow_targets)
+    # 回炉的级联影响：K2/K4 依赖 K1，它们不该被连带打回（用户确实通过过），
+    # 但要标成"待复查"——否则状态与体系图会自相矛盾。
+    rechecked = cascade_recheck(graph, state, reflow_targets)
+    for ch in changes:
+        append_event(events_path, "reflow", atom=ch["atom_id"],
+                     before=ch["before"], after=ch["after"])
+    for rc in rechecked:
+        append_event(events_path, "recheck", atom=rc["id"],
+                     depth=rc["depth"], via=rc["via"])
+    write_json(STATE, state)
+
+    print(f"\n{'#' * 78}\n# 状态 · 薄弱点 · 回炉\n{'#' * 78}")
+    print(f"已写入 {STATE}")
+    print(f"课程 py-agent-03：mastery {b['mastery']:.4f} passed={b['passed']}"
+          f"（首次提交 {a['mastery']:.4f}）")
+    print(f"代码点评暴露的薄弱点：{gaps or '（无）'}")
+    for ch in changes:
+        print(f"回炉：{ch['atom_id']} 掌握度 {ch['before']} → {ch['after']}，已挂复习队列")
+    for rc in rechecked:
+        print(f"   ↳ 级联待复查（depth {rc['depth']}）：{rc['id']}"
+              f"（因 {rc['via']} 被回炉）—— 不翻转已通过状态")
+
+    print()
+    rule("=")
+    print(llm.report())
+    rule("=")
+    ok = (not a["passed"]) and b["passed"]
+    print(f"演示结论：A {'通过' if a['passed'] else '未通过'} → "
+          f"B {'通过' if b['passed'] else '未通过'}　（预期：A 未通过、B 通过）")
+    print(f"最终判定：{'PASS' if ok else 'CHECK'}")
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

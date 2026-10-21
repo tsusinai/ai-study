@@ -1,1 +1,348 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi5LiA6ZSu5pW055CG55qE56uv5Yiw56uv6aqM6K+B77yaKirpqbHliqjnnJ/lrp7nmoQgQ0xJIG1haW4oKSoq77yM6JC95Yiw55yf5a6e5Li05pe25paH5Lu25LiK44CCCgrkuI3miZPmqKHlnovvvIhwYXRjaCDmjokgdGlkeSDkuI4gTExN77yJ77yM6aqM55qE5pivIuWGmeaWh+S7tumCo+S4gOautSLliLDlupXmnInmsqHmnInlhZHnjrDmib/or7rvvJoKCiAgQS4g55So5oi35Yy65a2X6IqC57qn5LiN5Y+YICAgICAg4oCU4oCUIEFJIOawuOS4jeaUueWKqOWtpuS5oOiAheWGmeeahOS4nOilvwogIEIuIOmHjeWkjeaVtOeQhiA9IOimhuWGmSBBSSDljLogIOKAlOKAlCDkuI3mmK/kuIDova7kuIDova7loIblj6AKICBDLiDmlbTnkIbljoblj7IgYXBwZW5kLW9ubHkKICBELiDpooTop4jpm7blia/kvZznlKggICAgICAgICAgIOKAlOKAlCDkuI3mlLnnrJTorrAgLyDkuI3mlLkgbWFzdGVyeS5qc29uIC8g5LiN5aGe5Zue54KJ6Zif5YiXCiAgRS4g5qih5Z6L5aSx6LSl5LiN5q+B56i/CiAgRi4gbWV0YWRhdGEuanNvbiDlhpnov5sgLS1kYXRhLWRpcu+8jOS4lOS4jeeisOecn+WunuiKseesuuebruW9lQogIEcuIC0tcm9sbGJhY2sg6IO95Zue5Yiw5pen5pW055CG56i/77yM55So5oi35Yy65LuN54S25LiN5YqoCgrov5DooYzvvJpweXRob24gc3R1ZHkvaW50ZWdyYXRpb25zXFx2ZXJpZnlfdGlkeV9hcHBseS5weQoiIiIKaW1wb3J0IGRpZmZsaWIKaW1wb3J0IGhhc2hsaWIKaW1wb3J0IGlvCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgc2h1dGlsCmltcG9ydCBzeXMKaW1wb3J0IHRlbXBmaWxlCmltcG9ydCB1dWlkCmZyb20gY29udGV4dGxpYiBpbXBvcnQgcmVkaXJlY3Rfc3Rkb3V0CgpIRVJFID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpClNUVURZID0gb3MucGF0aC5kaXJuYW1lKEhFUkUpCmlmIFNUVURZIG5vdCBpbiBzeXMucGF0aDoKICAgIHN5cy5wYXRoLmluc2VydCgwLCBTVFVEWSkKCmZyb20gbm90ZWRvY3Rvci50aWRpZXIgaW1wb3J0IChBSV9FTkQsIEFJX0hFQURJTkcsIEFJX1NUQVJULCAgICAgIyBub3FhOiBFNDAyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBISVNUT1JZX0hFQURJTkcsIFVTRVJfSEVBRElORywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4dHJhY3RfdXNlcl9ub3RlcykKZnJvbSB0b29scyBpbXBvcnQgdGlkeSBhcyB0aWR5X2NsaSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIG5vcWE6IEU0MDIKCkZBSUxTID0gW10KCgpkZWYgY2hlY2sobmFtZSwgY29uZCwgZGV0YWlsPSIiKToKICAgIHByaW50KCJbJXNdICVzJXMiICUgKCJQQVNTIiBpZiBjb25kIGVsc2UgIkZBSUwiLCBuYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgKCIgIC0+ICIgKyBzdHIoZGV0YWlsKSkgaWYgZGV0YWlsIGFuZCBub3QgY29uZCBlbHNlICIiKSkKICAgIGlmIG5vdCBjb25kOgogICAgICAgIEZBSUxTLmFwcGVuZChuYW1lKQoKCmRlZiBzaGEodGV4dCk6CiAgICByZXR1cm4gaGFzaGxpYi5zaGEyNTYodGV4dC5lbmNvZGUoInV0Zi04IikpLmhleGRpZ2VzdCgpCgoKZGVmIHVzZXJfem9uZV9kaWZmKHRleHQsIGJhc2VsaW5lKToKICAgICIiIui/lOWbniBOb25lIOihqOekuueUqOaIt+WMuumAkOWtl+acquWPmO+8m+WQpuWImee7meWHuuWPr+ivu+eahOW3ruW8guivtOaYjuOAgiIiIgogICAgZ290ID0gZXh0cmFjdF91c2VyX25vdGVzKHRleHQpCiAgICBpZiBzaGEoZ290KSA9PSBzaGEoYmFzZWxpbmUpOgogICAgICAgIHJldHVybiBOb25lCiAgICBkID0gbGlzdChkaWZmbGliLnVuaWZpZWRfZGlmZihiYXNlbGluZS5zcGxpdGxpbmVzKCksIGdvdC5zcGxpdGxpbmVzKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAi5pW055CG5YmNIiwgIuaVtOeQhuWQjiIsIGxpbmV0ZXJtPSIiKSkKICAgIGlmIGQ6CiAgICAgICAgcmV0dXJuICJcbiIuam9pbihkWzoyNF0pCiAgICByZXR1cm4gIuS7heepuueZveW3ruW8gu+8mmJlZm9yZT0lciBhZnRlcj0lciIgJSAoYmFzZWxpbmVbLTYwOl0sIGdvdFstNjA6XSkKCgpVU0VSX0JPRFkgPSAiIiIjIyMgMS4g5oiR5a2m5Yiw55qE77yI55So6Ieq5bex55qE6K+d77yJCgroo4XnmoTmmK8gMy4xMi4z77yM5b+F6aG75Yu+IEFkZCB0byBQQVRI77yM5LiN54S25ZG95Luk6KGM5om+5LiN5YiwIHB5dGhvbuOAggoKYGBgYmFzaApweXRob24gLW0gdmVudiBteWVudgpteWVudlxcU2NyaXB0c1xcYWN0aXZhdGUKYGBgCgojIyMgMi4g5L2c5Lia6K6w5b2VCgpjcmF6eS1kYXkubWQg5YaZ5a6M5LqG77yMSGVsbG8gV29ybGQg5ZKM5rSb6LC3IDUg6aKY6YO96L+H5LqG44CCCgojIyMgMy4g6Lip5Yiw55qE5Z2RCgrkuIDlvIDlp4sgcHl0aG9uIOWRveS7pOS4jeivhuWIq++8jOmHjeijheWLviBQQVRIIOWQjuWlveS6huOAggrmtJvosLcgUDEwNDYg6K+75YWl55qE5piv5LiA5pW06KGM5pWw5a2X77yM5oiR5b2T5Y2V5Liq5pW05pWw6K+75LqG77yM6ZSZ5Lik5qyh44CCCgojIyMgNC4g5b6F6Kej5YazCgromZrmi5/njq/looPlkozlhajlsYDnjq/looPku4DkuYjml7blgJnlv4XpobvliIblvIDnlKjvvJ8KIiIiCgpOT1RFX1RFTVBMQVRFID0gIiIiIyBGMCDCtyDnjq/looPmkK3lu7rkuI7lt6XnqIvop4TojIMKCiMjIOKaoSDkvaDnmoTotbfngrkKCuW3suWFt+WkhyA1Lzkg5Liq55+l6K+G54K544CCCgojIyDwn5OLIOiAg+aguOimgeaxggoKLSBbIF0gYHQwLTFgIOijheWlvSBQeXRob24g5LiOIElERSDlubbmiKrlm74KLSBbIF0gYHQwLTJgIGNyYXp5LWRheS5tZCDpgJrov4cgbWFya2Rvd25saW50CgotLS0KCntiZWZvcmV9e3VzZXJ9Cgp7YWZ0ZXJ9IiIiCgoKZGVmIG1ha2Vfbm90ZShiZWZvcmU9IiIsIGFmdGVyPSIiKToKICAgIHJldHVybiBOT1RFX1RFTVBMQVRFLmZvcm1hdChiZWZvcmU9YmVmb3JlLCB1c2VyPVVTRVJfSEVBRElORyArICJcblxuIiArIFVTRVJfQk9EWSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZnRlcj1hZnRlcikucnN0cmlwKCkgKyAiXG4iCgoKRkVFREJBQ0sgPSB7CiAgICAic3lzdGVtX3RpdGxlIjogIlB5dGhvbsK3546v5aKD5LiO5bel56iL6KeE6IyDIiwKICAgICJ0aGVtZSI6ICJQeXRob24g5a6J6KOF44CBdmVudiDkuI4gR2l0IOWfuuehgCIsCiAgICAicHJldmlldyI6IFsiUHl0aG9uIOWuieijheS4jiBQQVRIIiwgInZlbnYg6ZqU56a75L6d6LWWIl0sCiAgICAiY292ZXJhZ2UiOiBbeyJpZCI6ICJLMSIsICJzdGF0dXMiOiAiY292ZXJlZCIsICJ3aHkiOiAi6K6y5LqG5a6J6KOF5LiOIFBBVEgifSwKICAgICAgICAgICAgICAgICB7ImlkIjogIksyIiwgInN0YXR1cyI6ICJwYXJ0aWFsIiwgIndoeSI6ICLmsqHmj5AgSURFIOmFjee9riJ9LAogICAgICAgICAgICAgICAgIHsiaWQiOiAiSzMiLCAic3RhdHVzIjogIm1pc3NpbmciLCAid2h5IjogIuayoeaPkCBQRVAgOCJ9XSwKICAgICJnbG9zc2FyeSI6IFt7InRlcm0iOiAi6Jma5ouf546v5aKDIiwgImRlZiI6ICLpmpTnprvpobnnm67kvp3otZbnmoTni6znq4vov5DooYznjq/looMifSwKICAgICAgICAgICAgICAgICB7InRlcm0iOiAiUEFUSCIsICJkZWYiOiAi57O757uf5p+l5om+5Y+v5omn6KGM5paH5Lu255qE546v5aKD5Y+Y6YePIn0sCiAgICAgICAgICAgICAgICAgeyJ0ZXJtIjogInZlbnYiLCAiZGVmIjogIlB5dGhvbiDoh6rluKbnmoTomZrmi5/njq/looPmqKHlnZcifV0sCiAgICAidG9kbyI6IFsi6KGlIElERSDphY3nva4iXSwKICAgICJlcnJvcnMiOiBbXSwKICAgICJ1bmNlcnRhaW4iOiBbXSwKICAgICJzdW1tYXJ5IjogIuS4u+W5sua4healmu+8jOW3peWFt+mTvuimgeihpeOAgiIsCn0KCk1BUktfVjEgPSAiIyMg5LiA44CBUHl0aG9uIOWuieijhVxuXG4tIOijheS6hiAzLjEyLjPjgIJcbiIKTUFSS19WMiA9ICIjIyDkuIDjgIFQeXRob24g5a6J6KOF77yI56ys5LqM54mI77yJXG5cbi0g6KOF5LqGIDMuMTIuM++8jOW5tumFjeWlveS6hiBQQVRI44CCXG4iCgoKZGVmIHJ1bl9jbGkoYXJndik6CiAgICAiIiLlnKjnnJ/lrp4gQ0xJIOS4iui3keS4gOasoe+8jOaNleiOtyBzdGRvdXTjgIIiIiIKICAgIG9sZF9hcmd2ID0gc3lzLmFyZ3YKICAgIGJ1ZiA9IGlvLlN0cmluZ0lPKCkKICAgIHN5cy5hcmd2ID0gWyJ0aWR5LnB5Il0gKyBhcmd2CiAgICB0cnk6CiAgICAgICAgd2l0aCByZWRpcmVjdF9zdGRvdXQoYnVmKToKICAgICAgICAgICAgcmMgPSB0aWR5X2NsaS5tYWluKCkKICAgIGZpbmFsbHk6CiAgICAgICAgc3lzLmFyZ3YgPSBvbGRfYXJndgogICAgcmV0dXJuIHJjLCBidWYuZ2V0dmFsdWUoKQoKCmRlZiBtYWluKCk6CiAgICB0bXAgPSB0ZW1wZmlsZS5ta2R0ZW1wKHByZWZpeD0idGlkeXZlcmlmeS0iKQogICAgZGF0YV9kaXIgPSBvcy5wYXRoLmpvaW4odG1wLCAiaHVhamlhbiIpCiAgICBzdGF0ZV9kaXIgPSBvcy5wYXRoLmpvaW4odG1wLCAic3RhdGUiKQogICAgbm90ZXNfZGlyID0gb3MucGF0aC5qb2luKGRhdGFfZGlyLCAibm90ZXMiKQogICAgY2F0ZWdvcnkgPSBvcy5wYXRoLmpvaW4obm90ZXNfZGlyLCAiUHl0aG9uIikKICAgIG9zLm1ha2VkaXJzKGNhdGVnb3J5LCBleGlzdF9vaz1UcnVlKQoKICAgICMg56uZ5ZyoIuWIq+eahOeslOiusOS5n+imgeS/neS9jyLnmoTnq4vlnLrkuIrvvIzlhYjmlL7kuIDnr4fml6DlhbPnrJTorrDov5vntKLlvJUKICAgIG90aGVyX2lkID0gc3RyKHV1aWQudXVpZDQoKSkKICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4oY2F0ZWdvcnksIGYie290aGVyX2lkfV/liKvnmoTor74ubWQiKSwgInciLAogICAgICAgICAgICAgIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgZi53cml0ZSgiIyDliKvnmoTor75cblxu5Yir5Lq655qE56yU6K6wXG4iKQogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihkYXRhX2RpciwgIm1ldGFkYXRhLmpzb24iKSwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGpzb24uZHVtcCh7Im5vdGVzIjogW3siaWQiOiBvdGhlcl9pZCwgInRpdGxlIjogIuWIq+eahOivviIsICJmaWxlTmFtZSI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGYie290aGVyX2lkfV/liKvnmoTor74ubWQiLCAiY2F0ZWdvcnkiOiAiUHl0aG9uIn1dfSwKICAgICAgICAgICAgICAgICAgZiwgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MikKCiAgICBub3RlX2lkID0gc3RyKHV1aWQudXVpZDQoKSkKICAgIG5vdGVfcGF0aCA9IG9zLnBhdGguam9pbihjYXRlZ29yeSwgZiJ7bm90ZV9pZH1fRjAt546v5aKD5pCt5bu65LiO5bel56iL6KeE6IyDLm1kIikKICAgIHByaXN0aW5lID0gbWFrZV9ub3RlKCkKICAgIHdpdGggb3Blbihub3RlX3BhdGgsICJ3IiwgZW5jb2Rpbmc9InV0Zi04IiwgbmV3bGluZT0iXG4iKSBhcyBmOgogICAgICAgIGYud3JpdGUocHJpc3RpbmUpCiAgICAjIOWfuuWHhuWPluiHqiLlkIzkuIDlh73mlbDlnKjmnKrliqjov4fnmoTnrJTorrDkuIrnmoTovpPlh7oi4oCU4oCU5pW055CG5ZCO5b+F6aG76YCQ5a2X55u45ZCM44CCCiAgICAjIO+8iGV4dHJhY3RfdXNlcl9ub3RlcyDkvJogc3RyaXAg6aaW5bC+56m66KGM77yM5omA5Lul5LiN6IO955u05o6l5ou/IFVTRVJfQk9EWSDmr5TjgILvvIkKICAgIGJhc2VsaW5lX3VzZXIgPSBleHRyYWN0X3VzZXJfbm90ZXMocHJpc3RpbmUpCiAgICB1c2VyX3NoYSA9IHNoYShiYXNlbGluZV91c2VyKQogICAgY2hlY2soIuWfuuWHhuaPkOWPluacquS4ouato+aWhyIsIGJhc2VsaW5lX3VzZXIuc3RyaXAoIlxuIikgPT0gVVNFUl9CT0RZLnN0cmlwKCJcbiIpKQoKICAgIHJlYWxfZGF0YV9kaXIgPSB0aWR5X2NsaS5kaXNjb3ZlcigpWyJkYXRhX2RpciJdCiAgICByZWFsX21ldGEgPSBvcy5wYXRoLmpvaW4ocmVhbF9kYXRhX2RpciwgIm1ldGFkYXRhLmpzb24iKQogICAgcmVhbF9tZXRhX2JlZm9yZSA9IChzaGEob3BlbihyZWFsX21ldGEsIGVuY29kaW5nPSJ1dGYtOCIpLnJlYWQoKSkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgb3MucGF0aC5pc2ZpbGUocmVhbF9tZXRhKSBlbHNlIE5vbmUpCgogICAgY2FsbHMgPSB7Im4iOiAwfQoKICAgIGRlZiBmYWtlX3RpZHkobGxtLCBjdXJyaWN1bHVtLCBub3RlX3RleHQpOgogICAgICAgIGNhbGxzWyJuIl0gKz0gMQogICAgICAgIHJldHVybiB7Im1hcmtkb3duIjogTUFSS19WMSBpZiBjYWxsc1sibiJdID09IDEgZWxzZSBNQVJLX1YyLAogICAgICAgICAgICAgICAgImZlZWRiYWNrIjogRkVFREJBQ0ssICJub3Rlc191c2VkIjogZXh0cmFjdF91c2VyX25vdGVzKG5vdGVfdGV4dCl9CgogICAgb3JpZ190aWR5LCBvcmlnX2xsbSwgb3JpZ19zdGF0ZSA9IHRpZHlfY2xpLnRpZHksIHRpZHlfY2xpLkxMTSwgdGlkeV9jbGkuU1RBVEVfRElSCiAgICB0aWR5X2NsaS50aWR5LCB0aWR5X2NsaS5MTE0sIHRpZHlfY2xpLlNUQVRFX0RJUiA9IGZha2VfdGlkeSwgKGxhbWJkYSAqYSwgKiprOiBOb25lKSwgc3RhdGVfZGlyCiAgICB0cnk6CiAgICAgICAgIyAtLS0tLS0tLS0tIEQuIOmihOiniOmbtuWJr+S9nOeUqCAtLS0tLS0tLS0tCiAgICAgICAgcmMsIG91dCA9IHJ1bl9jbGkoWyItLWNvdXJzZSIsICJ3ZXN0Mi1mMCIsICItLXdlc3QyIiwgIi0tZGF0YS1kaXIiLCBkYXRhX2Rpcl0pCiAgICAgICAgY2hlY2soIkQg6aKE6KeI6L+U5ZueIDAiLCByYyA9PSAwLCBvdXRbLTQwMDpdKQogICAgICAgIGNoZWNrKCJEIOmihOiniOacquWGmeeslOiusCIsIG9wZW4obm90ZV9wYXRoLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkgPT0gcHJpc3RpbmUpCiAgICAgICAgY2hlY2soIkQg6aKE6KeI5pyq5bu65b+r54Wn55uu5b2VIiwKICAgICAgICAgICAgICBub3Qgb3MucGF0aC5pc2Rpcihvcy5wYXRoLmpvaW4oc3RhdGVfZGlyLCAibm90ZV92ZXJzaW9ucyIpKSwKICAgICAgICAgICAgICBvcy5saXN0ZGlyKHN0YXRlX2RpcikgaWYgb3MucGF0aC5pc2RpcihzdGF0ZV9kaXIpIGVsc2UgIm5vIHN0YXRlIGRpciIpCiAgICAgICAgY2hlY2soIkQg6aKE6KeI5pyq5YaZIG1hc3RlcnkuanNvbiIsCiAgICAgICAgICAgICAgbm90IG9zLnBhdGguaXNmaWxlKG9zLnBhdGguam9pbihzdGF0ZV9kaXIsICJtYXN0ZXJ5Lmpzb24iKSkpCiAgICAgICAgY2hlY2soIkQg6aKE6KeI5pyq5YaZIGZpbmRpbmdzIiwKICAgICAgICAgICAgICBub3Qgb3MucGF0aC5pc2Rpcihvcy5wYXRoLmpvaW4oc3RhdGVfZGlyLCAiZmluZGluZ3MiKSkpCiAgICAgICAgY2hlY2soIkQg6aKE6KeI5pyq5YaZIGV2ZW50cyIsCiAgICAgICAgICAgICAgbm90IG9zLnBhdGguaXNmaWxlKG9zLnBhdGguam9pbihzdGF0ZV9kaXIsICJldmVudHMuanNvbmwiKSkpCiAgICAgICAgY2hlY2soIkQg6aKE6KeI5LuN5pi+56S6IG5vdGUg57u05bqmIiwgIm5vdGUg57u05bqmIiBpbiBvdXQpCiAgICAgICAgY2hlY2soIkQg6aKE6KeI5o+Q56S66Zu25Ymv5L2c55SoIiwgIuaOjOaPoeW6piIgaW4gb3V0IGFuZCAi5rKh5pyJ5pS55YqoIiBpbiBvdXQpCgogICAgICAgICMgLS0tLS0tLS0tLSBBL0IvQy9GLiDnrKzkuIDmrKEgYXBwbHkgLS0tLS0tLS0tLQogICAgICAgIHJjLCBvdXQgPSBydW5fY2xpKFsiLS1jb3Vyc2UiLCAid2VzdDItZjAiLCAiLS13ZXN0MiIsICItLWRhdGEtZGlyIiwgZGF0YV9kaXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICItLWFwcGx5Il0pCiAgICAgICAgY2hlY2soImFwcGx5IOi/lOWbniAwIiwgcmMgPT0gMCwgb3V0Wy02MDA6XSkKICAgICAgICB0MSA9IG9wZW4obm90ZV9wYXRoLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKCiAgICAgICAgY2hlY2soIkEg55So5oi35Yy65a2X6IqC57qn5LiN5Y+YIiwgdXNlcl96b25lX2RpZmYodDEsIGJhc2VsaW5lX3VzZXIpIGlzIE5vbmUsCiAgICAgICAgICAgICAgdXNlcl96b25lX2RpZmYodDEsIGJhc2VsaW5lX3VzZXIpKQogICAgICAgIGNoZWNrKCJBIOeslOiusOWQqyB2MSDmlbTnkIbnqL8iLCAiUHl0aG9uIOWuieijhSIgaW4gdDEpCiAgICAgICAgY2hlY2soIkIgQUkg5qCH6aKY5Y+qIDEg5LiqIiwgdDEuY291bnQoQUlfSEVBRElORykgPT0gMSwKICAgICAgICAgICAgICAiY291bnQ9JWQiICUgdDEuY291bnQoQUlfSEVBRElORykpCiAgICAgICAgY2hlY2soIkIgQUkg5qCH6K6w5oiQ5a+5IiwgdDEuY291bnQoQUlfU1RBUlQpID09IDEgYW5kIHQxLmNvdW50KEFJX0VORCkgPT0gMSkKICAgICAgICBjaGVjaygiQyDljoblj7IgMSDooYwiLCB0MS5jb3VudChISVNUT1JZX0hFQURJTkcpID09IDEpCiAgICAgICAgaGlzdDEgPSBbbCBmb3IgbCBpbiB0MS5zcGxpdGxpbmVzKCkgaWYgbC5zdGFydHN3aXRoKCItIGAyMCIpXQogICAgICAgIGNoZWNrKCJDIOWOhuWPsuaciSAxIOadoeiusOW9lSIsIGxlbihoaXN0MSkgPT0gMSwgaGlzdDEpCgogICAgICAgICMgRi4gbWV0YWRhdGEg6JC95ZyoIC0tZGF0YS1kaXLvvIznnJ/lrp7oirHnrLrnm67lvZXmnKrooqvnorAKICAgICAgICBtZXRhID0ganNvbi5sb2FkKG9wZW4ob3MucGF0aC5qb2luKGRhdGFfZGlyLCAibWV0YWRhdGEuanNvbiIpLCBlbmNvZGluZz0idXRmLTgiKSkKICAgICAgICBpZHMgPSBbblsiaWQiXSBmb3IgbiBpbiBtZXRhWyJub3RlcyJdXQogICAgICAgIGNoZWNrKCJGIOaWsOeslOiusOi/m+e0ouW8lSIsIG5vdGVfaWQgaW4gaWRzLCBpZHMpCiAgICAgICAgY2hlY2soIkYg5pen56yU6K6w5pyq5LiiIiwgb3RoZXJfaWQgaW4gaWRzLCBpZHMpCiAgICAgICAgY2hlY2soIkYg5qCH6aKY5Y+W6Ieq5paH5Lu25ZCNIiwgbmV4dChuWyJ0aXRsZSJdIGZvciBuIGluIG1ldGFbIm5vdGVzIl0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgblsiaWQiXSA9PSBub3RlX2lkKS5zdGFydHN3aXRoKCJGMC0iKSwKICAgICAgICAgICAgICBbblsidGl0bGUiXSBmb3IgbiBpbiBtZXRhWyJub3RlcyJdXSkKICAgICAgICByZWFsX21ldGFfYWZ0ZXIgPSAoc2hhKG9wZW4ocmVhbF9tZXRhLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIG9zLnBhdGguaXNmaWxlKHJlYWxfbWV0YSkgZWxzZSBOb25lKQogICAgICAgIGNoZWNrKCJGIOecn+WunuiKseesuiBtZXRhZGF0YSDmnKrooqvmlLnliqgiLCByZWFsX21ldGFfYmVmb3JlID09IHJlYWxfbWV0YV9hZnRlciwKICAgICAgICAgICAgICAicmVhbCBkaXIgdG91Y2hlZDogJXMiICUgcmVhbF9kYXRhX2RpcikKCiAgICAgICAgIyAtLS0tLS0tLS0tIOaOjOaPoeW6puWPjemmiOiQveWcsCAtLS0tLS0tLS0tCiAgICAgICAgY2hlY2soIuWPjemmiOWGmSBmaW5kaW5ncyIsCiAgICAgICAgICAgICAgb3MucGF0aC5pc2ZpbGUob3MucGF0aC5qb2luKHN0YXRlX2RpciwgImZpbmRpbmdzIiwgIndlc3QyLWYwLXRpZHkuanNvbiIpKSkKICAgICAgICBtYXN0ZXJ5ID0ganNvbi5sb2FkKG9wZW4ob3MucGF0aC5qb2luKHN0YXRlX2RpciwgIm1hc3RlcnkuanNvbiIpLCBlbmNvZGluZz0idXRmLTgiKSkKICAgICAgICBjaGVjaygi5Y+N6aaI5YWlIG1hc3RlcnkubGVzc29ucyIsCiAgICAgICAgICAgICAgIndlc3QyLWYwIiBpbiBtYXN0ZXJ5LmdldCgibGVzc29ucyIsIHt9KSwKICAgICAgICAgICAgICBsaXN0KG1hc3RlcnkuZ2V0KCJsZXNzb25zIiwge30pKSkKICAgICAgICBjaGVjaygibm90ZSDnu7Tluqblt7LlhpnlhaUiLAogICAgICAgICAgICAgIG1hc3RlcnlbImxlc3NvbnMiXVsid2VzdDItZjAiXVsiZGltcyJdLmdldCgibm90ZSIsIDApID4gMCwKICAgICAgICAgICAgICBtYXN0ZXJ5WyJsZXNzb25zIl1bIndlc3QyLWYwIl1bImRpbXMiXSkKICAgICAgICBjaGVjaygi57y65Y+j6L+bIGF0b21zIiwKICAgICAgICAgICAgICBzZXQobWFzdGVyeVsiYXRvbXMiXSkgPT0geyJ3ZXN0Mi1mMDpLMiIsICJ3ZXN0Mi1mMDpLMyJ9LAogICAgICAgICAgICAgIGxpc3QobWFzdGVyeVsiYXRvbXMiXSkpCiAgICAgICAgY2hlY2soIuW3suimhueblueahOS4jei/m+mYn+WIlyIsICJ3ZXN0Mi1mMDpLMSIgbm90IGluIG1hc3RlcnlbImF0b21zIl0pCiAgICAgICAgZXZlbnRzID0gb3Blbihvcy5wYXRoLmpvaW4oc3RhdGVfZGlyLCAiZXZlbnRzLmpzb25sIiksIGVuY29kaW5nPSJ1dGYtOCIpLnJlYWQoKQogICAgICAgIGNoZWNrKCLkuovku7bmtYHmnIkgbm90ZV9yZXZpZXciLCAibm90ZV9yZXZpZXciIGluIGV2ZW50cywgZXZlbnRzWy0yMDA6XSkKCiAgICAgICAgIyAtLS0tLS0tLS0tIEIvQy9BLiDnrKzkuozmrKEgYXBwbHkgLS0tLS0tLS0tLQogICAgICAgIHJjLCBvdXQgPSBydW5fY2xpKFsiLS1jb3Vyc2UiLCAid2VzdDItZjAiLCAiLS13ZXN0MiIsICItLWRhdGEtZGlyIiwgZGF0YV9kaXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICItLWFwcGx5Il0pCiAgICAgICAgY2hlY2soIuS6jOasoSBhcHBseSDov5Tlm54gMCIsIHJjID09IDAsIG91dFstNjAwOl0pCiAgICAgICAgdDIgPSBvcGVuKG5vdGVfcGF0aCwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpCiAgICAgICAgY2hlY2soIkIg5LqM5qyh5pW055CG5pyq5aCG5Y+g77yIQUkg5qCH6aKY5LuNIDHvvIkiLCB0Mi5jb3VudChBSV9IRUFESU5HKSA9PSAxLAogICAgICAgICAgICAgICJjb3VudD0lZCIgJSB0Mi5jb3VudChBSV9IRUFESU5HKSkKICAgICAgICBjaGVjaygiQiDkuozmrKHmlbTnkIbmnKrloIblj6DvvIjmoIforrDku40gMSDlr7nvvIkiLAogICAgICAgICAgICAgIHQyLmNvdW50KEFJX1NUQVJUKSA9PSAxIGFuZCB0Mi5jb3VudChBSV9FTkQpID09IDEpCiAgICAgICAgY2hlY2soIkIg5pen5pW055CG56i/6KKr5pu/5o2iIiwgIlB5dGhvbiDlronoo4XvvIjnrKzkuozniYjvvIkiIGluIHQyIGFuZCAiUHl0aG9uIOWuieijhVxuIiBub3QgaW4gdDIpCiAgICAgICAgY2hlY2soIkEg5LqM5qyh5pW055CG5ZCO55So5oi35Yy65LuN5LiN5Y+YIiwgdXNlcl96b25lX2RpZmYodDIsIGJhc2VsaW5lX3VzZXIpIGlzIE5vbmUsCiAgICAgICAgICAgICAgdXNlcl96b25lX2RpZmYodDIsIGJhc2VsaW5lX3VzZXIpKQogICAgICAgIGhpc3QyID0gW2wgZm9yIGwgaW4gdDIuc3BsaXRsaW5lcygpIGlmIGwuc3RhcnRzd2l0aCgiLSBgMjAiKV0KICAgICAgICBjaGVjaygiQyDljoblj7LntK/orqEiLCBsZW4oaGlzdDIpID49IGxlbihoaXN0MSksCiAgICAgICAgICAgICAgIiVyIC0+ICVyIiAlIChoaXN0MSwgaGlzdDIpKQoKICAgICAgICAjIC0tLS0tLS0tLS0gRS4g5qih5Z6L5aSx6LSl5LiN5q+B56i/IC0tLS0tLS0tLS0KICAgICAgICBkZWYgYm9vbSgqYSwgKiprKToKICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCJuZXR3b3JrIGRvd24iKQogICAgICAgIHRpZHlfY2xpLnRpZHkgPSBib29tCiAgICAgICAgc25hcHNob3QgPSBvcGVuKG5vdGVfcGF0aCwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpCiAgICAgICAgbWFzdGVyeV9wYXRoID0gb3MucGF0aC5qb2luKHN0YXRlX2RpciwgIm1hc3RlcnkuanNvbiIpCiAgICAgICAgbWFzdGVyeV9zbmFwc2hvdCA9IG9wZW4obWFzdGVyeV9wYXRoLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKICAgICAgICByYywgb3V0ID0gcnVuX2NsaShbIi0tY291cnNlIiwgIndlc3QyLWYwIiwgIi0td2VzdDIiLCAiLS1kYXRhLWRpciIsIGRhdGFfZGlyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAiLS1hcHBseSJdKQogICAgICAgIGNoZWNrKCJFIOaooeWei+Wksei0pemdnumbtumAgOWHuiIsIHJjICE9IDAsIHJjKQogICAgICAgIGNoZWNrKCJFIOaooeWei+Wksei0pee7meeahOaYr+S6uuivneS4jeaYr+agiCIsICLmlbTnkIblpLHotKUiIGluIG91dCBhbmQgIlRyYWNlYmFjayIgbm90IGluIG91dCwKICAgICAgICAgICAgICBvdXRbLTMwMDpdKQogICAgICAgIGNoZWNrKCJFIOaooeWei+Wksei0peS4jeavgeeovyIsIG9wZW4obm90ZV9wYXRoLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkgPT0gc25hcHNob3QpCiAgICAgICAgY2hlY2soIkUg5qih5Z6L5aSx6LSl5LiN5Yqo5o6M5o+h5bqmIiwKICAgICAgICAgICAgICBvcGVuKG1hc3RlcnlfcGF0aCwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpID09IG1hc3Rlcnlfc25hcHNob3QpCiAgICAgICAgdGlkeV9jbGkudGlkeSA9IGZha2VfdGlkeQoKICAgICAgICAjIC0tLS0tLS0tLS0gRy4g5Zue5ruaIC0tLS0tLS0tLS0KICAgICAgICBzbmFwcyA9IHNvcnRlZChmWzotM10gZm9yIGYgaW4KICAgICAgICAgICAgICAgICAgICAgICBvcy5saXN0ZGlyKG9zLnBhdGguam9pbihzdGF0ZV9kaXIsICJub3RlX3ZlcnNpb25zIiwgbm90ZV9pZCkpCiAgICAgICAgICAgICAgICAgICAgICAgaWYgZi5lbmRzd2l0aCgiLm1kIikpCiAgICAgICAgY2hlY2soIkcg5pyJID49MiDku73lv6vnhaciLCBsZW4oc25hcHMpID49IDIsIHNuYXBzKQogICAgICAgIHRhcmdldCA9IHNuYXBzWzBdCiAgICAgICAgcmMsIG91dCA9IHJ1bl9jbGkoWyItLWNvdXJzZSIsICJ3ZXN0Mi1mMCIsICItLXdlc3QyIiwgIi0tZGF0YS1kaXIiLCBkYXRhX2RpciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIi0tcm9sbGJhY2siLCB0YXJnZXRdKQogICAgICAgIGNoZWNrKCJHIOWbnua7mui/lOWbniAwIiwgcmMgPT0gMCwgb3V0Wy00MDA6XSkKICAgICAgICB0MyA9IG9wZW4obm90ZV9wYXRoLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKICAgICAgICBjaGVjaygiRyDlm57mu5rlkI7nlKjmiLfljLrku43kuI3lj5giLCB1c2VyX3pvbmVfZGlmZih0MywgYmFzZWxpbmVfdXNlcikgaXMgTm9uZSwKICAgICAgICAgICAgICB1c2VyX3pvbmVfZGlmZih0MywgYmFzZWxpbmVfdXNlcikpCiAgICAgICAgY2hlY2soIkcg5Zue5rua5YaZ6L+bIEFJIOWMuiIsICLlt7Llm57mu5rliLAiIGluIHQzIGFuZCB0YXJnZXQgaW4gdDMpCiAgICAgICAgY2hlY2soIkcg5Zue5rua5pyq5aCG5Y+gIiwgdDMuY291bnQoQUlfSEVBRElORykgPT0gMSwKICAgICAgICAgICAgICAiY291bnQ9JWQiICUgdDMuY291bnQoQUlfSEVBRElORykpCiAgICAgICAgY2hlY2soIkcg5Zue5rua5Lmf5Zyo5Y6G5Y+y6YeM55WZ55eVIiwgIuWbnua7miIgaW4gdDMpCgogICAgICAgICMgLS0tLS0tLS0tLSDova/mlbTnkIbvvJrkuI3or6XnorDmjozmj6HluqYgLS0tLS0tLS0tLQogICAgICAgIG1hc3RlcnlfYmVmb3JlID0gb3Blbihvcy5wYXRoLmpvaW4oc3RhdGVfZGlyLCAibWFzdGVyeS5qc29uIiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuY29kaW5nPSJ1dGYtOCIpLnJlYWQoKQogICAgICAgIHJjLCBvdXQgPSBydW5fY2xpKFsiLS1jb3Vyc2UiLCAid2VzdDItZjAiLCAiLS13ZXN0MiIsICItLWRhdGEtZGlyIiwgZGF0YV9kaXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICItLXNvZnQiLCAiLS1hcHBseSJdKQogICAgICAgIGNoZWNrKCJzb2Z0IGFwcGx5IOi/lOWbniAwIiwgcmMgPT0gMCwgb3V0Wy00MDA6XSkKICAgICAgICBjaGVjaygic29mdCDkuI3mlLnmjozmj6HluqYiLAogICAgICAgICAgICAgIG9wZW4ob3MucGF0aC5qb2luKHN0YXRlX2RpciwgIm1hc3RlcnkuanNvbiIpLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKICAgICAgICAgICAgICA9PSBtYXN0ZXJ5X2JlZm9yZSkKICAgICAgICBjaGVjaygic29mdCDlkI7nlKjmiLfljLrku43kuI3lj5jvvIjlj6rliqggQUkg5Yy677yJIiwKICAgICAgICAgICAgICB1c2VyX3pvbmVfZGlmZihvcGVuKG5vdGVfcGF0aCwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhc2VsaW5lX3VzZXIpIGlzIE5vbmUpCgogICAgICAgICMgLS0tLS0tLS0tLSDohJrmiYvmnrbmqKHmnb/kuI3or6XooqvlvZPmiJAi5pyJ5YaF5a65IiAtLS0tLS0tLS0tCiAgICAgICAgc2NhZmZvbGRfaWQgPSBzdHIodXVpZC51dWlkNCgpKQogICAgICAgIHNjYWZmb2xkX3BhdGggPSBvcy5wYXRoLmpvaW4oY2F0ZWdvcnksIGYie3NjYWZmb2xkX2lkfV9GMi3nvZHnu5zniKzomavkuI7mlbDmja7liIbmnpAubWQiKQogICAgICAgIHdpdGggb3BlbihzY2FmZm9sZF9wYXRoLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIsIG5ld2xpbmU9IlxuIikgYXMgZjoKICAgICAgICAgICAgZi53cml0ZSgiIyBGMiDCtyDnvZHnu5zniKzomavkuI7mlbDmja7liIbmnpBcblxuIgogICAgICAgICAgICAgICAgICAgICLvvIjlhpnlrozlkI7ov5DooYzvvJpgcHl0aG9uIHN0dWR5L3Rvb2xzXFxpbnRlcnJvZ2F0ZS5weSAtLWNvdXJzZSB3ZXN0Mi1mMmDvvIlcblxuIgogICAgICAgICAgICAgICAgICAgICsgVVNFUl9IRUFESU5HICsgIlxuXG4iCiAgICAgICAgICAgICAgICAgICAgIiMjIyAxLiDmiJHlrabliLDnmoTvvIjnlKjoh6rlt7HnmoTor53vvIlcblxuIgogICAgICAgICAgICAgICAgICAgICI8IS0tIOS4jeimgeaKhOi1hOaWme+8m+WGmeS9oOecn+ato+eQhuino+S6huS7gOS5iCAtLT5cblxuIgogICAgICAgICAgICAgICAgICAgICIjIyMgMi4g5L2c5Lia6K6w5b2VXG5cbiIKICAgICAgICAgICAgICAgICAgICAiPCEtLSDmr4/pgZPkvZzkuJrvvJrlgZrkuobku4DkuYjjgIHnu5PmnpzlpoLkvZXjgIHljaHlnKjlk6ogLS0+XG4iKQogICAgICAgIGNhbGxzX2JlZm9yZSA9IGNhbGxzWyJuIl0KICAgICAgICByYywgb3V0ID0gcnVuX2NsaShbIi0tY291cnNlIiwgIndlc3QyLWYyIiwgIi0td2VzdDIiLCAiLS1kYXRhLWRpciIsIGRhdGFfZGlyXSkKICAgICAgICBjaGVjaygi6ISa5omL5p625qih5p2/6KKr5ouS77yI6Z2e6Zu26YCA5Ye677yJIiwgcmMgIT0gMCwgcmMpCiAgICAgICAgY2hlY2soIuiEmuaJi+aetuaooeadv+e7meWHuuS6uuivneaPkOekuiIsCiAgICAgICAgICAgICAgIuaooeadv+azqOmHiiIgaW4gb3V0IGFuZCAiVHJhY2ViYWNrIiBub3QgaW4gb3V0LCBvdXRbLTMwMDpdKQogICAgICAgIGNoZWNrKCLohJrmiYvmnrbmqKHmnb/msqHnmb3osIPmqKHlnosiLCBjYWxsc1sibiJdID09IGNhbGxzX2JlZm9yZSwKICAgICAgICAgICAgICAiJWQgLT4gJWQiICUgKGNhbGxzX2JlZm9yZSwgY2FsbHNbIm4iXSkpCiAgICAgICAgY2hlY2soIuiEmuaJi+aetuaooeadv+eahOeslOiusOayoeiiq+aUuSIsCiAgICAgICAgICAgICAgIuS4jeimgeaKhOi1hOaWmSIgaW4gb3BlbihzY2FmZm9sZF9wYXRoLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkpCiAgICBmaW5hbGx5OgogICAgICAgIHRpZHlfY2xpLnRpZHksIHRpZHlfY2xpLkxMTSwgdGlkeV9jbGkuU1RBVEVfRElSID0gb3JpZ190aWR5LCBvcmlnX2xsbSwgb3JpZ19zdGF0ZQogICAgICAgIHNodXRpbC5ybXRyZWUodG1wLCBpZ25vcmVfZXJyb3JzPVRydWUpCgogICAgcHJpbnQoIlxuIiArICI9IiAqIDYyKQogICAgaWYgRkFJTFM6CiAgICAgICAgcHJpbnQoIuWksei0pSAlZCDpobnvvJoiICUgbGVuKEZBSUxTKSkKICAgICAgICBmb3IgZiBpbiBGQUlMUzoKICAgICAgICAgICAgcHJpbnQoIiAgwrcgIiArIGYpCiAgICAgICAgcmV0dXJuIDEKICAgIHByaW50KCLlhajpg6jpgJrov4fvvJrnlKjmiLfljLrpm7bmlLnliqggLyBBSSDljLropoblhpnkuI3loIblj6AgLyDljoblj7Llj6rov73liqAgLyDpooTop4jpm7blia/kvZznlKgiKQogICAgcHJpbnQoIiAgICAgICAgICAvIOaooeWei+Wksei0peS4jeavgeeovyAvIG1ldGFkYXRhIOS4jei2iueVjCAvIOWbnua7muWPr+eUqCIpCiAgICByZXR1cm4gMAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuc3Rkb3V0LnJlY29uZmlndXJlKGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpCiAgICBzeXMuZXhpdChtYWluKCkpCg==
+# -*- coding: utf-8 -*-
+"""一键整理的端到端验证：**驱动真实的 CLI main()**，落到真实临时文件上。
+
+不打模型（patch 掉 tidy 与 LLM），验的是"写文件那一段"到底有没有兑现承诺：
+
+  A. 用户区字节级不变      —— AI 永不改动学习者写的东西
+  B. 重复整理 = 覆写 AI 区  —— 不是一轮一轮堆叠
+  C. 整理历史 append-only
+  D. 预览零副作用           —— 不改笔记 / 不改 mastery.json / 不塞回炉队列
+  E. 模型失败不毁稿
+  F. metadata.json 写进 --data-dir，且不碰真实花笺目录
+  G. --rollback 能回到旧整理稿，用户区仍然不动
+
+运行：python study/integrations\\verify_tidy_apply.py
+"""
+import difflib
+import hashlib
+import io
+import json
+import os
+import shutil
+import sys
+import tempfile
+import uuid
+from contextlib import redirect_stdout
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+STUDY = os.path.dirname(HERE)
+if STUDY not in sys.path:
+    sys.path.insert(0, STUDY)
+
+from notedoctor.tidier import (AI_END, AI_HEADING, AI_START,     # noqa: E402
+                               HISTORY_HEADING, USER_HEADING,
+                               extract_user_notes)
+from tools import tidy as tidy_cli                               # noqa: E402
+
+FAILS = []
+
+
+def check(name, cond, detail=""):
+    print("[%s] %s%s" % ("PASS" if cond else "FAIL", name,
+                         ("  -> " + str(detail)) if detail and not cond else ""))
+    if not cond:
+        FAILS.append(name)
+
+
+def sha(text):
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def user_zone_diff(text, baseline):
+    """返回 None 表示用户区逐字未变；否则给出可读的差异说明。"""
+    got = extract_user_notes(text)
+    if sha(got) == sha(baseline):
+        return None
+    d = list(difflib.unified_diff(baseline.splitlines(), got.splitlines(),
+                                  "整理前", "整理后", lineterm=""))
+    if d:
+        return "\n".join(d[:24])
+    return "仅空白差异：before=%r after=%r" % (baseline[-60:], got[-60:])
+
+
+USER_BODY = """### 1. 我学到的（用自己的话）
+
+装的是 3.12.3，必须勾 Add to PATH，不然命令行找不到 python。
+
+```bash
+python -m venv myenv
+myenv\\Scripts\\activate
+```
+
+### 2. 作业记录
+
+crazy-day.md 写完了，Hello World 和洛谷 5 题都过了。
+
+### 3. 踩到的坑
+
+一开始 python 命令不识别，重装勾 PATH 后好了。
+洛谷 P1046 读入的是一整行数字，我当单个整数读了，错两次。
+
+### 4. 待解决
+
+虚拟环境和全局环境什么时候必须分开用？
+"""
+
+NOTE_TEMPLATE = """# F0 · 环境搭建与工程规范
+
+## ⚡ 你的起点
+
+已具备 5/9 个知识点。
+
+## 📋 考核要求
+
+- [ ] `t0-1` 装好 Python 与 IDE 并截图
+- [ ] `t0-2` crazy-day.md 通过 markdownlint
+
+---
+
+{before}{user}
+
+{after}"""
+
+
+def make_note(before="", after=""):
+    return NOTE_TEMPLATE.format(before=before, user=USER_HEADING + "\n\n" + USER_BODY,
+                                after=after).rstrip() + "\n"
+
+
+FEEDBACK = {
+    "system_title": "Python·环境与工程规范",
+    "theme": "Python 安装、venv 与 Git 基础",
+    "preview": ["Python 安装与 PATH", "venv 隔离依赖"],
+    "coverage": [{"id": "K1", "status": "covered", "why": "讲了安装与 PATH"},
+                 {"id": "K2", "status": "partial", "why": "没提 IDE 配置"},
+                 {"id": "K3", "status": "missing", "why": "没提 PEP 8"}],
+    "glossary": [{"term": "虚拟环境", "def": "隔离项目依赖的独立运行环境"},
+                 {"term": "PATH", "def": "系统查找可执行文件的环境变量"},
+                 {"term": "venv", "def": "Python 自带的虚拟环境模块"}],
+    "todo": ["补 IDE 配置"],
+    "errors": [],
+    "uncertain": [],
+    "summary": "主干清楚，工具链要补。",
+}
+
+MARK_V1 = "## 一、Python 安装\n\n- 装了 3.12.3。\n"
+MARK_V2 = "## 一、Python 安装（第二版）\n\n- 装了 3.12.3，并配好了 PATH。\n"
+
+
+def run_cli(argv):
+    """在真实 CLI 上跑一次，捕获 stdout。"""
+    old_argv = sys.argv
+    buf = io.StringIO()
+    sys.argv = ["tidy.py"] + argv
+    try:
+        with redirect_stdout(buf):
+            rc = tidy_cli.main()
+    finally:
+        sys.argv = old_argv
+    return rc, buf.getvalue()
+
+
+def main():
+    tmp = tempfile.mkdtemp(prefix="tidyverify-")
+    data_dir = os.path.join(tmp, "huajian")
+    state_dir = os.path.join(tmp, "state")
+    notes_dir = os.path.join(data_dir, "notes")
+    category = os.path.join(notes_dir, "Python")
+    os.makedirs(category, exist_ok=True)
+
+    # 站在"别的笔记也要保住"的立场上，先放一篇无关笔记进索引
+    other_id = str(uuid.uuid4())
+    with open(os.path.join(category, f"{other_id}_别的课.md"), "w",
+              encoding="utf-8") as f:
+        f.write("# 别的课\n\n别人的笔记\n")
+    with open(os.path.join(data_dir, "metadata.json"), "w", encoding="utf-8") as f:
+        json.dump({"notes": [{"id": other_id, "title": "别的课", "fileName":
+                              f"{other_id}_别的课.md", "category": "Python"}]},
+                  f, ensure_ascii=False, indent=2)
+
+    note_id = str(uuid.uuid4())
+    note_path = os.path.join(category, f"{note_id}_F0-环境搭建与工程规范.md")
+    pristine = make_note()
+    with open(note_path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(pristine)
+    # 基准取自"同一函数在未动过的笔记上的输出"——整理后必须逐字相同。
+    # （extract_user_notes 会 strip 首尾空行，所以不能直接拿 USER_BODY 比。）
+    baseline_user = extract_user_notes(pristine)
+    user_sha = sha(baseline_user)
+    check("基准提取未丢正文", baseline_user.strip("\n") == USER_BODY.strip("\n"))
+
+    real_data_dir = tidy_cli.discover()["data_dir"]
+    real_meta = os.path.join(real_data_dir, "metadata.json")
+    real_meta_before = (sha(open(real_meta, encoding="utf-8").read())
+                        if os.path.isfile(real_meta) else None)
+
+    calls = {"n": 0}
+
+    def fake_tidy(llm, curriculum, note_text):
+        calls["n"] += 1
+        return {"markdown": MARK_V1 if calls["n"] == 1 else MARK_V2,
+                "feedback": FEEDBACK, "notes_used": extract_user_notes(note_text)}
+
+    orig_tidy, orig_llm, orig_state = tidy_cli.tidy, tidy_cli.LLM, tidy_cli.STATE_DIR
+    tidy_cli.tidy, tidy_cli.LLM, tidy_cli.STATE_DIR = fake_tidy, (lambda *a, **k: None), state_dir
+    try:
+        # ---------- D. 预览零副作用 ----------
+        rc, out = run_cli(["--course", "west2-f0", "--west2", "--data-dir", data_dir])
+        check("D 预览返回 0", rc == 0, out[-400:])
+        check("D 预览未写笔记", open(note_path, encoding="utf-8").read() == pristine)
+        check("D 预览未建快照目录",
+              not os.path.isdir(os.path.join(state_dir, "note_versions")),
+              os.listdir(state_dir) if os.path.isdir(state_dir) else "no state dir")
+        check("D 预览未写 mastery.json",
+              not os.path.isfile(os.path.join(state_dir, "mastery.json")))
+        check("D 预览未写 findings",
+              not os.path.isdir(os.path.join(state_dir, "findings")))
+        check("D 预览未写 events",
+              not os.path.isfile(os.path.join(state_dir, "events.jsonl")))
+        check("D 预览仍显示 note 维度", "note 维度" in out)
+        check("D 预览提示零副作用", "掌握度" in out and "没有改动" in out)
+
+        # ---------- A/B/C/F. 第一次 apply ----------
+        rc, out = run_cli(["--course", "west2-f0", "--west2", "--data-dir", data_dir,
+                           "--apply"])
+        check("apply 返回 0", rc == 0, out[-600:])
+        t1 = open(note_path, encoding="utf-8").read()
+
+        check("A 用户区字节级不变", user_zone_diff(t1, baseline_user) is None,
+              user_zone_diff(t1, baseline_user))
+        check("A 笔记含 v1 整理稿", "Python 安装" in t1)
+        check("B AI 标题只 1 个", t1.count(AI_HEADING) == 1,
+              "count=%d" % t1.count(AI_HEADING))
+        check("B AI 标记成对", t1.count(AI_START) == 1 and t1.count(AI_END) == 1)
+        check("C 历史 1 行", t1.count(HISTORY_HEADING) == 1)
+        hist1 = [l for l in t1.splitlines() if l.startswith("- `20")]
+        check("C 历史有 1 条记录", len(hist1) == 1, hist1)
+
+        # F. metadata 落在 --data-dir，真实花笺目录未被碰
+        meta = json.load(open(os.path.join(data_dir, "metadata.json"), encoding="utf-8"))
+        ids = [n["id"] for n in meta["notes"]]
+        check("F 新笔记进索引", note_id in ids, ids)
+        check("F 旧笔记未丢", other_id in ids, ids)
+        check("F 标题取自文件名", next(n["title"] for n in meta["notes"]
+                                       if n["id"] == note_id).startswith("F0-"),
+              [n["title"] for n in meta["notes"]])
+        real_meta_after = (sha(open(real_meta, encoding="utf-8").read())
+                           if os.path.isfile(real_meta) else None)
+        check("F 真实花笺 metadata 未被改动", real_meta_before == real_meta_after,
+              "real dir touched: %s" % real_data_dir)
+
+        # ---------- 掌握度反馈落地 ----------
+        check("反馈写 findings",
+              os.path.isfile(os.path.join(state_dir, "findings", "west2-f0-tidy.json")))
+        mastery = json.load(open(os.path.join(state_dir, "mastery.json"), encoding="utf-8"))
+        check("反馈入 mastery.lessons",
+              "west2-f0" in mastery.get("lessons", {}),
+              list(mastery.get("lessons", {})))
+        check("note 维度已写入",
+              mastery["lessons"]["west2-f0"]["dims"].get("note", 0) > 0,
+              mastery["lessons"]["west2-f0"]["dims"])
+        check("缺口进 atoms",
+              set(mastery["atoms"]) == {"west2-f0:K2", "west2-f0:K3"},
+              list(mastery["atoms"]))
+        check("已覆盖的不进队列", "west2-f0:K1" not in mastery["atoms"])
+        events = open(os.path.join(state_dir, "events.jsonl"), encoding="utf-8").read()
+        check("事件流有 note_review", "note_review" in events, events[-200:])
+
+        # ---------- B/C/A. 第二次 apply ----------
+        rc, out = run_cli(["--course", "west2-f0", "--west2", "--data-dir", data_dir,
+                           "--apply"])
+        check("二次 apply 返回 0", rc == 0, out[-600:])
+        t2 = open(note_path, encoding="utf-8").read()
+        check("B 二次整理未堆叠（AI 标题仍 1）", t2.count(AI_HEADING) == 1,
+              "count=%d" % t2.count(AI_HEADING))
+        check("B 二次整理未堆叠（标记仍 1 对）",
+              t2.count(AI_START) == 1 and t2.count(AI_END) == 1)
+        check("B 旧整理稿被替换", "Python 安装（第二版）" in t2 and "Python 安装\n" not in t2)
+        check("A 二次整理后用户区仍不变", user_zone_diff(t2, baseline_user) is None,
+              user_zone_diff(t2, baseline_user))
+        hist2 = [l for l in t2.splitlines() if l.startswith("- `20")]
+        check("C 历史累计", len(hist2) >= len(hist1),
+              "%r -> %r" % (hist1, hist2))
+
+        # ---------- E. 模型失败不毁稿 ----------
+        def boom(*a, **k):
+            raise RuntimeError("network down")
+        tidy_cli.tidy = boom
+        snapshot = open(note_path, encoding="utf-8").read()
+        mastery_path = os.path.join(state_dir, "mastery.json")
+        mastery_snapshot = open(mastery_path, encoding="utf-8").read()
+        rc, out = run_cli(["--course", "west2-f0", "--west2", "--data-dir", data_dir,
+                           "--apply"])
+        check("E 模型失败非零退出", rc != 0, rc)
+        check("E 模型失败给的是人话不是栈", "整理失败" in out and "Traceback" not in out,
+              out[-300:])
+        check("E 模型失败不毁稿", open(note_path, encoding="utf-8").read() == snapshot)
+        check("E 模型失败不动掌握度",
+              open(mastery_path, encoding="utf-8").read() == mastery_snapshot)
+        tidy_cli.tidy = fake_tidy
+
+        # ---------- G. 回滚 ----------
+        snaps = sorted(f[:-3] for f in
+                       os.listdir(os.path.join(state_dir, "note_versions", note_id))
+                       if f.endswith(".md"))
+        check("G 有 >=2 份快照", len(snaps) >= 2, snaps)
+        target = snaps[0]
+        rc, out = run_cli(["--course", "west2-f0", "--west2", "--data-dir", data_dir,
+                           "--rollback", target])
+        check("G 回滚返回 0", rc == 0, out[-400:])
+        t3 = open(note_path, encoding="utf-8").read()
+        check("G 回滚后用户区仍不变", user_zone_diff(t3, baseline_user) is None,
+              user_zone_diff(t3, baseline_user))
+        check("G 回滚写进 AI 区", "已回滚到" in t3 and target in t3)
+        check("G 回滚未堆叠", t3.count(AI_HEADING) == 1,
+              "count=%d" % t3.count(AI_HEADING))
+        check("G 回滚也在历史里留痕", "回滚" in t3)
+
+        # ---------- 软整理：不该碰掌握度 ----------
+        mastery_before = open(os.path.join(state_dir, "mastery.json"),
+                              encoding="utf-8").read()
+        rc, out = run_cli(["--course", "west2-f0", "--west2", "--data-dir", data_dir,
+                           "--soft", "--apply"])
+        check("soft apply 返回 0", rc == 0, out[-400:])
+        check("soft 不改掌握度",
+              open(os.path.join(state_dir, "mastery.json"), encoding="utf-8").read()
+              == mastery_before)
+        check("soft 后用户区仍不变（只动 AI 区）",
+              user_zone_diff(open(note_path, encoding="utf-8").read(),
+                             baseline_user) is None)
+
+        # ---------- 脚手架模板不该被当成"有内容" ----------
+        scaffold_id = str(uuid.uuid4())
+        scaffold_path = os.path.join(category, f"{scaffold_id}_F2-网络爬虫与数据分析.md")
+        with open(scaffold_path, "w", encoding="utf-8", newline="\n") as f:
+            f.write("# F2 · 网络爬虫与数据分析\n\n"
+                    "（写完后运行：`python study/tools\\interrogate.py --course west2-f2`）\n\n"
+                    + USER_HEADING + "\n\n"
+                    "### 1. 我学到的（用自己的话）\n\n"
+                    "<!-- 不要抄资料；写你真正理解了什么 -->\n\n"
+                    "### 2. 作业记录\n\n"
+                    "<!-- 每道作业：做了什么、结果如何、卡在哪 -->\n")
+        calls_before = calls["n"]
+        rc, out = run_cli(["--course", "west2-f2", "--west2", "--data-dir", data_dir])
+        check("脚手架模板被拒（非零退出）", rc != 0, rc)
+        check("脚手架模板给出人话提示",
+              "模板注释" in out and "Traceback" not in out, out[-300:])
+        check("脚手架模板没白调模型", calls["n"] == calls_before,
+              "%d -> %d" % (calls_before, calls["n"]))
+        check("脚手架模板的笔记没被改",
+              "不要抄资料" in open(scaffold_path, encoding="utf-8").read())
+    finally:
+        tidy_cli.tidy, tidy_cli.LLM, tidy_cli.STATE_DIR = orig_tidy, orig_llm, orig_state
+        shutil.rmtree(tmp, ignore_errors=True)
+
+    print("\n" + "=" * 62)
+    if FAILS:
+        print("失败 %d 项：" % len(FAILS))
+        for f in FAILS:
+            print("  · " + f)
+        return 1
+    print("全部通过：用户区零改动 / AI 区覆写不堆叠 / 历史只追加 / 预览零副作用")
+    print("          / 模型失败不毁稿 / metadata 不越界 / 回滚可用")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.exit(main())

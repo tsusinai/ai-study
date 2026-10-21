@@ -1,1 +1,498 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uIC11CiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIuaKiuiAgSA5IOivvu+8iHB5LWFnZW50LTAxLi4wOe+8ieaMieilv+S6jOiAg+aguOWGheWuueihpem9kOOAggoK5Li65LuA5LmI6KaB5pyJ6L+Z5Liq6ISa5pys77yM6ICM5LiN5piv5omL5pS5IDkg5LiqIEpTT07vvJoKICAxLiAqKuWPqui/veWKoOS4jeaUueWPtyoq5piv56Gs57qm5p2f77yIbWFzdGVyeS5qc29uIOeahCBgcHktYWdlbnQtMFg6SypgIOWOn+WtkOWFqOaMh+edgOiAgSBpZO+8ie+8jAogICAgIOaJi+aUueW+iOWuueaYk+S4jeWwj+W/g+mHjeaOkuaIluaUueWPt++8jOiEmuacrOWPr+S7pemAkOadoeWvueavlOW8uuWItuWug+OAggogIDIuICoq5q+P5Liq6KW/5LqM55+l6K+G54K55b+F6aG75pyJ5b2S5a6/KirvvIhtYXBwZWQg5oiWIGV4Y2x1ZGVk77yM5LqM6YCJ5LiA77yJ44CC5omL5YaZ5rKh5Lq65p+l77yMCiAgICAg5LqO5piv44CM5LiA6Zeo6K++55qE5YaF5a655oKE5oKE5rKh5Lq6566h44CN6L+Z56eN5LqL5Y+R55Sf6L+H4oCU4oCUNiDpl6jnqbrlo7Por77lsLHmmK/ov5nkuYjmnaXnmoTjgIIKICAzLiBuYW1lIC8ga2V5d29yZHMgLyBsZXZlbCDkuIDlvovku47opb/kuozntKLlvJUqKuWOn+agt+WPlioq77yM5LiN6Ieq5pKw77yM6YG/5YWNIGtleXdvcmRzIOWGmeWdjwogICAgIOWvvOiHtOimhueblueOh+aBkiAwIOaIluaBkiAx77yIa2V5d29yZHMg5piv56Gu5a6a5oCn6KaG55uW5Yik5a6a55qE5ZSv5LiA5L6d5o2u77yJ44CCCgrnlKjms5XvvJoKICAgIHB5dGhvbiBzdHVkeS9zeXN0ZW1cXG1lcmdlX3B5OS5weSAgICAgICAgICAgICAgIyDpooTop4jvvIjkuI3lhpnnm5jvvIkKICAgIHB5dGhvbiBzdHVkeS9zeXN0ZW1cXG1lcmdlX3B5OS5weSAtLXdyaXRlICAgICAgIyDlhpkgc3R1ZHkvY3VycmljdWx1bS8qLmpzb27vvIjlhYjlpIfku73vvIkKICAgIHB5dGhvbiBzdHVkeS9zeXN0ZW1cXG1lcmdlX3B5OS5weSAtLWNoZWNrICAgICAgIyDlj6rlgZrmoKHpqozvvIzkuI3kuqflh7oKIiIiCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgc2h1dGlsCmltcG9ydCBzeXMKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKCnRyeToKICAgIHN5cy5zdGRvdXQucmVjb25maWd1cmUoZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJyZXBsYWNlIikKZXhjZXB0IEV4Y2VwdGlvbjogICMgbm9xYTogQkxFMDAxCiAgICBwYXNzCgpCQVNFID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpICAgICAgICAgICMgc3R1ZHkvc3lzdGVtClNUVURZID0gb3MucGF0aC5kaXJuYW1lKEJBU0UpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBzdHVkeQpCUklER0VfRElSID0gb3MucGF0aC5qb2luKEJBU0UsICJicmlkZ2UiKQpTWVNURU1fUEFUSCA9IG9zLnBhdGguam9pbihCQVNFLCAid2VzdDItYWktMjAyNi5qc29uIikKUk9VVEVfUEFUSCA9IG9zLnBhdGguam9pbihTVFVEWSwgInJvdXRlLmpzb24iKQpDVVJSSUNVTFVNX0RJUiA9IG9zLnBhdGguam9pbihTVFVEWSwgImN1cnJpY3VsdW0iKQpBUkNISVZFX0RJUiA9IG9zLnBhdGguam9pbihTVFVEWSwgImFyY2hpdmUiKQoKTkVXX0NPVVJTRVMgPSBbInB5LWFnZW50LTA0IiwgInB5LWFnZW50LTA1IiwgInB5LWFnZW50LTA2IiwKICAgICAgICAgICAgICAgInB5LWFnZW50LTA3IiwgInB5LWFnZW50LTA4IiwgInB5LWFnZW50LTA5Il0KQVBQRU5EX0NPVVJTRVMgPSBbInB5LWFnZW50LTAxIiwgInB5LWFnZW50LTAzIl0KCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g6L295YWlCgpkZWYgbG9hZF9qc29uKHBhdGgpOgogICAgd2l0aCBvcGVuKHBhdGgsICJyIiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICByZXR1cm4ganNvbi5sb2FkKGYpCgoKZGVmIGxvYWRfYnJpZGdlcygpOgogICAgIiIi6K+7IGJyaWRnZS8qLmpzb27vvIjot7Pov4cgYF9gIOW8gOWktOeahOWPsOi0puaWh+S7tu+8ieOAgiIiIgogICAgb3V0ID0ge30KICAgIGZvciBuYW1lIGluIHNvcnRlZChvcy5saXN0ZGlyKEJSSURHRV9ESVIpKToKICAgICAgICBpZiBub3QgbmFtZS5lbmRzd2l0aCgiLmpzb24iKSBvciBuYW1lLnN0YXJ0c3dpdGgoIl8iKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBkYXRhID0gbG9hZF9qc29uKG9zLnBhdGguam9pbihCUklER0VfRElSLCBuYW1lKSkKICAgICAgICBjaWQgPSBkYXRhLmdldCgiY291cnNlX2lkIikKICAgICAgICBpZiBub3QgY2lkOgogICAgICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KGYi4p2MIHtuYW1lfSDmsqHmnIkgY291cnNlX2lkIikKICAgICAgICBpZiBjaWQgaW4gb3V0OgogICAgICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KGYi4p2MIHtjaWR9IOacieS4pOS7vSBicmlkZ2XvvJp7bmFtZX0iKQogICAgICAgIG91dFtjaWRdID0gZGF0YQogICAgcmV0dXJuIG91dAoKCmRlZiBrbm93bGVkZ2VfaW5kZXgoc3lzdGVtKToKICAgIHJldHVybiB7a1siaWQiXTogayBmb3IgayBpbiBzeXN0ZW1bImtub3dsZWRnZSJdfQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDnn6Xor4bngrnmnaHnm64KCmRlZiBrcF9mcm9tX3NvdXJjZShrcF9pbmRleCwgc3JjX2lkLCBsb2NhbCwgYnJpZGdlX2twKToKICAgICIiIuS7juilv+S6jOe0ouW8leWPliBuYW1lL2tleXdvcmRzL2xldmVs77yM57ud5LiN6Ieq5pKw77yI6Ieq5pKw5Y+q5YWB6K64IGZyb209bnVsbO+8ieOAgiIiIgogICAgaWYgc3JjX2lkIG5vdCBpbiBrcF9pbmRleDoKICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KGYi4p2MIOilv+S6jOe0ouW8lemHjOayoeacieefpeivhueCuSB7c3JjX2lkfe+8iHtsb2NhbH0g5byV55So5a6D77yJIikKICAgIHNyYyA9IGtwX2luZGV4W3NyY19pZF0KICAgIGdyb3VwcyA9IFtsaXN0KGcpIGZvciBnIGluIChzcmMuZ2V0KCJrZXl3b3JkcyIpIG9yIFtdKV0KICAgIGtwID0gewogICAgICAgICJpZCI6IGxvY2FsLAogICAgICAgICJuYW1lIjogc3JjWyJuYW1lIl0sCiAgICAgICAgImxldmVsIjogc3JjLmdldCgibGV2ZWwiLCAibXVzdCIpLAogICAgICAgICJrZXl3b3JkcyI6IGdyb3VwcywKICAgICAgICAicmVxdWlyZXMiOiBicmlkZ2Vfa3AuZ2V0KCJyZXF1aXJlcyIpIG9yIFtdLAogICAgICAgICJjb250cmFzdCI6IGJyaWRnZV9rcC5nZXQoImNvbnRyYXN0Iikgb3IgW10sCiAgICAgICAgImFwcGxpZXNfdG8iOiBicmlkZ2Vfa3AuZ2V0KCJhcHBsaWVzX3RvIikgb3IgW10sCiAgICB9CiAgICAjIOWHuuWkhOeVmeeXle+8muS7peWQjuaDs+efpemBk+i/meS4quefpeivhueCueS7juWTquadpe+8jOS4jeeUqOWOu+e/uyBicmlkZ2UKICAgIGtwWyJzb3VyY2Vfa25vd2xlZGdlIl0gPSBzcmNfaWQKICAgIHJldHVybiBrcAoKCmRlZiBrcF9zZWxmX2F1dGhvcmVkKGxvY2FsLCBicmlkZ2Vfa3ApOgogICAgIiIi5peg5aSW6YOo5p2l5rqQ55qE55+l6K+G54K577ya5b+F6aG76Ieq5bimIG5hbWUvbGV2ZWwva2V5d29yZHPjgIIiIiIKICAgIGZvciBmaWVsZCBpbiAoIm5hbWUiLCAibGV2ZWwiLCAia2V5d29yZHMiKToKICAgICAgICBpZiBub3QgYnJpZGdlX2twLmdldChmaWVsZCk6CiAgICAgICAgICAgIHJhaXNlIFN5c3RlbUV4aXQoZiLinYwg6Ieq5pKw55+l6K+G54K5IHtsb2NhbH0g57y6IHtmaWVsZH0iKQogICAgZ3JvdXBzID0gW2xpc3QoZykgZm9yIGcgaW4gYnJpZGdlX2twWyJrZXl3b3JkcyJdXQogICAgcmV0dXJuIHsKICAgICAgICAiaWQiOiBsb2NhbCwKICAgICAgICAibmFtZSI6IGJyaWRnZV9rcFsibmFtZSJdLAogICAgICAgICJsZXZlbCI6IGJyaWRnZV9rcFsibGV2ZWwiXSwKICAgICAgICAia2V5d29yZHMiOiBncm91cHMsCiAgICAgICAgInJlcXVpcmVzIjogYnJpZGdlX2twLmdldCgicmVxdWlyZXMiKSBvciBbXSwKICAgICAgICAiY29udHJhc3QiOiBicmlkZ2Vfa3AuZ2V0KCJjb250cmFzdCIpIG9yIFtdLAogICAgICAgICJhcHBsaWVzX3RvIjogYnJpZGdlX2twLmdldCgiYXBwbGllc190byIpIG9yIFtdLAogICAgICAgICJzZWxmX2F1dGhvcmVkIjogVHJ1ZSwKICAgIH0KCgpkZWYgYnVpbGRfa25vd2xlZGdlKGtwX2luZGV4LCBicmlkZ2UsIG9mZnNldD0wKToKICAgICIiIm9mZnNldO+8muaWsOW7uuivvuS4uiAw77yb6L+95Yqg5qih5byP5Lyg5bey5pyJ5pyA5aSn57yW5Y+377yM5paw55+l6K+G54K55LuOIG9mZnNldCsxIOaOpeedgOaOkuOAgiIiIgogICAgb3V0ID0gW10KICAgIGZvciBpLCBiayBpbiBlbnVtZXJhdGUoYnJpZGdlWyJrbm93bGVkZ2UiXSwgc3RhcnQ9MSk6CiAgICAgICAgbG9jYWwgPSBiay5nZXQoImxvY2FsIikKICAgICAgICB3YW50ID0gZiJLe29mZnNldCArIGl9IgogICAgICAgIGlmIGxvY2FsICE9IHdhbnQ6CiAgICAgICAgICAgIHJhaXNlIFN5c3RlbUV4aXQoZiLinYwge2JyaWRnZVsnY291cnNlX2lkJ119IOeahCBsb2NhbCDnvJblj7fkuI3ov57nu63vvJoiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZiLnrKwge2l9IOadoeaYryB7bG9jYWwhcn3vvIzlupTkuLoge3dhbnR9IikKICAgICAgICBzcmMgPSBiay5nZXQoImZyb20iKQogICAgICAgIG91dC5hcHBlbmQoa3Bfc2VsZl9hdXRob3JlZChsb2NhbCwgYmspIGlmIG5vdCBzcmMKICAgICAgICAgICAgICAgICAgIGVsc2Uga3BfZnJvbV9zb3VyY2Uoa3BfaW5kZXgsIHNyYywgbG9jYWwsIGJrKSkKICAgIGlmIG5vdCBvdXQ6CiAgICAgICAgcmFpc2UgU3lzdGVtRXhpdChmIuKdjCB7YnJpZGdlWydjb3Vyc2VfaWQnXX0g5rKh5pyJ5Lu75L2V55+l6K+G54K5IikKICAgIGJhZCA9IFtrWyJpZCJdIGZvciBrIGluIG91dCBpZiBub3Qga1sia2V5d29yZHMiXV0KICAgIGlmIGJhZDoKICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KGYi4p2MIHticmlkZ2VbJ2NvdXJzZV9pZCddfSDov5nkupvnn6Xor4bngrnmsqHmnIkga2V5d29yZHPvvIwiCiAgICAgICAgICAgICAgICAgICAgICAgICBmIuawuOi/nOS4jeS8muiiq+WIpOWumuS4uuimhueblu+8mntiYWR9IikKICAgIHJldHVybiBvdXQKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g6K++56iL57uE6KOFCgpkZWYgdW5sb2Nrc19vZihyb3V0ZSwgY2lkKToKICAgIG91dCA9IFtdCiAgICB0aXRsZXMgPSB7Y1siY291cnNlX2lkIl06IGMuZ2V0KCJ0aXRsZSIsIGNbImNvdXJzZV9pZCJdKQogICAgICAgICAgICAgIGZvciBjIGluIHJvdXRlWyJjb3Vyc2VzIl19CiAgICBmb3IgYyBpbiByb3V0ZVsiY291cnNlcyJdOgogICAgICAgIGlmIGNpZCBpbiAoYy5nZXQoInJlcXVpcmVzIikgb3IgW10pOgogICAgICAgICAgICBvdXQuYXBwZW5kKHsiY291cnNlX2lkIjogY1siY291cnNlX2lkIl0sICJuYW1lIjogdGl0bGVzW2NbImNvdXJzZV9pZCJdXX0pCiAgICByZXR1cm4gb3V0CgoKZGVmIHByZXJlcXVpc2l0ZXNfb2Yocm91dGUsIGNpZCk6CiAgICB0aXRsZXMgPSB7Y1siY291cnNlX2lkIl06IGMuZ2V0KCJ0aXRsZSIsIGNbImNvdXJzZV9pZCJdKQogICAgICAgICAgICAgIGZvciBjIGluIHJvdXRlWyJjb3Vyc2VzIl19CiAgICBmb3IgYyBpbiByb3V0ZVsiY291cnNlcyJdOgogICAgICAgIGlmIGNbImNvdXJzZV9pZCJdID09IGNpZDoKICAgICAgICAgICAgcmV0dXJuIFt7ImNvdXJzZV9pZCI6IHIsICJuYW1lIjogdGl0bGVzLmdldChyLCByKSwKICAgICAgICAgICAgICAgICAgICAgInN0YXR1c19oaW50IjogIueUseWbvuWPjeaOqOeahOivvueoi+e6p+ehrOWJjee9riJ9CiAgICAgICAgICAgICAgICAgICAgZm9yIHIgaW4gKGMuZ2V0KCJyZXF1aXJlcyIpIG9yIFtdKV0KICAgIHJhaXNlIFN5c3RlbUV4aXQoZiLinYwgcm91dGUg6YeM5rKh5pyJIHtjaWR9IikKCgpkZWYgcm91dGVfdGl0bGUocm91dGUsIGNpZCk6CiAgICBmb3IgYyBpbiByb3V0ZVsiY291cnNlcyJdOgogICAgICAgIGlmIGNbImNvdXJzZV9pZCJdID09IGNpZDoKICAgICAgICAgICAgcmV0dXJuIGMuZ2V0KCJ0aXRsZSIsIGNpZCkKICAgIHJhaXNlIFN5c3RlbUV4aXQoZiLinYwgcm91dGUg6YeM5rKh5pyJIHtjaWR9IikKCgpkZWYgYnVpbGRfbmV3KHJvdXRlLCBrcF9pbmRleCwgYnJpZGdlKToKICAgIGNpZCA9IGJyaWRnZVsiY291cnNlX2lkIl0KICAgIHJldHVybiB7CiAgICAgICAgImNvdXJzZV9pZCI6IGNpZCwKICAgICAgICAicm91dGUiOiByb3V0ZS5nZXQoInRpdGxlIiwgIiIpLAogICAgICAgICJ0aXRsZSI6IHJvdXRlX3RpdGxlKHJvdXRlLCBjaWQpLAogICAgICAgICJnb2FsIjogYnJpZGdlLmdldCgiZ29hbCIsICIiKSwKICAgICAgICAiZGVjbGFyZXMiOiB7CiAgICAgICAgICAgICJzeXN0ZW1fcG9zaXRpb24iOiBicmlkZ2UuZ2V0KCJzeXN0ZW1fcG9zaXRpb24iLCAiIiksCiAgICAgICAgICAgICJwcmVyZXF1aXNpdGVzIjogcHJlcmVxdWlzaXRlc19vZihyb3V0ZSwgY2lkKSwKICAgICAgICAgICAgInVubG9ja3MiOiB1bmxvY2tzX29mKHJvdXRlLCBjaWQpLAogICAgICAgICAgICAia25vd2xlZGdlIjogYnVpbGRfa25vd2xlZGdlKGtwX2luZGV4LCBicmlkZ2UpLAogICAgICAgIH0sCiAgICAgICAgInRoZW9yeSI6IGJyaWRnZS5nZXQoInRoZW9yeSIpIG9yIFtdLAogICAgICAgICJzZWxmX2NoZWNrIjogYnJpZGdlLmdldCgic2VsZl9jaGVjayIpIG9yIFtdLAogICAgICAgICJ0YXNrcyI6IGJyaWRnZS5nZXQoInRhc2tzIikgb3IgW10sCiAgICAgICAgIm1hdGVyaWFscyI6IGJyaWRnZS5nZXQoIm1hdGVyaWFscyIpIG9yIHsibm90ZSI6ICIiLCAiYXRvbXMiOiBbXX0sCiAgICAgICAgImdhdGUiOiBicmlkZ2UuZ2V0KCJnYXRlIikgb3IgeyJtaW5fbWFzdGVyeSI6IDAuODUsICJtaW5fZWFjaCI6IDAuNiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInJlcXVpcmVfdHJhbnNmZXIiOiBUcnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAibWluX3ByYWN0aWNlX2xpbmVzIjogMTAwfSwKICAgIH0KCgpkZWYgYXBwZW5kX2NvdXJzZShyb3V0ZSwga3BfaW5kZXgsIGJyaWRnZSwgZXhpc3RpbmcpOgogICAgIiIi57uZ5bey5pyJ6K++56iL6L+95Yqg55+l6K+G54K5L+iHquajgOmimC/np43lrZDotYTmlpnvvJoqKuiAgeadoeebrumAkOWtl+S4jeWKqO+8jOaWsOadoeebrumhuuWPt+aOpeWcqOWQjumdouOAgioqCgogICAg5Y+q5Yqg55+l6K+G54K55piv5LiN5aSf55qE77ya5paw55+l6K+G54K56Iul5rKh5pyJ56eN5a2Q6LWE5paZ77yM5a2m5Lmg5bqT5LiO56yU6K6w5L2T5qOA5a+55a6D5Lus5piv56m655qE77ybCiAgICDmsqHmnInoh6rmo4DpopjvvIzpl6jnpoHlsLHmsqHmnInkuJzopb/lj6/pl67jgILmiYDku6XkuInmoLfkuIDotbfmjqXjgIIKCiAgICAqKuW/hemhu+W5guetiSoq77ya5pS55a6MIGJyaWRnZSDlho3ot5HkuIDmrKHopoHog73lkIzmraXvvIzogIzkuI3mmK/miqXjgIznvJblj7fkuI3ov57nu63jgI3miJbogIXlj4jov73liqDkuIDpgY3jgIIKICAgIOWBmuazleaYr+KAlOKAlGJyaWRnZSDnmoQgbG9jYWwg6Iul5bey5a2Y5Zyo5LqO6K++56iL6YeM77yM5bCx6LWw44CM5bCx5Zyw5pu05paw44CN6ICM5LiN5piv6L+95Yqg77ybCiAgICBicmlkZ2Ug5bim5p2l55qE6Ieq5qOA6aKY5LiO6LWE5paZ5LiA5b6L5omTIGBzb3VyY2U6IGJyaWRnZWAg5qCH6K6w77yM6YeN6LeR5pe25YWI5pGY5o6J5pen55qE5YaN5Yqg5paw55qE44CCCiAgICAiIiIKICAgIGNpZCA9IGJyaWRnZVsiY291cnNlX2lkIl0KICAgIG9sZF9rcHMgPSBsaXN0KGV4aXN0aW5nWyJkZWNsYXJlcyJdWyJrbm93bGVkZ2UiXSkKICAgIG9sZF9pZHMgPSBba1siaWQiXSBmb3IgayBpbiBvbGRfa3BzXQogICAgd2FudCA9IFtrWyJsb2NhbCJdIGZvciBrIGluIGJyaWRnZVsia25vd2xlZGdlIl1dCiAgICBhbHJlYWR5ID0gYWxsKHcgaW4gb2xkX2lkcyBmb3IgdyBpbiB3YW50KQogICAgYWRkID0gYnVpbGRfa25vd2xlZGdlKGtwX2luZGV4LCBicmlkZ2UsIG9mZnNldD1icmlkZ2Vfb2Zmc2V0KGNpZCwgYnJpZGdlKSkKCiAgICBtZXJnZWQgPSBqc29uLmxvYWRzKGpzb24uZHVtcHMoZXhpc3RpbmcpKSAgICAgICAgICAjIOa3seaLt+i0ne+8jOS4jeWKqOWFpeWPggogICAgZnJlc2ggPSB7a1siaWQiXTogayBmb3IgayBpbiBhZGR9CiAgICBpZiBhbHJlYWR5OgogICAgICAgIG1lcmdlZFsiZGVjbGFyZXMiXVsia25vd2xlZGdlIl0gPSBbZnJlc2guZ2V0KGtbImlkIl0sIGspIGZvciBrIGluIG9sZF9rcHNdCiAgICBlbHNlOgogICAgICAgIG1lcmdlZFsiZGVjbGFyZXMiXVsia25vd2xlZGdlIl0gPSBvbGRfa3BzICsgYWRkCgogICAgIyDoh6rmo4DpopjvvJrlhYjmkZjmjonkuIrkuIDova7ku44gYnJpZGdlIOW4puadpeeahO+8jOWGjeaMiSBicmlkZ2Ug6YeN5paw5o6lCiAgICBzYyA9IFtxIGZvciBxIGluIChtZXJnZWQuZ2V0KCJzZWxmX2NoZWNrIikgb3IgW10pCiAgICAgICAgICBpZiBxLmdldCgic291cmNlIikgIT0gImJyaWRnZSJdCiAgICBuID0gbGVuKHNjKQogICAgZm9yIGksIHEgaW4gZW51bWVyYXRlKGJyaWRnZS5nZXQoInNlbGZfY2hlY2siKSBvciBbXSwgc3RhcnQ9MSk6CiAgICAgICAgaXRlbSA9IGRpY3QocSkKICAgICAgICBpdGVtWyJpZCJdID0gZiJRe24gKyBpfSIKICAgICAgICBpdGVtWyJzb3VyY2UiXSA9ICJicmlkZ2UiCiAgICAgICAgc2MuYXBwZW5kKGl0ZW0pCiAgICBtZXJnZWRbInNlbGZfY2hlY2siXSA9IHNjCgogICAgbWF0cyA9IGRpY3QobWVyZ2VkLmdldCgibWF0ZXJpYWxzIikgb3IgeyJub3RlIjogIiIsICJhdG9tcyI6IFtdfSkKICAgIGF0b21zID0gW2EgZm9yIGEgaW4gKG1hdHMuZ2V0KCJhdG9tcyIpIG9yIFtdKQogICAgICAgICAgICAgaWYgYS5nZXQoInNvdXJjZSIpICE9ICJicmlkZ2UiXQogICAgbiA9IGxlbihhdG9tcykKICAgIGZvciBpLCBhIGluIGVudW1lcmF0ZSgoYnJpZGdlLmdldCgibWF0ZXJpYWxzIikgb3Ige30pLmdldCgiYXRvbXMiKSBvciBbXSwKICAgICAgICAgICAgICAgICAgICAgICAgICBzdGFydD0xKToKICAgICAgICBpdGVtID0gZGljdChhKQogICAgICAgIGl0ZW1bImlkIl0gPSBmIk17biArIGl9IgogICAgICAgIGl0ZW1bInNvdXJjZSJdID0gImJyaWRnZSIKICAgICAgICBhdG9tcy5hcHBlbmQoaXRlbSkKICAgIG1hdHNbImF0b21zIl0gPSBhdG9tcwogICAgbWVyZ2VkWyJtYXRlcmlhbHMiXSA9IG1hdHMKICAgIHJldHVybiBtZXJnZWQsIG9sZF9pZHMsIGFkZAoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDmoKHpqowKCmRlZiBjaGVja19sZWRnZXIoa3BfaW5kZXgsIGJyaWRnZXMsIHByb2JsZW1zKToKICAgICIiIuavj+S4quilv+S6jOefpeivhueCueW/hemhu+aBsOWlveWHuueOsOWcqCBleGlzdGluZyAvIHBsYW5uZWQgLyBleGNsdWRlZCDkuInogIXkuYvkuIDjgIIiIiIKICAgIGxlZGdlciA9IGxvYWRfanNvbihvcy5wYXRoLmpvaW4oQlJJREdFX0RJUiwgIl9pbmRleC5qc29uIikpCiAgICBleGlzdGluZyA9IHtrOiB2IGZvciBrLCB2IGluIChsZWRnZXIuZ2V0KCJleGlzdGluZyIpIG9yIHt9KS5pdGVtcygpCiAgICAgICAgICAgICAgICBpZiBrICE9ICJjb21tZW50In0KICAgIHBsYW5uZWQgPSB7azogdiBmb3IgaywgdiBpbiAobGVkZ2VyLmdldCgicGxhbm5lZCIpIG9yIHt9KS5pdGVtcygpCiAgICAgICAgICAgICAgIGlmIGsgIT0gImNvbW1lbnQifQogICAgZXhjbHVkZWQgPSB7azogdiBmb3IgaywgdiBpbiAobGVkZ2VyLmdldCgiZXhjbHVkZWQiKSBvciB7fSkuaXRlbXMoKQogICAgICAgICAgICAgICAgaWYgayAhPSAiY29tbWVudCJ9CgogICAgYnVja2V0cyA9IHsiZXhpc3RpbmciOiBzZXQoZXhpc3RpbmcpLCAicGxhbm5lZCI6IHNldChwbGFubmVkKSwKICAgICAgICAgICAgICAgImV4Y2x1ZGVkIjogc2V0KGV4Y2x1ZGVkKX0KICAgIGZvciBhIGluIGJ1Y2tldHM6CiAgICAgICAgZm9yIGIgaW4gYnVja2V0czoKICAgICAgICAgICAgaWYgYSA8IGI6CiAgICAgICAgICAgICAgICBkdXAgPSBzb3J0ZWQoYnVja2V0c1thXSAmIGJ1Y2tldHNbYl0pCiAgICAgICAgICAgICAgICBpZiBkdXA6CiAgICAgICAgICAgICAgICAgICAgcHJvYmxlbXMuYXBwZW5kKGYi5Y+w6LSm6YeMIHthfSDkuI4ge2J9IOmHjeWkjeeZu+iusO+8mntkdXB9IikKCiAgICBhbGxfa3AgPSBzZXQoa3BfaW5kZXgpCiAgICBjb3ZlcmVkID0gc2V0KCkudW5pb24oKmJ1Y2tldHMudmFsdWVzKCkpCiAgICBpZiBhbGxfa3AgLSBjb3ZlcmVkOgogICAgICAgIHByb2JsZW1zLmFwcGVuZChmIui/meS6m+ilv+S6jOefpeivhueCueayoeacieW9kuWuv++8mntzb3J0ZWQoYWxsX2twIC0gY292ZXJlZCl9IikKICAgIGlmIGNvdmVyZWQgLSBhbGxfa3A6CiAgICAgICAgcHJvYmxlbXMuYXBwZW5kKGYi5Y+w6LSm5byV55So5LqG5LiN5a2Y5Zyo55qE6KW/5LqM55+l6K+G54K577yae3NvcnRlZChjb3ZlcmVkIC0gYWxsX2twKX0iKQoKICAgICMgZXhpc3Rpbmcg55qE55uu5qCH5b+F6aG755yf55qE5a2Y5Zyo5LqO5b2T5YmNIGN1cnJpY3VsdW0g6YeM4oCU4oCU6Ziy5q2i5Y+w6LSm5piv57yW55qECiAgICBsaXZlID0ge30KICAgIGZvciBuYW1lIGluIG9zLmxpc3RkaXIoQ1VSUklDVUxVTV9ESVIpOgogICAgICAgIGlmIG5vdCBuYW1lLmVuZHN3aXRoKCIuanNvbiIpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGN1ciA9IGxvYWRfanNvbihvcy5wYXRoLmpvaW4oQ1VSUklDVUxVTV9ESVIsIG5hbWUpKQogICAgICAgIGNpZCA9IGN1ci5nZXQoImNvdXJzZV9pZCIpCiAgICAgICAgZm9yIGsgaW4gKGN1ci5nZXQoImRlY2xhcmVzIikgb3Ige30pLmdldCgia25vd2xlZGdlIikgb3IgW106CiAgICAgICAgICAgIGxpdmVbZiJ7Y2lkfTp7a1snaWQnXX0iXSA9IGsuZ2V0KCJuYW1lIiwgIiIpCiAgICBmb3Igc3JjLCB0YXJnZXQgaW4gZXhpc3RpbmcuaXRlbXMoKToKICAgICAgICB0YXJnZXRzID0gdGFyZ2V0IGlmIGlzaW5zdGFuY2UodGFyZ2V0LCBsaXN0KSBlbHNlIFt0YXJnZXRdCiAgICAgICAgZm9yIHQgaW4gdGFyZ2V0czoKICAgICAgICAgICAgaWYgdCBub3QgaW4gbGl2ZToKICAgICAgICAgICAgICAgIHByb2JsZW1zLmFwcGVuZChmIuWPsOi0piBleGlzdGluZyDor7Qge3NyY30g4oaSIHt0fe+8jOS9huW9k+WJjeivvueoi+mHjOayoeaciSB7dH0iKQoKICAgICMgcGxhbm5lZCDlv4XpobvkuI4gYnJpZGdlIOWunumZheS6p+WHuuS4gOiHtAogICAgaW5fYnJpZGdlcyA9IF9tYXBwZWRfaW5fYnJpZGdlcyhicmlkZ2VzKQogICAgaWYgaW5fYnJpZGdlcyAhPSBzZXQocGxhbm5lZCk6CiAgICAgICAgcHJvYmxlbXMuYXBwZW5kKAogICAgICAgICAgICBmIuWPsOi0piBwbGFubmVkIOS4jiBicmlkZ2Ug5a6e6ZmF5p2l5rqQ5LiN5LiA6Ie077yaIgogICAgICAgICAgICBmIuWPsOi0puWkmj17c29ydGVkKHNldChwbGFubmVkKSAtIGluX2JyaWRnZXMpfe+9nCIKICAgICAgICAgICAgZiJicmlkZ2Ug5aSaPXtzb3J0ZWQoaW5fYnJpZGdlcyAtIHNldChwbGFubmVkKSl9IikKICAgIGNsYXNoID0gc29ydGVkKHNldChleGNsdWRlZCkgJiBpbl9icmlkZ2VzKQogICAgaWYgY2xhc2g6CiAgICAgICAgcHJvYmxlbXMuYXBwZW5kKGYi6L+Z5Lqb55+l6K+G54K55qCH5LqGIGV4Y2x1ZGVk77yM5Y206KKrIGJyaWRnZSDmjqXotbDkuobvvJp7Y2xhc2h9IikKCiAgICBwbGFubmVkX2FjdHVhbCA9IF9wbGFubmVkX3RhcmdldHMoYnJpZGdlcykKICAgIGZvciBzcmMsIHRhcmdldCBpbiBwbGFubmVkLml0ZW1zKCk6CiAgICAgICAgaWYgdGFyZ2V0IG5vdCBpbiBwbGFubmVkX2FjdHVhbC5nZXQoc3JjLCBbXSk6CiAgICAgICAgICAgIHByb2JsZW1zLmFwcGVuZChmIuWPsOi0puivtCB7c3JjfSDihpIge3RhcmdldH3vvIzkvYYgYnJpZGdlIOmHjOWunumZheiQveWcqCAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmIntwbGFubmVkX2FjdHVhbC5nZXQoc3JjKSBvciAn77yI5rKh5pyJ77yJJ30iKQogICAgcmV0dXJuIGxlZGdlciwgbGVuKGV4aXN0aW5nKSwgbGVuKHBsYW5uZWQpLCBsZW4oZXhjbHVkZWQpCgoKZGVmIGxpdmVfaWRzKGNpZCk6CiAgICAiIiLlvZPliY3or77nqIvlt7LmnInnmoTnn6Xor4bngrkgaWTvvIjmlofku7bkuI3lrZjlnKjml7bov5Tlm57nqbrvvInjgIIiIiIKICAgIHBhdGggPSBvcy5wYXRoLmpvaW4oQ1VSUklDVUxVTV9ESVIsIF9maWxlX29mKGNpZCkpCiAgICBpZiBub3Qgb3MucGF0aC5pc2ZpbGUocGF0aCk6CiAgICAgICAgcmV0dXJuIFtdCiAgICByZXR1cm4gW2tbImlkIl0gZm9yIGsgaW4gbG9hZF9qc29uKHBhdGgpWyJkZWNsYXJlcyJdWyJrbm93bGVkZ2UiXV0KCgpkZWYgYnJpZGdlX29mZnNldChjaWQsIGJyaWRnZSk6CiAgICAiIiJicmlkZ2Ug55qEIGxvY2FsIOe8luWPt+WfuuWHhu+8muaWsOW7uuivvuS4uiAw77yb6L+95Yqg6K++6KaB5LmI5o6l5Zyo5bey5pyJ5LmL5ZCO77yM6KaB5LmI5bey5ZCI5bm26L+H44CCCgogICAgKirnlJ/miJDkuI7moKHpqozlv4XpobvlhbHnlKjov5nkuIDkuKrlh73mlbDjgIIqKiDnrKzkuIDniYjkuKTovrnlkITnrpfkuIDlpZfvvIhgYXBwZW5kX2NvdXJzZWAg55SoCiAgICDjgIzlt7LlkIjlubblsLHlsLHlnLDmm7TmlrDjgI3vvIxgX3BsYW5uZWRfdGFyZ2V0c2Ag55So44CM5oC75piv5o6l5Zyo5bey5pyJ5LmL5ZCO44CN77yJ77yMCiAgICDkuo7mmK/nrKzkuozmrKHov5DooYzml7bmiqXlh7rjgIzlj7DotKbor7QgSzbvvIzlrp7pmYXokL3lnKggSzEx44CN6L+Z56eN5YGH6ZSZ6K+v4oCU4oCU5ZCM5LiA5Lu25LqLCiAgICDnrpfkuKTpgY3vvIzov5/ml6nkvJrmvILnp7vjgIIKICAgICIiIgogICAgaWYgYnJpZGdlLmdldCgibW9kZSIpICE9ICJhcHBlbmQiOgogICAgICAgIHJldHVybiAwCiAgICBsaXZlID0gbGl2ZV9pZHMoY2lkKQogICAgd2FudCA9IFtrWyJsb2NhbCJdIGZvciBrIGluIGJyaWRnZVsia25vd2xlZGdlIl1dCiAgICBpZiB3YW50IGFuZCBhbGwodyBpbiBsaXZlIGZvciB3IGluIHdhbnQpOgogICAgICAgIHJldHVybiBpbnQod2FudFswXVsxOl0pIC0gMSAgICAgICAgICAjIOW3suWQiOW5tui/h++8muWwseWcsOabtOaWsO+8jOS9jee9ruS4jeWPmAogICAgcmV0dXJuIG1heCgoaW50KGlbMTpdKSBmb3IgaSBpbiBsaXZlKSwgZGVmYXVsdD0wKQoKCmRlZiBfcGxhbm5lZF90YXJnZXRzKGJyaWRnZXMpOgogICAgIiIiYnJpZGdlIOeUn+aIkOWQju+8jOavj+S4quilv+S6jOadpea6kOS8muiQveWIsOWTquS6myBweS1hZ2VudDpL44CCIiIiCiAgICBvdXQgPSB7fQogICAgZm9yIGNpZCwgYiBpbiBicmlkZ2VzLml0ZW1zKCk6CiAgICAgICAgb2Zmc2V0ID0gYnJpZGdlX29mZnNldChjaWQsIGIpCiAgICAgICAgZm9yIGksIGsgaW4gZW51bWVyYXRlKGJbImtub3dsZWRnZSJdLCBzdGFydD0xKToKICAgICAgICAgICAgaWYgay5nZXQoImZyb20iKToKICAgICAgICAgICAgICAgIG91dC5zZXRkZWZhdWx0KGtbImZyb20iXSwgW10pLmFwcGVuZChmIntjaWR9Okt7b2Zmc2V0ICsgaX0iKQogICAgcmV0dXJuIG91dAoKCmRlZiBfbWFwcGVkX2luX2JyaWRnZXMoYnJpZGdlcyk6CiAgICByZXR1cm4ge2suZ2V0KCJmcm9tIikgZm9yIGIgaW4gYnJpZGdlcy52YWx1ZXMoKSBmb3IgayBpbiBiWyJrbm93bGVkZ2UiXQogICAgICAgICAgICBpZiBrLmdldCgiZnJvbSIpfQoKCmRlZiBfZXhpc3RpbmdfbWF4KGNpZCk6CiAgICAiIiLov73liqDmqKHlvI/pppbmrKHlkIjlubbml7bnmoTnvJblj7fln7rlh4bvvIg9IOW3suacieacgOWkp+e8luWPt++8ieOAgiIiIgogICAgaWRzID0gbGl2ZV9pZHMoY2lkKQogICAgaWYgbm90IGlkczoKICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KGYi4p2MIHtjaWR9IOagh+S6hiBhcHBlbmTvvIzkvYYge19maWxlX29mKGNpZCl9IOS4jeWtmOWcqOaIluayoeacieefpeivhueCuSIpCiAgICByZXR1cm4gbWF4KGludChpWzE6XSkgZm9yIGkgaW4gaWRzKQoKCmRlZiBfZmlsZV9vZihjaWQpOgogICAgcmV0dXJuIGNpZC5yZXBsYWNlKCItIiwgIl8iKSArICIuanNvbiIKCgpkZWYgY2hlY2tfbm9fcmVudW1iZXJpbmcoY2lkLCBvbGRfaWRzLCBuZXdfa3BzLCBwcm9ibGVtcyk6CiAgICAiIiLogIHnn6Xor4bngrnnmoQgaWQg5b+F6aG76YCQ5Liq5Y6f5qC35L+d55WZ4oCU4oCU5pS55Y+35Lya6K6pIG1hc3Rlcnkg5Y6f5a2Q6ZuG5L2T5aSx6YWN44CCIiIiCiAgICBuZXdfaWRzID0gW2tbImlkIl0gZm9yIGsgaW4gbmV3X2twc10KICAgIGlmIG5ld19pZHNbOmxlbihvbGRfaWRzKV0gIT0gb2xkX2lkczoKICAgICAgICBwcm9ibGVtcy5hcHBlbmQoZiJ7Y2lkfSDogIHnn6Xor4bngrnnmoQgaWQg6KKr5pS55Yqo5LqG77yae29sZF9pZHN9IOKGkiB7bmV3X2lkc30iKQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDkuLvmtYHnqIsKCmRlZiBjaGVja19ncmFwaChyZXN1bHRzLCBwcm9ibGVtcyk6CiAgICAiIiLmiooqKuaWsOe7k+aenCoq5YaZ6L+b5Li05pe255uu5b2V5bu65LiA5qyh5Zu+77yM5qOA5p+l546v44CB56m65aOz6K++5LiO5pyq55+l5byV55So44CCCgogICAg5Y+q5qCh6aqM44CM5a2X5q616b2Q5LiN6b2Q44CN5piv5LiN5aSf55qE77ya5a6e5rWL5Ye6546w6L+HIHB5LWFnZW50LTA5Oks0IOS4jiBLNSDkupLnm7ggcmVxdWlyZXPvvIwKICAgIOWtl+auteWFqOm9kOOAgeWPsOi0puWFqOWvue+8jOS9huWbvumHjOacieeOr+KAlOKAlOmXqOemgeS8muatu+mUge+8jOS4pOmXqOivvuS4gOS4qumDveW8gOS4jeS6huOAggoKICAgIOW/hemhu+WcqOS4tOaXtuebruW9lemHjOeUqCoq5b6F5YaZ5YWl55qE57uT5p6cKirlu7rlm77vvIzkuI3og73or7sgc3R1ZHkvY3VycmljdWx1be+8mgogICAg6K+756OB55uY562J5LqO5qCh6aqM5LiK5LiA6L2u55qE54q25oCB44CC56ys5LiA54mI5bCx5piv6L+Z5LmI6ZSZ55qE4oCU4oCU5a6D5oqK44CM5bey5L+u5aW955qE546v44CN5ZKMCiAgICDjgIzmnKzova7miY3mlrDlop7nmoTot6jor77kvp3otZbjgI3pg73miqXmiJDkuobplJnor6/vvIjliY3ogIXmmK/mrovnlZnvvIzlkI7ogIXlsJrmnKrokL3nm5jvvInjgIIKICAgICIiIgogICAgaW1wb3J0IHRlbXBmaWxlCiAgICBzeXMucGF0aC5pbnNlcnQoMCwgU1RVRFkpCiAgICBmcm9tIGdyYXBoLmJ1aWxkZXIgaW1wb3J0IGJ1aWxkLCBsb2FkX3JvdXRlLCBsb2FkX2N1cnJpY3VsdW1zCgogICAgdG1wID0gdGVtcGZpbGUubWtkdGVtcChwcmVmaXg9Im1lcmdlcHk5LSIpCiAgICB0cnk6CiAgICAgICAgZm9yIG5hbWUgaW4gb3MubGlzdGRpcihDVVJSSUNVTFVNX0RJUik6CiAgICAgICAgICAgIGlmIG5hbWUuZW5kc3dpdGgoIi5qc29uIik6CiAgICAgICAgICAgICAgICBzaHV0aWwuY29weTIob3MucGF0aC5qb2luKENVUlJJQ1VMVU1fRElSLCBuYW1lKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcy5wYXRoLmpvaW4odG1wLCBuYW1lKSkKICAgICAgICBmb3IgY2lkLCBjdXIgaW4gcmVzdWx0cy5pdGVtcygpOgogICAgICAgICAgICB3aXRoIG9wZW4ob3MucGF0aC5qb2luKHRtcCwgX2ZpbGVfb2YoY2lkKSksICJ3IiwKICAgICAgICAgICAgICAgICAgICAgIGVuY29kaW5nPSJ1dGYtOCIsIG5ld2xpbmU9IlxuIikgYXMgZjoKICAgICAgICAgICAgICAgIGpzb24uZHVtcChjdXIsIGYsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpCiAgICAgICAgZ3JhcGggPSBidWlsZChsb2FkX3JvdXRlKFJPVVRFX1BBVEgpLCBsb2FkX2N1cnJpY3VsdW1zKHRtcCkpCiAgICBmaW5hbGx5OgogICAgICAgIHNodXRpbC5ybXRyZWUodG1wLCBpZ25vcmVfZXJyb3JzPVRydWUpCgogICAgYmFkID0gW2kgZm9yIGkgaW4gZ3JhcGhbImlzc3VlcyJdCiAgICAgICAgICAgaWYgaVsia2luZCJdIGluICgiY3ljbGUiLCAibWlzc2luZ19jdXJyaWN1bHVtIikKICAgICAgICAgICBvciBzdHIoaVsia2luZCJdKS5zdGFydHN3aXRoKCJ1bmtub3duIildCiAgICBmb3IgaSBpbiBiYWQ6CiAgICAgICAgcHJvYmxlbXMuYXBwZW5kKGYi5L2T57O75Zu+6Zeu6aKY77yae2l9IikKICAgIHJldHVybiBiYWQKCgpkZWYgbWFpbigpOgogICAgYXJndiA9IHN5cy5hcmd2WzE6XQogICAgcm91dGUgPSBsb2FkX2pzb24oUk9VVEVfUEFUSCkKICAgIHN5c3RlbSA9IGxvYWRfanNvbihTWVNURU1fUEFUSCkKICAgIGtwX2luZGV4ID0ga25vd2xlZGdlX2luZGV4KHN5c3RlbSkKICAgIGJyaWRnZXMgPSBsb2FkX2JyaWRnZXMoKQogICAgcHJvYmxlbXMgPSBbXQoKICAgICMgMS4gYnJpZGdlIOimhuebluS6huWTquS6m+ivvgogICAgd2FudCA9IHNldChORVdfQ09VUlNFUykgfCBzZXQoQVBQRU5EX0NPVVJTRVMpCiAgICBoYXZlID0gc2V0KGJyaWRnZXMpCiAgICBpZiB3YW50IC0gaGF2ZToKICAgICAgICBwcm9ibGVtcy5hcHBlbmQoZiLov5nkupvor77ov5jmsqHmnIkgYnJpZGdl77yae3NvcnRlZCh3YW50IC0gaGF2ZSl9IikKICAgIGlmIGhhdmUgLSB3YW50OgogICAgICAgIHByb2JsZW1zLmFwcGVuZChmIuWkmuS6huS4jeivpeacieeahCBicmlkZ2XvvJp7c29ydGVkKGhhdmUgLSB3YW50KX0iKQoKICAgICMgMi4g5Y+w6LSm5a6M5pW05oCnCiAgICBsZWRnZXIsIG5fZXhpc3RpbmcsIG5fcGxhbm5lZCwgbl9leGNsdWRlZCA9IGNoZWNrX2xlZGdlcihrcF9pbmRleCwgYnJpZGdlcywgcHJvYmxlbXMpCgogICAgIyAzLiDnu4Too4UKICAgIHJlc3VsdHMsIGtlZXBzID0ge30sIHt9CiAgICBmb3IgY2lkIGluIE5FV19DT1VSU0VTOgogICAgICAgIGlmIGNpZCBpbiBicmlkZ2VzOgogICAgICAgICAgICByZXN1bHRzW2NpZF0gPSBidWlsZF9uZXcocm91dGUsIGtwX2luZGV4LCBicmlkZ2VzW2NpZF0pCiAgICBmb3IgY2lkIGluIEFQUEVORF9DT1VSU0VTOgogICAgICAgIGlmIGNpZCBpbiBicmlkZ2VzOgogICAgICAgICAgICBwYXRoID0gb3MucGF0aC5qb2luKENVUlJJQ1VMVU1fRElSLCBfZmlsZV9vZihjaWQpKQogICAgICAgICAgICBleGlzdGluZyA9IGxvYWRfanNvbihwYXRoKQogICAgICAgICAgICBtZXJnZWQsIG9sZF9pZHMsIGFkZCA9IGFwcGVuZF9jb3Vyc2UoCiAgICAgICAgICAgICAgICByb3V0ZSwga3BfaW5kZXgsIGJyaWRnZXNbY2lkXSwgZXhpc3RpbmcpCiAgICAgICAgICAgIGZvciBrIGluIGV4aXN0aW5nWyJkZWNsYXJlcyJdWyJrbm93bGVkZ2UiXToKICAgICAgICAgICAgICAgIGtlZXBzW2tbImlkIl1dID0gawogICAgICAgICAgICBjaGVja19ub19yZW51bWJlcmluZyhjaWQsIG9sZF9pZHMsIG1lcmdlZFsiZGVjbGFyZXMiXVsia25vd2xlZGdlIl0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb2JsZW1zKQogICAgICAgICAgICByZXN1bHRzW2NpZF0gPSBtZXJnZWQKCiAgICAjIDQuIOeUn+aIkOWQjueahOiHquajgAogICAgZm9yIGNpZCwgY3VyIGluIHJlc3VsdHMuaXRlbXMoKToKICAgICAgICBrcHMgPSBjdXJbImRlY2xhcmVzIl1bImtub3dsZWRnZSJdCiAgICAgICAgbXVzdCA9IFtrIGZvciBrIGluIGtwcyBpZiBrLmdldCgibGV2ZWwiKSA9PSAibXVzdCJdCiAgICAgICAgaWYgbm90IG11c3Q6CiAgICAgICAgICAgIHByb2JsZW1zLmFwcGVuZChmIntjaWR9IOS4gOS4quW/heS8muefpeivhueCuemDveayoeacieKAlOKAlOmXqOemgeS8muawuOi/nOaUvuihjCIpCiAgICAgICAgZm9yIGsgaW4ga3BzOgogICAgICAgICAgICBpZiBub3Qgay5nZXQoImtleXdvcmRzIik6CiAgICAgICAgICAgICAgICBwcm9ibGVtcy5hcHBlbmQoZiJ7Y2lkfTp7a1snaWQnXX0g5rKh5pyJIGtleXdvcmRzIikKICAgICAgICBpZiBub3QgY3VyLmdldCgic2VsZl9jaGVjayIpOgogICAgICAgICAgICBwcm9ibGVtcy5hcHBlbmQoZiJ7Y2lkfSDmsqHmnInoh6rmo4DpopgiKQogICAgICAgIGlmIG5vdCBjdXIuZ2V0KCJ0YXNrcyIpOgogICAgICAgICAgICBwcm9ibGVtcy5hcHBlbmQoZiJ7Y2lkfSDmsqHmnInku7vliqEiKQogICAgICAgIG4zID0gW3EuZ2V0KCJpZCIpIGZvciBxIGluIGN1clsic2VsZl9jaGVjayJdIGlmIGxlbihxLmdldCgicG9pbnRzIikgb3IgW10pICE9IDNdCiAgICAgICAgaWYgbjM6CiAgICAgICAgICAgIHByb2JsZW1zLmFwcGVuZChmIntjaWR9IOi/meS6m+iHquajgOmimOS4jeaYryAzIOS4qumHh+WIhueCue+8mntuM30iKQoKICAgIHByaW50KGYi5YaF5a655p2l5rqQ77ya6KW/5LqMIHtsZW4oa3BfaW5kZXgpfSDkuKrnn6Xor4bngrkg4oaSICIKICAgICAgICAgIGYi6ICB6K++5bey6KaG55uWIHtuX2V4aXN0aW5nfe+9nOaWsOWiniB7bl9wbGFubmVkfe+9nOaOkumZpCB7bl9leGNsdWRlZH0iKQogICAgcHJpbnQoZiJicmlkZ2XvvJp7bGVuKGJyaWRnZXMpfSDku73vvIjmlrDlu7oge2xlbihORVdfQ09VUlNFUyl9772c6L+95YqgIHtsZW4oQVBQRU5EX0NPVVJTRVMpfe+8iSIpCiAgICBmb3IgY2lkIGluIHNvcnRlZChyZXN1bHRzKToKICAgICAgICBrcHMgPSByZXN1bHRzW2NpZF1bImRlY2xhcmVzIl1bImtub3dsZWRnZSJdCiAgICAgICAgbW9kZSA9ICLov73liqAiIGlmIGNpZCBpbiBBUFBFTkRfQ09VUlNFUyBlbHNlICLmlrDlu7oiCiAgICAgICAgcHJpbnQoZiIgIHtjaWR9ICB7bW9kZX0gIOefpeivhueCuSB7bGVuKGtwcyl9ICAiCiAgICAgICAgICAgICAgZiJzZWxmX2NoZWNrIHtsZW4ocmVzdWx0c1tjaWRdWydzZWxmX2NoZWNrJ10pfSAgIgogICAgICAgICAgICAgIGYidGFza3Mge2xlbihyZXN1bHRzW2NpZF1bJ3Rhc2tzJ10pfSIpCgogICAgaWYgcHJvYmxlbXM6CiAgICAgICAgcHJpbnQoIlxu4p2MIOagoemqjOacqumAmui/h++8miIpCiAgICAgICAgZm9yIHAgaW4gcHJvYmxlbXM6CiAgICAgICAgICAgIHByaW50KCIgICDCtyAiICsgcCkKICAgICAgICByZXR1cm4gMQoKICAgICMgNS4g5bu65Zu+6Ieq5qOA77ya5LiN6IO95pyJ546v44CB5LiN6IO95pyJ56m65aOz6K++44CB5LiN6IO95pyJ5pyq55+l5byV55SoCiAgICAjICAgIOWPquagoemqjOOAjOWtl+autem9kOS4jem9kOOAjeaYr+S4jeWkn+eahOKAlOKAlOWunua1i+WHuueOsOi/hyBweS1hZ2VudC0wOTpLNCDihpQgSzUg5LqS55u4IHJlcXVpcmVz77yMCiAgICAjICAgIOWtl+auteWFqOm9kOS9huWbvumHjOacieeOr++8jOmXqOemgeS8muatu+mUge+8iOWTquS4gOmXqOmDveW8gOS4jeS6hu+8ieOAgueUn+aIkOmYtuauteWwseW/hemhu+aLpuS9j+OAggogICAgZ3JhcGhfcHJvYmxlbXMgPSBjaGVja19ncmFwaChyZXN1bHRzLCBwcm9ibGVtcykKICAgIGlmIGdyYXBoX3Byb2JsZW1zOgogICAgICAgIHByaW50KCJcbuKdjCDlu7rlm77moKHpqozmnKrpgJrov4fvvJoiKQogICAgICAgIGZvciBwIGluIHByb2JsZW1zOgogICAgICAgICAgICBwcmludCgiICAgwrcgIiArIHApCiAgICAgICAgcmV0dXJuIDEKCiAgICBwcmludCgiXG7inIUg5qCh6aqM6YCa6L+H77ya5Y+w6LSm5peg5ryP6aG544CB6ICBIGlkIOacquaUueWPt+OAgWtleXdvcmRzL+iHquajgC/ku7vliqHpvZDlhajjgIHkvZPns7vlm77ml6Dnjq8iKQoKICAgIGlmICItLWNoZWNrIiBpbiBhcmd2OgogICAgICAgIHJldHVybiAwCiAgICBpZiAiLS13cml0ZSIgbm90IGluIGFyZ3Y6CiAgICAgICAgcHJpbnQoIlxu77yI6aKE6KeI5qih5byP77yM5pyq5YaZ55uY44CC5YqgIC0td3JpdGUg6JC955uY77yM5Lya5YWI5aSH5Lu95YiwIHN0dWR5L2FyY2hpdmUv77yJIikKICAgICAgICByZXR1cm4gMAoKICAgIHN0YW1wID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZJW0lZC0lSCVNJVMiKQogICAgYmFja3VwID0gb3MucGF0aC5qb2luKEFSQ0hJVkVfRElSLCBmImN1cnJpY3VsdW0te3N0YW1wfSIpCiAgICBvcy5tYWtlZGlycyhiYWNrdXAsIGV4aXN0X29rPVRydWUpCiAgICBmb3IgY2lkIGluIHJlc3VsdHM6CiAgICAgICAgc3JjID0gb3MucGF0aC5qb2luKENVUlJJQ1VMVU1fRElSLCBfZmlsZV9vZihjaWQpKQogICAgICAgIGlmIG9zLnBhdGguaXNmaWxlKHNyYyk6CiAgICAgICAgICAgIHNodXRpbC5jb3B5MihzcmMsIG9zLnBhdGguam9pbihiYWNrdXAsIF9maWxlX29mKGNpZCkpKQogICAgZm9yIGNpZCwgY3VyIGluIHJlc3VsdHMuaXRlbXMoKToKICAgICAgICBkc3QgPSBvcy5wYXRoLmpvaW4oQ1VSUklDVUxVTV9ESVIsIF9maWxlX29mKGNpZCkpCiAgICAgICAgd2l0aCBvcGVuKGRzdCwgInciLCBlbmNvZGluZz0idXRmLTgiLCBuZXdsaW5lPSJcbiIpIGFzIGY6CiAgICAgICAgICAgIGpzb24uZHVtcChjdXIsIGYsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpCiAgICAgICAgICAgIGYud3JpdGUoIlxuIikKICAgICAgICBwcmludChmIiAg5YaZ5YWlIHtkc3R9IikKICAgIHByaW50KGYiXG7inIUg5bey5YaZ55uY44CC5pen5paH5Lu25aSH5Lu95ZyoIHtiYWNrdXB9IikKICAgIHJldHVybiAwCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5leGl0KG1haW4oKSkK
+#!/usr/bin/env python -u
+# -*- coding: utf-8 -*-
+"""把老 9 课（py-agent-01..09）按西二考核内容补齐。
+
+为什么要有这个脚本，而不是手改 9 个 JSON：
+  1. **只追加不改号**是硬约束（mastery.json 的 `py-agent-0X:K*` 原子全指着老 id），
+     手改很容易不小心重排或改号，脚本可以逐条对比强制它。
+  2. **每个西二知识点必须有归宿**（mapped 或 excluded，二选一）。手写没人查，
+     于是「一门课的内容悄悄没人管」这种事发生过——6 门空壳课就是这么来的。
+  3. name / keywords / level 一律从西二索引**原样取**，不自撰，避免 keywords 写坏
+     导致覆盖率恒 0 或恒 1（keywords 是确定性覆盖判定的唯一依据）。
+
+用法：
+    python study/system\\merge_py9.py              # 预览（不写盘）
+    python study/system\\merge_py9.py --write      # 写 study/curriculum/*.json（先备份）
+    python study/system\\merge_py9.py --check      # 只做校验，不产出
+"""
+import json
+import os
+import shutil
+import sys
+from datetime import datetime
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:  # noqa: BLE001
+    pass
+
+BASE = os.path.dirname(os.path.abspath(__file__))          # study/system
+STUDY = os.path.dirname(BASE)                              # study
+BRIDGE_DIR = os.path.join(BASE, "bridge")
+SYSTEM_PATH = os.path.join(BASE, "west2-ai-2026.json")
+ROUTE_PATH = os.path.join(STUDY, "route.json")
+CURRICULUM_DIR = os.path.join(STUDY, "curriculum")
+ARCHIVE_DIR = os.path.join(STUDY, "archive")
+
+NEW_COURSES = ["py-agent-04", "py-agent-05", "py-agent-06",
+               "py-agent-07", "py-agent-08", "py-agent-09"]
+APPEND_COURSES = ["py-agent-01", "py-agent-03"]
+
+
+# ---------------------------------------------------------------- 载入
+
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_bridges():
+    """读 bridge/*.json（跳过 `_` 开头的台账文件）。"""
+    out = {}
+    for name in sorted(os.listdir(BRIDGE_DIR)):
+        if not name.endswith(".json") or name.startswith("_"):
+            continue
+        data = load_json(os.path.join(BRIDGE_DIR, name))
+        cid = data.get("course_id")
+        if not cid:
+            raise SystemExit(f"❌ {name} 没有 course_id")
+        if cid in out:
+            raise SystemExit(f"❌ {cid} 有两份 bridge：{name}")
+        out[cid] = data
+    return out
+
+
+def knowledge_index(system):
+    return {k["id"]: k for k in system["knowledge"]}
+
+
+# ---------------------------------------------------------------- 知识点条目
+
+def kp_from_source(kp_index, src_id, local, bridge_kp):
+    """从西二索引取 name/keywords/level，绝不自撰（自撰只允许 from=null）。"""
+    if src_id not in kp_index:
+        raise SystemExit(f"❌ 西二索引里没有知识点 {src_id}（{local} 引用它）")
+    src = kp_index[src_id]
+    groups = [list(g) for g in (src.get("keywords") or [])]
+    kp = {
+        "id": local,
+        "name": src["name"],
+        "level": src.get("level", "must"),
+        "keywords": groups,
+        "requires": bridge_kp.get("requires") or [],
+        "contrast": bridge_kp.get("contrast") or [],
+        "applies_to": bridge_kp.get("applies_to") or [],
+    }
+    # 出处留痕：以后想知道这个知识点从哪来，不用去翻 bridge
+    kp["source_knowledge"] = src_id
+    return kp
+
+
+def kp_self_authored(local, bridge_kp):
+    """无外部来源的知识点：必须自带 name/level/keywords。"""
+    for field in ("name", "level", "keywords"):
+        if not bridge_kp.get(field):
+            raise SystemExit(f"❌ 自撰知识点 {local} 缺 {field}")
+    groups = [list(g) for g in bridge_kp["keywords"]]
+    return {
+        "id": local,
+        "name": bridge_kp["name"],
+        "level": bridge_kp["level"],
+        "keywords": groups,
+        "requires": bridge_kp.get("requires") or [],
+        "contrast": bridge_kp.get("contrast") or [],
+        "applies_to": bridge_kp.get("applies_to") or [],
+        "self_authored": True,
+    }
+
+
+def build_knowledge(kp_index, bridge, offset=0):
+    """offset：新建课为 0；追加模式传已有最大编号，新知识点从 offset+1 接着排。"""
+    out = []
+    for i, bk in enumerate(bridge["knowledge"], start=1):
+        local = bk.get("local")
+        want = f"K{offset + i}"
+        if local != want:
+            raise SystemExit(f"❌ {bridge['course_id']} 的 local 编号不连续："
+                             f"第 {i} 条是 {local!r}，应为 {want}")
+        src = bk.get("from")
+        out.append(kp_self_authored(local, bk) if not src
+                   else kp_from_source(kp_index, src, local, bk))
+    if not out:
+        raise SystemExit(f"❌ {bridge['course_id']} 没有任何知识点")
+    bad = [k["id"] for k in out if not k["keywords"]]
+    if bad:
+        raise SystemExit(f"❌ {bridge['course_id']} 这些知识点没有 keywords，"
+                         f"永远不会被判定为覆盖：{bad}")
+    return out
+
+
+# ---------------------------------------------------------------- 课程组装
+
+def unlocks_of(route, cid):
+    out = []
+    titles = {c["course_id"]: c.get("title", c["course_id"])
+              for c in route["courses"]}
+    for c in route["courses"]:
+        if cid in (c.get("requires") or []):
+            out.append({"course_id": c["course_id"], "name": titles[c["course_id"]]})
+    return out
+
+
+def prerequisites_of(route, cid):
+    titles = {c["course_id"]: c.get("title", c["course_id"])
+              for c in route["courses"]}
+    for c in route["courses"]:
+        if c["course_id"] == cid:
+            return [{"course_id": r, "name": titles.get(r, r),
+                     "status_hint": "由图反推的课程级硬前置"}
+                    for r in (c.get("requires") or [])]
+    raise SystemExit(f"❌ route 里没有 {cid}")
+
+
+def route_title(route, cid):
+    for c in route["courses"]:
+        if c["course_id"] == cid:
+            return c.get("title", cid)
+    raise SystemExit(f"❌ route 里没有 {cid}")
+
+
+def build_new(route, kp_index, bridge):
+    cid = bridge["course_id"]
+    return {
+        "course_id": cid,
+        "route": route.get("title", ""),
+        "title": route_title(route, cid),
+        "goal": bridge.get("goal", ""),
+        "declares": {
+            "system_position": bridge.get("system_position", ""),
+            "prerequisites": prerequisites_of(route, cid),
+            "unlocks": unlocks_of(route, cid),
+            "knowledge": build_knowledge(kp_index, bridge),
+        },
+        "theory": bridge.get("theory") or [],
+        "self_check": bridge.get("self_check") or [],
+        "tasks": bridge.get("tasks") or [],
+        "materials": bridge.get("materials") or {"note": "", "atoms": []},
+        "gate": bridge.get("gate") or {"min_mastery": 0.85, "min_each": 0.6,
+                                       "require_transfer": True,
+                                       "min_practice_lines": 100},
+    }
+
+
+def append_course(route, kp_index, bridge, existing):
+    """给已有课程追加知识点/自检题/种子资料：**老条目逐字不动，新条目顺号接在后面。**
+
+    只加知识点是不够的：新知识点若没有种子资料，学习库与笔记体检对它们是空的；
+    没有自检题，门禁就没有东西可问。所以三样一起接。
+
+    **必须幂等**：改完 bridge 再跑一次要能同步，而不是报「编号不连续」或者又追加一遍。
+    做法是——bridge 的 local 若已存在于课程里，就走「就地更新」而不是追加；
+    bridge 带来的自检题与资料一律打 `source: bridge` 标记，重跑时先摘掉旧的再加新的。
+    """
+    cid = bridge["course_id"]
+    old_kps = list(existing["declares"]["knowledge"])
+    old_ids = [k["id"] for k in old_kps]
+    want = [k["local"] for k in bridge["knowledge"]]
+    already = all(w in old_ids for w in want)
+    add = build_knowledge(kp_index, bridge, offset=bridge_offset(cid, bridge))
+
+    merged = json.loads(json.dumps(existing))          # 深拷贝，不动入参
+    fresh = {k["id"]: k for k in add}
+    if already:
+        merged["declares"]["knowledge"] = [fresh.get(k["id"], k) for k in old_kps]
+    else:
+        merged["declares"]["knowledge"] = old_kps + add
+
+    # 自检题：先摘掉上一轮从 bridge 带来的，再按 bridge 重新接
+    sc = [q for q in (merged.get("self_check") or [])
+          if q.get("source") != "bridge"]
+    n = len(sc)
+    for i, q in enumerate(bridge.get("self_check") or [], start=1):
+        item = dict(q)
+        item["id"] = f"Q{n + i}"
+        item["source"] = "bridge"
+        sc.append(item)
+    merged["self_check"] = sc
+
+    mats = dict(merged.get("materials") or {"note": "", "atoms": []})
+    atoms = [a for a in (mats.get("atoms") or [])
+             if a.get("source") != "bridge"]
+    n = len(atoms)
+    for i, a in enumerate((bridge.get("materials") or {}).get("atoms") or [],
+                          start=1):
+        item = dict(a)
+        item["id"] = f"M{n + i}"
+        item["source"] = "bridge"
+        atoms.append(item)
+    mats["atoms"] = atoms
+    merged["materials"] = mats
+    return merged, old_ids, add
+
+
+# ---------------------------------------------------------------- 校验
+
+def check_ledger(kp_index, bridges, problems):
+    """每个西二知识点必须恰好出现在 existing / planned / excluded 三者之一。"""
+    ledger = load_json(os.path.join(BRIDGE_DIR, "_index.json"))
+    existing = {k: v for k, v in (ledger.get("existing") or {}).items()
+                if k != "comment"}
+    planned = {k: v for k, v in (ledger.get("planned") or {}).items()
+               if k != "comment"}
+    excluded = {k: v for k, v in (ledger.get("excluded") or {}).items()
+                if k != "comment"}
+
+    buckets = {"existing": set(existing), "planned": set(planned),
+               "excluded": set(excluded)}
+    for a in buckets:
+        for b in buckets:
+            if a < b:
+                dup = sorted(buckets[a] & buckets[b])
+                if dup:
+                    problems.append(f"台账里 {a} 与 {b} 重复登记：{dup}")
+
+    all_kp = set(kp_index)
+    covered = set().union(*buckets.values())
+    if all_kp - covered:
+        problems.append(f"这些西二知识点没有归宿：{sorted(all_kp - covered)}")
+    if covered - all_kp:
+        problems.append(f"台账引用了不存在的西二知识点：{sorted(covered - all_kp)}")
+
+    # existing 的目标必须真的存在于当前 curriculum 里——防止台账是编的
+    live = {}
+    for name in os.listdir(CURRICULUM_DIR):
+        if not name.endswith(".json"):
+            continue
+        cur = load_json(os.path.join(CURRICULUM_DIR, name))
+        cid = cur.get("course_id")
+        for k in (cur.get("declares") or {}).get("knowledge") or []:
+            live[f"{cid}:{k['id']}"] = k.get("name", "")
+    for src, target in existing.items():
+        targets = target if isinstance(target, list) else [target]
+        for t in targets:
+            if t not in live:
+                problems.append(f"台账 existing 说 {src} → {t}，但当前课程里没有 {t}")
+
+    # planned 必须与 bridge 实际产出一致
+    in_bridges = _mapped_in_bridges(bridges)
+    if in_bridges != set(planned):
+        problems.append(
+            f"台账 planned 与 bridge 实际来源不一致："
+            f"台账多={sorted(set(planned) - in_bridges)}｜"
+            f"bridge 多={sorted(in_bridges - set(planned))}")
+    clash = sorted(set(excluded) & in_bridges)
+    if clash:
+        problems.append(f"这些知识点标了 excluded，却被 bridge 接走了：{clash}")
+
+    planned_actual = _planned_targets(bridges)
+    for src, target in planned.items():
+        if target not in planned_actual.get(src, []):
+            problems.append(f"台账说 {src} → {target}，但 bridge 里实际落在 "
+                            f"{planned_actual.get(src) or '（没有）'}")
+    return ledger, len(existing), len(planned), len(excluded)
+
+
+def live_ids(cid):
+    """当前课程已有的知识点 id（文件不存在时返回空）。"""
+    path = os.path.join(CURRICULUM_DIR, _file_of(cid))
+    if not os.path.isfile(path):
+        return []
+    return [k["id"] for k in load_json(path)["declares"]["knowledge"]]
+
+
+def bridge_offset(cid, bridge):
+    """bridge 的 local 编号基准：新建课为 0；追加课要么接在已有之后，要么已合并过。
+
+    **生成与校验必须共用这一个函数。** 第一版两边各算一套（`append_course` 用
+    「已合并就就地更新」，`_planned_targets` 用「总是接在已有之后」），
+    于是第二次运行时报出「台账说 K6，实际落在 K11」这种假错误——同一件事
+    算两遍，迟早会漂移。
+    """
+    if bridge.get("mode") != "append":
+        return 0
+    live = live_ids(cid)
+    want = [k["local"] for k in bridge["knowledge"]]
+    if want and all(w in live for w in want):
+        return int(want[0][1:]) - 1          # 已合并过：就地更新，位置不变
+    return max((int(i[1:]) for i in live), default=0)
+
+
+def _planned_targets(bridges):
+    """bridge 生成后，每个西二来源会落到哪些 py-agent:K。"""
+    out = {}
+    for cid, b in bridges.items():
+        offset = bridge_offset(cid, b)
+        for i, k in enumerate(b["knowledge"], start=1):
+            if k.get("from"):
+                out.setdefault(k["from"], []).append(f"{cid}:K{offset + i}")
+    return out
+
+
+def _mapped_in_bridges(bridges):
+    return {k.get("from") for b in bridges.values() for k in b["knowledge"]
+            if k.get("from")}
+
+
+def _existing_max(cid):
+    """追加模式首次合并时的编号基准（= 已有最大编号）。"""
+    ids = live_ids(cid)
+    if not ids:
+        raise SystemExit(f"❌ {cid} 标了 append，但 {_file_of(cid)} 不存在或没有知识点")
+    return max(int(i[1:]) for i in ids)
+
+
+def _file_of(cid):
+    return cid.replace("-", "_") + ".json"
+
+
+def check_no_renumbering(cid, old_ids, new_kps, problems):
+    """老知识点的 id 必须逐个原样保留——改号会让 mastery 原子集体失配。"""
+    new_ids = [k["id"] for k in new_kps]
+    if new_ids[:len(old_ids)] != old_ids:
+        problems.append(f"{cid} 老知识点的 id 被改动了：{old_ids} → {new_ids}")
+
+
+# ---------------------------------------------------------------- 主流程
+
+def check_graph(results, problems):
+    """把**新结果**写进临时目录建一次图，检查环、空壳课与未知引用。
+
+    只校验「字段齐不齐」是不够的：实测出现过 py-agent-09:K4 与 K5 互相 requires，
+    字段全齐、台账全对，但图里有环——门禁会死锁，两门课一个都开不了。
+
+    必须在临时目录里用**待写入的结果**建图，不能读 study/curriculum：
+    读磁盘等于校验上一轮的状态。第一版就是这么错的——它把「已修好的环」和
+    「本轮才新增的跨课依赖」都报成了错误（前者是残留，后者尚未落盘）。
+    """
+    import tempfile
+    sys.path.insert(0, STUDY)
+    from graph.builder import build, load_route, load_curriculums
+
+    tmp = tempfile.mkdtemp(prefix="mergepy9-")
+    try:
+        for name in os.listdir(CURRICULUM_DIR):
+            if name.endswith(".json"):
+                shutil.copy2(os.path.join(CURRICULUM_DIR, name),
+                             os.path.join(tmp, name))
+        for cid, cur in results.items():
+            with open(os.path.join(tmp, _file_of(cid)), "w",
+                      encoding="utf-8", newline="\n") as f:
+                json.dump(cur, f, ensure_ascii=False, indent=2)
+        graph = build(load_route(ROUTE_PATH), load_curriculums(tmp))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+    bad = [i for i in graph["issues"]
+           if i["kind"] in ("cycle", "missing_curriculum")
+           or str(i["kind"]).startswith("unknown")]
+    for i in bad:
+        problems.append(f"体系图问题：{i}")
+    return bad
+
+
+def main():
+    argv = sys.argv[1:]
+    route = load_json(ROUTE_PATH)
+    system = load_json(SYSTEM_PATH)
+    kp_index = knowledge_index(system)
+    bridges = load_bridges()
+    problems = []
+
+    # 1. bridge 覆盖了哪些课
+    want = set(NEW_COURSES) | set(APPEND_COURSES)
+    have = set(bridges)
+    if want - have:
+        problems.append(f"这些课还没有 bridge：{sorted(want - have)}")
+    if have - want:
+        problems.append(f"多了不该有的 bridge：{sorted(have - want)}")
+
+    # 2. 台账完整性
+    ledger, n_existing, n_planned, n_excluded = check_ledger(kp_index, bridges, problems)
+
+    # 3. 组装
+    results, keeps = {}, {}
+    for cid in NEW_COURSES:
+        if cid in bridges:
+            results[cid] = build_new(route, kp_index, bridges[cid])
+    for cid in APPEND_COURSES:
+        if cid in bridges:
+            path = os.path.join(CURRICULUM_DIR, _file_of(cid))
+            existing = load_json(path)
+            merged, old_ids, add = append_course(
+                route, kp_index, bridges[cid], existing)
+            for k in existing["declares"]["knowledge"]:
+                keeps[k["id"]] = k
+            check_no_renumbering(cid, old_ids, merged["declares"]["knowledge"],
+                                 problems)
+            results[cid] = merged
+
+    # 4. 生成后的自检
+    for cid, cur in results.items():
+        kps = cur["declares"]["knowledge"]
+        must = [k for k in kps if k.get("level") == "must"]
+        if not must:
+            problems.append(f"{cid} 一个必会知识点都没有——门禁会永远放行")
+        for k in kps:
+            if not k.get("keywords"):
+                problems.append(f"{cid}:{k['id']} 没有 keywords")
+        if not cur.get("self_check"):
+            problems.append(f"{cid} 没有自检题")
+        if not cur.get("tasks"):
+            problems.append(f"{cid} 没有任务")
+        n3 = [q.get("id") for q in cur["self_check"] if len(q.get("points") or []) != 3]
+        if n3:
+            problems.append(f"{cid} 这些自检题不是 3 个采分点：{n3}")
+
+    print(f"内容来源：西二 {len(kp_index)} 个知识点 → "
+          f"老课已覆盖 {n_existing}｜新增 {n_planned}｜排除 {n_excluded}")
+    print(f"bridge：{len(bridges)} 份（新建 {len(NEW_COURSES)}｜追加 {len(APPEND_COURSES)}）")
+    for cid in sorted(results):
+        kps = results[cid]["declares"]["knowledge"]
+        mode = "追加" if cid in APPEND_COURSES else "新建"
+        print(f"  {cid}  {mode}  知识点 {len(kps)}  "
+              f"self_check {len(results[cid]['self_check'])}  "
+              f"tasks {len(results[cid]['tasks'])}")
+
+    if problems:
+        print("\n❌ 校验未通过：")
+        for p in problems:
+            print("   · " + p)
+        return 1
+
+    # 5. 建图自检：不能有环、不能有空壳课、不能有未知引用
+    #    只校验「字段齐不齐」是不够的——实测出现过 py-agent-09:K4 ↔ K5 互相 requires，
+    #    字段全齐但图里有环，门禁会死锁（哪一门都开不了）。生成阶段就必须拦住。
+    graph_problems = check_graph(results, problems)
+    if graph_problems:
+        print("\n❌ 建图校验未通过：")
+        for p in problems:
+            print("   · " + p)
+        return 1
+
+    print("\n✅ 校验通过：台账无漏项、老 id 未改号、keywords/自检/任务齐全、体系图无环")
+
+    if "--check" in argv:
+        return 0
+    if "--write" not in argv:
+        print("\n（预览模式，未写盘。加 --write 落盘，会先备份到 study/archive/）")
+        return 0
+
+    stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    backup = os.path.join(ARCHIVE_DIR, f"curriculum-{stamp}")
+    os.makedirs(backup, exist_ok=True)
+    for cid in results:
+        src = os.path.join(CURRICULUM_DIR, _file_of(cid))
+        if os.path.isfile(src):
+            shutil.copy2(src, os.path.join(backup, _file_of(cid)))
+    for cid, cur in results.items():
+        dst = os.path.join(CURRICULUM_DIR, _file_of(cid))
+        with open(dst, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(cur, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        print(f"  写入 {dst}")
+    print(f"\n✅ 已写盘。旧文件备份在 {backup}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

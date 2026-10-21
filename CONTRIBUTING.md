@@ -1,1 +1,45 @@
-IyDotKHnjK7mjIfljZcKCuaEn+iwouS9oOWvuSBBSSDovoXliqnlrabkuaDns7vnu5/nmoTlhbTotqPvvIEKCiMjIOW/q+mAn+W8gOWniwoKYGBgYmFzaAojIDEuIOWFi+mahgpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL0xzaHVhaXFpYW4vYWktc3R1ZHkuZ2l0CmNkIGFpLXN0dWR5CgojIDIuIFB5dGhvbiAzLjEwK++8iOaOqOiNkCAzLjEy77yJCnB5dGhvbiAtLXZlcnNpb24KCiMgMy4g5a6J6KOF5L6d6LWW77yI5qC45b+D5LuF6ZyA5qCH5YeG5bqT77ybcmVxdWVzdHMg55So5LqO6IGU572R6aqM6K+B77yJCnBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHQKCiMgNC4g6LeR5rWL6K+V77yINDA4IOWNlea1i++8jOS4jeiBlOe9ke+8iQpweXRob24gLW0gdW5pdHRlc3QgZGlzY292ZXIgLXMgc3R1ZHkvdGVzdHMKCiMgNS4g55yL6K++56iL5L2T57O7CnB5dGhvbiBzdHVkeS90b29scy9zeXN0ZW0ucHkgbmV4dApgYGAKCiMjIOmFjee9riBMTE0KCuWkjeWItiBgc3R1ZHkvY29uZmlnLmV4YW1wbGUuanNvbmDvvIjlpoLmnInvvInmiJbnm7TmjqXorr7nva7njq/looPlj5jph4/vvJoKCmBgYGJhc2gKZXhwb3J0IERFRVBTRUVLX0FQSV9LRVk9InNrLS4uLiIKYGBgCgrkuI3opoHmioogYHN0dWR5L2NvbmZpZy5qc29uYCDmj5DkuqTliLDku5PlupPvvIjlt7LlnKggYC5naXRpZ25vcmVgIOS4re+8ieOAggoKIyMg5o+Q5Lqk6KeE6IyDCgotIOWKn+iDveaAp+aUueWKqOivt+mZhOW4pua1i+ivle+8iGBzdHVkeS90ZXN0cy90ZXN0XyoucHlg77yMYHB5dGhvbiAtbSB1bml0dGVzdGAg6aOO5qC877yJCi0g5paH5qGj5pS55Yqo6K+35ZCM5q2l5pu05pawIGBSRUFETUUubWRgIOWvueW6lOeroOiKggotIOS/neaMgSLlrabnlJ/kuKrkvZPjgIHmnKzlnLDjgIHlj6/kv6Ei55qE5a6a5L2N77yI6K+m6KeBIFJFQURNRSDCpzEuMO+8ie+8muS4jeWBmuaVmee7g+err+OAgeS4jeWBmuWkmueUqOaIt+OAgeS4jeWBmuaOkuihjOamnAoKIyMg5o+QIFBSIOWJjQoKLSBbIF0gYHB5dGhvbiAtbSB1bml0dGVzdCBkaXNjb3ZlciAtcyBzdHVkeS90ZXN0c2Ag5YWo57u/Ci0gWyBdIOS4jeW8leWFpeaWsOeahOehrOe8lueggee7neWvuei3r+W+hO+8iOeUqOeOr+Wig+WPmOmHj+aIluebuOWvueS7k+W6k+agueebruW9le+8iQotIFsgXSDkuI3mj5DkuqQgYHN0dWR5L2NvbmZpZy5qc29uYOOAgUFQSSBrZXnjgIHkuKrkurrnrJTorrDmlbDmja4K
+# 贡献指南
+
+感谢你对 AI 辅助学习系统的兴趣！
+
+## 快速开始
+
+```bash
+# 1. 克隆
+git clone https://github.com/Lshuaiqian/ai-study.git
+cd ai-study
+
+# 2. Python 3.10+（推荐 3.12）
+python --version
+
+# 3. 安装依赖（核心仅需标准库；requests 用于联网验证）
+pip install -r requirements.txt
+
+# 4. 跑测试（408 单测，不联网）
+python -m unittest discover -s study/tests
+
+# 5. 看课程体系
+python study/tools/system.py next
+```
+
+## 配置 LLM
+
+复制 `study/config.example.json`（如有）或直接设置环境变量：
+
+```bash
+export DEEPSEEK_API_KEY="sk-..."
+```
+
+不要把 `study/config.json` 提交到仓库（已在 `.gitignore` 中）。
+
+## 提交规范
+
+- 功能性改动请附带测试（`study/tests/test_*.py`，`python -m unittest` 风格）
+- 文档改动请同步更新 `README.md` 对应章节
+- 保持"学生个体、本地、可信"的定位（详见 README §1.0）：不做教练端、不做多用户、不做排行榜
+
+## 提 PR 前
+
+- [ ] `python -m unittest discover -s study/tests` 全绿
+- [ ] 不引入新的硬编码绝对路径（用环境变量或相对仓库根目录）
+- [ ] 不提交 `study/config.json`、API key、个人笔记数据
